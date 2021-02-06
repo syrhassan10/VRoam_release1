@@ -2,7 +2,7 @@
 
 
 
-![image-20210206093735762](C:\Users\jojo\AppData\Roaming\Typora\typora-user-images\image-20210206093735762.png)
+![image-20210206093735762](image-20210206093735762.png)
 
 
 
