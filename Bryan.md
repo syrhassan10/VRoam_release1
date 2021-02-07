@@ -50,6 +50,14 @@ Game Foundations:
 
 \- Need to burn about 3,500 calories to lose 1 pound of body weight.
 
+\- Healthy weight loss is 0.5 - 1 kg per week.
+
+Notes:
+
+\- 
+
+ 
+
 Health Tips & Suggestions:
 
 \- Reduce calories intake by at least 500, but no more than 1000.
@@ -66,6 +74,16 @@ Health Tips & Suggestions:
 
 \- Every minute, your body’s burning calories just to keep you alive! This is known as your Basal Metabolic Rate (BMR).
 
+\- Weight loss isn’t linear, it’s extremely chaotic, so don’t assume you’re failing if you don’t see constant progress.
+
+\- Weight loss is exponential and chaotic.
+
+\- Fat loss doesn’t equate directly to weight loss, different water retention as well as full bowels may affect your results!
+
+\- Make fat loss a lifestyle, not a result.
+
+\- Exercise everyday to maintain your weight loss results.
+
  
 
  
@@ -78,8 +96,6 @@ Bibliography
 
 http://www.checkyourhealth.org/eat-healthy/cal_calculator.php
 
- 
-
 [https://www.healthline.com/health/what-are-mets#calculation](#calculation)
 
 https://www.verywellfit.com/walking-calories-burned-by-miles-3887154
@@ -87,3 +103,7 @@ https://www.verywellfit.com/walking-calories-burned-by-miles-3887154
 http://www.fao.org/3/y5686e/y5686e07.htm#TopOfPage
 
 https://www.gatewaypsychiatric.com/health-information/a-healthy-diet-2/
+
+https://skillbasedfitness.com/the-weight-loss-snowball/
+
+http://hackyour.fitness/fat-loss-not-linear/
