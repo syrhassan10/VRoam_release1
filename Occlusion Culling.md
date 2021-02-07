@@ -2,7 +2,7 @@
 
 Occlusion Culling is an optimization feature built directly into the Unity Editor that allows for selective rendering of Game Objects based on the orientation of the main camera. By default, Unity Cameras come with frustum culling, which excludes all Game Objects that fall outside the Camera's view frustum. The issue with this is that it does not take in if an object has been occluded by another, which is where Occlusion Culling comes in. The reason for this is to prevent Unity from wasting operations, sometimes doubling or even tripling framerates depending on the environment. 
 
-![](C:\Users\richa\Downloads\giphy.gif)
+![](giphy.gif)
 
 ## Our Use Case
 
