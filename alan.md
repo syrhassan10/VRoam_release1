@@ -2,7 +2,7 @@
 
 
 
-![image-20210206093735762](scn.png)
+
 
 
 
@@ -10,8 +10,7 @@
 
 Create a new empty object and the component script 'Path Creator' - Choose Bezier Path
 
-<img src="C:\Users\jojo\AppData\Roaming\Typora\typora-user-images\image-20210206094133530.png" alt="image-20210206094133530" style="zoom:55%;" />
-
+![image-20210206093735762](scn.png)
 To create a path hold **shift** and **Left Click **to add a new vertex that connects with the last one.
 
 #### Code Snippet: (make an object follow that path)
