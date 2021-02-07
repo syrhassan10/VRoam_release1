@@ -37,7 +37,7 @@ To create a path hold **shift** and **Left Click **to add a new vertex that conn
 
 Rotation of the object might not be what you want when it is following the path. You must play around and `transform.rotation` 
 
-![image-20210206095304259](C:\Users\jojo\AppData\Roaming\Typora\typora-user-images\image-20210206095304259.png)
+![image-20210206095304259](scn2.png)
 
 ### Full Documentation of class is found here:
 
