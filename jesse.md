@@ -1,8 +1,8 @@
 # Personal Trainer Big Picture
 
-![Vroam_1_1](D:\coolg\Pictures\Vroam_1_1.PNG)
+![Vroam_1_1](Vroam_1_1.PNG)
 
-![Vroam_1_2](D:\coolg\Pictures\Vroam_1_2.PNG)
+![Vroam_1_2](Vroam_1_2.PNG)
 
 ## How it works
 
