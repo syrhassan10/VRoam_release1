@@ -1,5 +1,7 @@
-# What the minigame is
+# What my minigame is
 
-The minigame is a simple maze which will incorporate education by having the player answer a question related to the city or landmark that they are currently learning about when they are done the maze or if they are at a dead end.
+My minigame is a very short maze.
 
-![image-20210214091317077](C:\Users\Harrison\AppData\Roaming\Typora\typora-user-images\image-20210214091317077.png)
+## How will this connect to education?
+
+When you are finished the maze you will be teleported to a scene where there are 3 options and a question. If you get the right answer you will get a praise, but if you get it wrong you will get a message saying pay attention to the tour guide.
