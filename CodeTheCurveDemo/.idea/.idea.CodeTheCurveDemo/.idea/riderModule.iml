@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RIDER_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.render-pipelines.core@10.2.2" />
-    <content url="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.render-pipelines.universal@7.3.1" />
-    <content url="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.shadergraph@10.2.2" />
+    <content url="file://$MODULE_DIR$/../../../../../AppData/Local/Unity/cache/Packages/packages.unity.com/com.unity.render-pipelines.core@10.2.2" />
+    <content url="file://$MODULE_DIR$/../../../../../AppData/Local/Unity/cache/Packages/packages.unity.com/com.unity.render-pipelines.universal@7.3.1" />
+    <content url="file://$MODULE_DIR$/../../../../../AppData/Local/Unity/cache/Packages/packages.unity.com/com.unity.shadergraph@10.2.2" />
     <content url="file://$MODULE_DIR$/../../../../Downloads/cardboard-xr-plugin-master (1)/cardboard-xr-plugin-master" />
     <content url="file://$MODULE_DIR$/../.." />
     <content url="file://$MODULE_DIR$/../../../../cardboard-xr-plugin-master (1)/cardboard-xr-plugin-master" />
+    <content url="file://$USER_HOME$/Downloads/cardboard-xr-plugin-master/cardboard-xr-plugin-master" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
