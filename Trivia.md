@@ -8,4 +8,5 @@ It is a multiple-choice trivia with four choices. The trivia question pops up on
 
 **There needs to be different buttons put into the Options, or else the game will break. My solution is to just duplicate the question canvas for every trivia question, so every trivia question has its own canvas, then drag that canvas and its components into the parameters for that question.**
 
-All of the objects with the script has to be put into a empty object **in the order that you want the questions to go** and then drag the empty object into the "trivia_parent" on the Arrow script. This tells the arrow where the locations for the question are and points to the next question. The total number of questions should be entered into the "Total Questions" on the arrow script. 
+All of the objects with the script has to be put into a empty object **in the order that you want the questions to go** and then drag the empty object into the "trivia_parent" on the Arrow script. This tells the arrow where the locations for the question are and points to the next question. The total number of questions should be entered into the "Total Questions" on the arrow script. Once all the questions have been answered, the arrow just stops moving. 
+
