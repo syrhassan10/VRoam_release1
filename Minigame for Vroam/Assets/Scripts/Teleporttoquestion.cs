@@ -7,6 +7,7 @@ public class Teleporttoquestion : MonoBehaviour
 {
 
     AudioSource audio;
+    public string SceneName = "";
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,7 @@ public class Teleporttoquestion : MonoBehaviour
     {
         audio.Play();
 
-        yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("Question");
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene(SceneName);
     }
 }

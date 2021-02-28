@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Question.unity
     guid: 040b2a62caa5e8340ace9f002d64aecd
+  - enabled: 1
+    path: Assets/Scenes/TightRope(lvl 2).unity
+    guid: 77907192aa19b3a4c8ecd96eb0da9106
+  - enabled: 1
+    path: Assets/Scenes/Question(lvl 2).unity
+    guid: ad9bcf055891d144ab29ec28ba5b01ca
   m_configObjects: {}
