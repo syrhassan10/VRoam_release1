@@ -7,35 +7,45 @@ using UnityEngine.SceneManagement;
 public class Special : MonoBehaviour
 {
     private GameObject X_mark;
-    // Start is called before the first frame update
+    public GameObject floor;
+    public GameObject player;
+    //Script for the special presents
     void Start()
     {
-
+        //The X_mark is for the hints
         X_mark = this.gameObject.transform.GetChild(0).gameObject;
+        //Ensures that the presents do not destroy themselves when in contact with the floor and the player.
+        Physics.IgnoreCollision(floor.GetComponent<Collider>(), gameObject.GetComponent<Collider>());
+        Physics.IgnoreCollision(player.GetComponent<Collider>(), gameObject.GetComponent<Collider>());
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
-        //Debug.Log(points);
+        
         X_mark.SetActive(false);
-        //point_counter.text = "Points: " + points.ToString();
+        //When the bool from the script "Hint" is true, the X_mark is active.
         if (Hint.X == true)
         {
             X_mark.SetActive(true);
         }
+
     }
-    //gameObject[index].transform.GetChild(1)
+    
     void OnMouseOver()
     {
-
+        //When you right click on the item, you gain 5 points
         if (Input.GetMouseButtonDown(1))
         {
-            Debug.Log("Right click on this object");
+            
             Presents.points += 5;
-
+            //Destroys the gameobject after you right click it
             Destroy(gameObject);
         }
     }
-
+    //Destroys the present if it spawns within the environment
+    void OnCollisionEnter(Collision col)
+    {
+        Destroy(gameObject);
+    }
 }
