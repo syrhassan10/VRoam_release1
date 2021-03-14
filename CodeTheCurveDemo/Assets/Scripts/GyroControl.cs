@@ -100,7 +100,7 @@ public class GyroControl : MonoBehaviour
 
             cameraContainer.transform.rotation = Quaternion.Euler (90f, 90f, 0f);
             rot = new Quaternion (0, 0, 1, 0);
-
+    
             return true;
         }
         return false;

@@ -8,8 +8,6 @@ ScriptsOnlyBuild:
     - GyroControl
     - SwitchScene
     - optimizer
-    Google.XR.Cardboard.dll:
-    - Google.XR.Cardboard.XRLoader
     Unity.Postprocessing.Runtime.dll:
     - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
     - UnityEngine.Rendering.PostProcessing.AutoExposure
@@ -135,6 +133,8 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
