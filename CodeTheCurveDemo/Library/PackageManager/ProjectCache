@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637513287296946966
-    m_Hash: 1763206840
+      ticks: 637513294377602658
+    m_Hash: 4250954246
   m_LockFileStatus:
     m_FilePath: C:/Users/richa/Documents/GitHub/VRoam_release1/CodeTheCurveDemo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637513287304003099
-    m_Hash: 1397886668
+      ticks: 637513294382320035
+    m_Hash: 3454127382
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -49,7 +49,7 @@ m_PackageAssets:
         version: 2.1.4
       resolvedDependencies:
       - name: com.unity.xr.management
-        version: 3.2.13
+        version: 3.2.17
       - name: com.unity.xr.legacyinputhelpers
         version: 2.1.6
       - name: com.unity.subsystemregistration
@@ -1060,12 +1060,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.xr.management@3.2.13
+    - packageId: com.unity.xr.management@3.2.17
       testable: 0
       isDirectDependency: 1
-      version: 3.2.13
+      version: 3.2.17
       source: 1
-      resolvedPath: C:\Users\richa\Documents\GitHub\VRoam_release1\CodeTheCurveDemo\Library\PackageCache\com.unity.xr.management@3.2.13
+      resolvedPath: C:\Users\richa\Documents\GitHub\VRoam_release1\CodeTheCurveDemo\Library\PackageCache\com.unity.xr.management@3.2.17
       assetPath: Packages/com.unity.xr.management
       name: com.unity.xr.management
       displayName: XR Plugin Management
@@ -1162,13 +1162,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637293838190000000
+      datePublishedTicks: 637427097710000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
-        revision: 3a3e4cb8f3b8a580f8bbf417ef9726adf94b1b97
+        revision: 24e871f25e2b69734046af31f2a66c3ddfc78bdf
         path: 
     - packageId: com.unity.modules.ai@1.0.0
       testable: 0
