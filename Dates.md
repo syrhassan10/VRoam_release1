@@ -21,3 +21,11 @@ Feb 21st
 Accomplishments: Created distance tracking program, initialized input screen as well as switch screen script.
 
 Goals: Complete input screen, design UI layout, review and optimize past scripts.
+
+
+
+Mar 13th
+
+Accomplishments: Figured out MET from speed equation, and calories from MET and body weight (kilos) equation.
+
+Goals: Link equations into UI and feedback system, design UI layout.
