@@ -7,8 +7,10 @@
       <Path>../../../AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.shadergraph@10.2.2</Path>
       <Path>../../Downloads/cardboard-xr-plugin-master (1)/cardboard-xr-plugin-master</Path>
       <Path>../../cardboard-xr-plugin-master (1)/cardboard-xr-plugin-master</Path>
+      <Path>../../../../Downloads/cardboard-xr-plugin-master/cardboard-xr-plugin-master</Path>
     </attachedFolders>
     <explicitIncludes>
+      <Path>Assets</Path>
       <Path>Library/PackageCache/com.autodesk.fbx@4.0.1</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.3.9</Path>
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.5</Path>
