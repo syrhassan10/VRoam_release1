@@ -65,3 +65,13 @@ Update Mode: updateDependencies
 
 The following packages were updated:
   com.unity.test-framework from version 1.1.19 to 1.1.20
+
+=== Mon Mar 22 20:33:07 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.visualstudio from version 2.0.5 to 2.0.7
+  com.unity.test-framework from version 1.1.20 to 1.1.22
+  com.unity.timeline from version 1.2.15 to 1.4.6
