@@ -1,4 +1,4 @@
-﻿
+/*
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,9 +25,9 @@ public class GyroControl : MonoBehaviour
         cameraContainer.transform.position = transform.position;//set the new gameobject to the location of the player
         transform.SetParent(cameraContainer.transform);//make the new gameobject the player's parent
 
-        cameraContainer.transform.parent = direction.transform;//make the direction gameobject 
+        //make the direction gameobject 
         gyroEnabled = EnableGyro(); //intialize the gyroscope
-        StartCoroutine(orientDirection()); //orient the direction gameobject to where the player is looking and do it every 0.5sec (to prevent lag)
+        //StartCoroutwine(orientDirection()); //orient the direction gameobject to where the player is looking and do it every 0.5sec (to prevent lag)
     }
     IEnumerator orientDirection()
     {
@@ -65,8 +65,68 @@ public class GyroControl : MonoBehaviour
             {
                 transform.position -= transform.forward * Time.deltaTime * (shaking/20) * movespeed; //make the player move forward based on shaking value
             }
-            transform.position = new Vector3(transform.position.x, 0.5f, transform.position.z);
+            //transform.position = new Vector3(transform.position.x, 0.5f, transform.position.z);
             cameraContainer.transform.GetChild(0).transform.localRotation = gyro.attitude * rot; //use the gyroscope to orient the player
+        }
+    }
+}*/
+
+
+using UnityEngine;
+using UnityEngine.UI;
+
+public class GyroControl : MonoBehaviour 
+{
+    private bool gyroEnabled;
+    private Gyroscope gyro;
+    public Vector3 moveDirection = Vector3.zero;
+    public CharacterController controller;
+    public float gravity = 20.0F;
+    private GameObject cameraContainer;
+    private Quaternion rot;
+    public Text debuggingText;
+
+    private void Start()
+    {
+        CharacterController controller = GetComponent<CharacterController>();
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+        cameraContainer = new GameObject ("Camera Container");
+        cameraContainer.transform.position = transform.position;
+        transform.SetParent (cameraContainer.transform);
+
+        gyroEnabled = EnableGyro ();
+    }
+
+    private bool EnableGyro()
+    {
+        if (SystemInfo.supportsGyroscope) 
+        {
+            gyro = Input.gyro;
+            gyro.enabled = true;
+
+            cameraContainer.transform.rotation = Quaternion.Euler (90f, 90f, 0f);
+            rot = new Quaternion (0, 0, 1, 0);
+    
+            return true;
+        }
+        return false;
+    }
+    private void Update()
+    {
+        if (gyroEnabled)
+        {
+            moveDirection = new Vector3(transform.rotation.x, 0, transform.rotation.z);
+            int shaking = (int)(Input.acceleration.y*20);//taking in the accelerometer value
+            debuggingText.text = shaking.ToString();
+            if (shaking < -5 || shaking > -5)
+            {
+                 controller.Move(moveDirection * Time.deltaTime);
+                 //make the player move forward based on returned value
+            }
+
+            moveDirection.y -= gravity * Time.deltaTime;
+            
+            transform.localRotation = gyro.attitude * rot;
         }
     }
 }
