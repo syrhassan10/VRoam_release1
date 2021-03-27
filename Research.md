@@ -46,6 +46,8 @@ e)   Extra Active – Very hard/professional, physically demanding job, training
 
 **Calories/minute = MET \* 3.5 \* (body weight kilos) / 200**
 
+**Km/h = m/s \* 3.6**
+
 Game Foundations:
 
 \-     The AHA recommends at least 150 minutes of moderate-intensity aerobic (long duration) exercise each week for optimal cardiovascular health.
