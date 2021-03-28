@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1037
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 987
-  m_MinSize: {x: 679, y: 393}
-  m_MaxSize: {x: 12004, y: 12063}
+  m_MinSize: {x: 679, y: 543}
+  m_MaxSize: {x: 14002, y: 18063}
   vertical: 0
-  controlID: 154
+  controlID: 20
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1572
     height: 987
-  m_MinSize: {x: 403, y: 393}
-  m_MaxSize: {x: 8003, y: 12063}
+  m_MinSize: {x: 403, y: 543}
+  m_MaxSize: {x: 10001, y: 18063}
   vertical: 1
-  controlID: 17
+  controlID: 21
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 272}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 0
-  controlID: 18
+  controlID: 22
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 272}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 19
+  controlID: 23
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -288,7 +288,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -297,14 +297,14 @@ MonoBehaviour:
     y: 698
     width: 1572
     height: 289
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -369,9 +369,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 14.708734, y: -4.0760736, z: 12.905699}
+    m_Target: {x: 680.5, y: 201.31339, z: 0}
     speed: 2
-    m_Value: {x: 14.708734, y: -4.0760736, z: 12.905699}
+    m_Value: {x: 680.5, y: 201.31339, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -418,13 +418,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.20714043, y: 0.52106094, z: -0.11938095, w: 0.81649214}
+    m_Target: {x: 0.2312074, y: 0.17466074, z: -0.031024823, w: 0.95414305}
     speed: 2
-    m_Value: {x: 0.20762654, y: 0.52228373, z: -0.11966111, w: 0.81840825}
+    m_Value: {x: 0.23175095, y: 0.17507136, z: -0.031097759, w: 0.95638615}
   m_Size:
-    m_Target: 12.313409
+    m_Target: 49.984295
     speed: 2
-    m_Value: 12.313409
+    m_Value: 49.984295
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -478,23 +478,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 703d0000
-      m_LastClickedID: 15728
-      m_ExpandedIDs: 44fbffff58fbffff123d0000dc3d0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 48c4ffff64c4ffff30c5ffffdecbffffe8ceffff58fbffff123d0000703d0000823d00009a3d0000d63d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: ServerIP
+        m_OriginalName: ServerIP
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -12568
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -729,7 +729,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Desktop\VroamServerandClient\VroamClient
+  m_LastProjectPath: D:\Desktop\3DAU - Copy\VroamClient
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -789,8 +789,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c0330000
-    m_LastClickedInstanceID: 13248
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300006e4d0100d8e10200
     m_RenameOverlay:
