@@ -42,7 +42,7 @@ d)   Very Active – Hard sports/exercise 6-7 days/week = BMR * 1.725
 
 e)   Extra Active – Very hard/professional, physically demanding job, training twice or more per day = BMR * 1.9
 
-**Speed (km/h) to MET: f(x) = 2.5557e^0.1266x**
+**Speed (km/h) to MET: f(x) = 1.7844e^0.1683x**
 
 **Calories/minute = MET \* 3.5 \* (body weight kilos) / 200**
 
