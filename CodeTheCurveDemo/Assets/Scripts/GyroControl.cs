@@ -73,23 +73,17 @@ public class GyroControl : MonoBehaviour
 
 
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GyroControl : MonoBehaviour 
 {
     private bool gyroEnabled;
     private Gyroscope gyro;
-    public Vector3 moveDirection = Vector3.zero;
-    public CharacterController controller;
-    public float gravity = 20.0F;
+
     private GameObject cameraContainer;
     private Quaternion rot;
-    public Text debuggingText;
 
     private void Start()
     {
-        CharacterController controller = GetComponent<CharacterController>();
-        Screen.sleepTimeout = SleepTimeout.NeverSleep;
         cameraContainer = new GameObject ("Camera Container");
         cameraContainer.transform.position = transform.position;
         transform.SetParent (cameraContainer.transform);
@@ -106,7 +100,7 @@ public class GyroControl : MonoBehaviour
 
             cameraContainer.transform.rotation = Quaternion.Euler (90f, 90f, 0f);
             rot = new Quaternion (0, 0, 1, 0);
-    
+
             return true;
         }
         return false;
@@ -115,17 +109,11 @@ public class GyroControl : MonoBehaviour
     {
         if (gyroEnabled)
         {
-            moveDirection = new Vector3(transform.rotation.x, 0, transform.rotation.z);
-            int shaking = (int)(Input.acceleration.y*20);//taking in the accelerometer value
-            debuggingText.text = shaking.ToString();
-            if (shaking < -5 || shaking > -5)
+            int shaking = (int)(Input.acceleration.y*20);//taking in the shaking value
+            if (shaking < -25 || shaking > -15)
             {
-                 controller.Move(moveDirection * Time.deltaTime);
-                 //make the player move forward based on returned value
+                transform.position -= transform.forward * Time.deltaTime * (shaking/20); //make the player move forward based on shaking value
             }
-
-            moveDirection.y -= gravity * Time.deltaTime;
-            
             transform.localRotation = gyro.attitude * rot;
         }
     }
