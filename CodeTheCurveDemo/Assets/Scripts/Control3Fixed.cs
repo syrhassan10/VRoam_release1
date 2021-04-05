@@ -1,80 +1,5 @@
-﻿/*
-using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
-
-[RequireComponent(typeof(CharacterController))]
-
-public class Control3Fixed: MonoBehaviour
-{
-    public float walkingSpeed = 7.5f;
-    public float runningSpeed = 11.5f;
-    public float jumpSpeed = 8.0f;
-    public float gravity = 20.0f;
-    public Camera playerCamera;
-    public float lookSpeed = 2.0f;
-    public float lookXLimit = 45.0f;
-
-    public static bool GameIsPaused = false;
-    public GameObject pausemenuUI;
-    public Button resume;
-    public Button options;
-    public Button quit;
-
-
-    public int counter = 0;
-    public string[] info = {"", "", "", ""};
-    public Text information;
-
-    CharacterController characterController;
-    Vector3 moveDirection = Vector3.zero;
-    float rotationX = 0;
-    public Gyroscope gyro;
-    [HideInInspector]
-    public bool canMove = true;
-
-    void Start()
-    {
-            
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-        resume.onClick.AddListener(Resume);
-        options.onClick.AddListener(LoadMenu);
-        quit.onClick.AddListener(quitGame);
-
-
-    }
-    public void OnTriggerExit(Collider other) {
-        if (other.tag == "NewText") {
-            counter++;
-            other.isTrigger = false;
-        }
-    }
-    void Resume() {
-        pausemenuUI.SetActive(false);
-        canMove = true;
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-        Time.timeScale = 1f;
-        GameIsPaused = false;
-
-    }
-    void Pause() {
-        pausemenuUI.SetActive(true);
-        canMove = false;
-        Cursor.lockState = CursorLockMode.Confined;
-        Cursor.visible = true;
-        Time.timeScale = 0f;
-        GameIsPaused = true;
-    }
-    public void LoadMenu() {
-        SceneManager.LoadScene("MainMenu");
-    }
-    public void quitGame() {
-        Application.Quit();
-    }
-}*/
-
+﻿
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -94,26 +19,80 @@ public class Control3Fixed : MonoBehaviour
     public int counter = 0;
     public CharacterController controller;
 
-    public static bool GameIsPaused = false;
+    public ParticleSystem playerWater;
+    public bool isEnabled1,isEnabled2,isEnabled3;
+    public Text enableTruckPrompt;
+    private GameObject collied;
+    private GameObject water;
+    
+    /*public static bool GameIsPaused = false;
     public GameObject pausemenuUI;
     public Button resume;
     public Button options;
     public Button quit;
     public string[] info = {};
-    public Text information;
+    public Text information;*/
 
-    public GameObject crosshair;
+    //public GameObject crosshair;
     // Use this for initialization
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        resume.onClick.AddListener(Resume);
+        playerWater.enableEmission(false);
+        /*resume.onClick.AddListener(Resume);
         options.onClick.AddListener(LoadMenu);
         quit.onClick.AddListener(quitGame);
         information.text = info[counter];
-        crosshair.SetActive(true);
+        crosshair.SetActive(true);*/
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("firetruck"))
+        {
+            collied = GameObject.Find("firetruck");
+            water = collied.transform.GetChild(0).gameObject;
+            enableTruckPrompt.gameObject.SetActive(true);
+            isEnabled1 = true;
+        }
+        if (other.CompareTag("firetruck2"))
+        {
+            collied = GameObject.Find("firetruck2");
+            water = collied.transform.GetChild(0).gameObject;
+            enableTruckPrompt.gameObject.SetActive(true);
+            isEnabled2 = true;
+        }
+
+        if (other.CompareTag("firetruck3"))
+        {
+            collied = GameObject.Find("firetruck3");
+            water = collied.transform.GetChild(0).gameObject;
+            enableTruckPrompt.gameObject.SetActive(true);
+            isEnabled3 = true;
+        }
+    }
+
     public void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("firetruck"))
+        {
+            enableTruckPrompt.gameObject.SetActive(false);
+            isEnabled1 = false;
+        }
+        if (other.CompareTag("firetruck2"))
+        {
+            enableTruckPrompt.gameObject.SetActive(false);
+            isEnabled2 = false;
+        }
+
+        if (other.CompareTag("firetruck3"))
+        {
+            enableTruckPrompt.gameObject.SetActive(false);
+            isEnabled3 = false;
+        }
+    }
+
+    /*public void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("NewText"))
         {
@@ -151,15 +130,34 @@ public class Control3Fixed : MonoBehaviour
     {
         Application.Quit();
     }
+    */
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        /*if (Input.GetKeyDown(KeyCode.P))
         {
             Pause();
-        }
+        }*/
 
         // is the controller on the ground?
         if (canMove) {
+            if (Input.GetKey(KeyCode.E))
+            {
+                if (isEnabled1 || isEnabled2 || isEnabled3)
+                {
+                    water.SetActive(true);
+                }
+            }
+
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                playerWater.SetActive(true);
+            }
+
+            if (Input.GetKeyUp(KeyCode.F))
+            {
+                playerWater.SetActive(false);
+            }
+
             if (controller.isGrounded)
             {
                 //Feed moveDirection with input.

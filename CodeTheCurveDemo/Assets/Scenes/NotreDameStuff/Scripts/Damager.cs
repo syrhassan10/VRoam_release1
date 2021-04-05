@@ -11,7 +11,6 @@ public class Damager : MonoBehaviour
         if (fire != null)
         {
             fire.ApplyDamage();
-            Debug.Log("hit fire");
         }
     }
 }

@@ -20,7 +20,6 @@ public class FireDamage : MonoBehaviour
 
     public void ApplyDamage()
     {
-        Debug.Log("fire damaged" + FireHealth);
         FireHealth -= 5;
 
         if(FireHealth <= 0)

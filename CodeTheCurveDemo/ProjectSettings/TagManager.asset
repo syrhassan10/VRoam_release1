@@ -6,6 +6,10 @@ TagManager:
   tags:
   - NewText
   - Guide
+  - FxTemporaire
+  - firetruck
+  - firetruck2
+  - firetruck3
   layers:
   - Default
   - TransparentFX

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Paris.unity
+- path: Assets/Scenes/NotreDame.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

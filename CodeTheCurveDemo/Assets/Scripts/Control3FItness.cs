@@ -98,7 +98,7 @@ public class Control3FItness : MonoBehaviour
         float distanceTraveled = Vector3.Distance(posTrack.position, playerBody.position);
         distanceWalked += distanceTraveled;
         playerSpeed = distanceTraveled / Time.deltaTime;
-        MET = (float)1.7844 * Mathf.Pow(Mathf.Exp(1), (float)(0.1683 * playerSpeed * 3.6));
+        MET = 1.7844f * Mathf.Pow(Mathf.Exp(1), (0.1683f * playerSpeed * 3.6f));
         if (playerSpeed == 0)
         {
             MET = 0;
@@ -106,9 +106,9 @@ public class Control3FItness : MonoBehaviour
         caloriesBurned += (float)(MET * 3.5 * 60 / 200 / 60 * Time.deltaTime);
         posTrack.position = playerBody.position;
 
-        uiDISTANCE.text = "Distance Walked: "+((int)distanceWalked).ToString();
-        uiSPEED.text = "Speed: " + ((int)playerSpeed).ToString();
-        uiMET.text = "MET: " + ((int)MET).ToString() + "";
-        uiCALORIES.text = "Calories Burned: " + ((int) caloriesBurned).ToString() + "Cal";
+        uiDISTANCE.text = "Distance Walked: "+((int)distanceWalked).ToString() + " m";
+        uiSPEED.text = "Speed: " + ((int)playerSpeed).ToString() + " m/s";
+        uiMET.text = "MET: " + ((int)MET).ToString();
+        uiCALORIES.text = "Calories Burned: " + ((int) caloriesBurned).ToString() + " Cal";
     }
 }
