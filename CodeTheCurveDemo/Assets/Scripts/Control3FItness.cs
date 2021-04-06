@@ -29,6 +29,7 @@ public class Control3FItness : MonoBehaviour
     public Transform playerBody;
     public Gyroscope gyro;
 
+    public bool isMobile = false;
     [HideInInspector]
     // Variables
     Vector3 moveDirection = Vector3.zero;
@@ -51,30 +52,36 @@ public class Control3FItness : MonoBehaviour
 
     void Update()
     {
-        Vector3 forward = transform.TransformDirection(Vector3.forward);
-        Vector3 right = transform.TransformDirection(Vector3.right);
 
-        bool isRunning = Input.GetKey(KeyCode.LeftShift);
-        if (isRunning)
-        {   
-            Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, 90.0f, 0.1f);
-
+        if (SystemInfo.supportsGyroscope && isMobile)
+        {
+            float acceleration = 0f;
+            acceleration = Input.acceleration.x;
+            if ((int)(acceleration*10) > 5)
+            {
+                transform.Translate(Vector3.down*acceleration);
+            }
         }
         else
         {
-            Camera.main.fieldOfView =  Mathf.Lerp(Camera.main.fieldOfView, 70.0f, 0.1f); 
+            Vector3 forward = transform.TransformDirection(Vector3.forward);
+            Vector3 right = transform.TransformDirection(Vector3.right);
 
-        }
-        float curSpeedX = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Vertical") : 0;
-        float curSpeedY = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Horizontal") : 0;
-        float movementDirectionY = moveDirection.y;
-        moveDirection = (forward * curSpeedX)  + (right * curSpeedY);
-        if (SystemInfo.supportsGyroscope)
-        {
-            
-        }
-        else
-        {
+            bool isRunning = Input.GetKey(KeyCode.LeftShift);
+            if (isRunning)
+            {   
+                Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, 90.0f, 0.1f);
+
+            }
+            else
+            {
+                Camera.main.fieldOfView =  Mathf.Lerp(Camera.main.fieldOfView, 70.0f, 0.1f); 
+
+            }
+            float curSpeedX = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Vertical") : 0;
+            float curSpeedY = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Horizontal") : 0;
+            float movementDirectionY = moveDirection.y;
+            moveDirection = (forward * curSpeedX)  + (right * curSpeedY);
             if (Input.GetKey(KeyCode.Space) && canMove && characterController.isGrounded)
             {
                 moveDirection.y = jumpSpeed;
@@ -88,16 +95,15 @@ public class Control3FItness : MonoBehaviour
             {
                 moveDirection.y -= gravity * Time.deltaTime;
             }
-
             characterController.Move(moveDirection * Time.deltaTime);
         }
+        
 
         if (canMove)
         {
-            if (SystemInfo.supportsGyroscope)
+            if (SystemInfo.supportsGyroscope && isMobile)
             {
-                rotationX += gyro.attitude.x;
-                playerCamera.transform.localRotation = new Quaternion(rotationX, 0f, 0f,0f);    
+                playerCamera.transform.localRotation = new Quaternion(gyro.attitude.x, 0f, 0f,0f);
                 transform.rotation *= new Quaternion(0f, gyro.attitude.y, 0f,0f);
             }
             else
@@ -108,7 +114,6 @@ public class Control3FItness : MonoBehaviour
                 transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
             }
         }
-
         // Distance Tracking
         timePassed += Time.deltaTime;
         float distanceTraveled = Vector3.Distance(posTrack.position, playerBody.position);
