@@ -96,10 +96,9 @@ public class Control3FItness : MonoBehaviour
         {
             if (SystemInfo.supportsGyroscope)
             {
-                rotationX += gyro.attitude.x * lookSpeed;
-                rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
-                playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
-                transform.rotation *= Quaternion.Euler(0, gyro.attitude.y * lookSpeed, 0);
+                rotationX += gyro.attitude.x;
+                playerCamera.transform.localRotation = new Quaternion(rotationX, 0f, 0f,0f);    
+                transform.rotation *= new Quaternion(0f, gyro.attitude.y, 0f,0f);
             }
             else
             {
