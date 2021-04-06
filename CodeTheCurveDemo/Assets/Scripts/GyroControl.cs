@@ -88,7 +88,7 @@ public class GyroControl : MonoBehaviour
         cameraContainer.transform.position = transform.position;
         transform.SetParent (cameraContainer.transform);
 
-        gyroEnabled = EnableGyro ();
+        gyroEnabled = EnableGyro();
     }
 
     private bool EnableGyro()

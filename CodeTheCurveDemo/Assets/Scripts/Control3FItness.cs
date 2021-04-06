@@ -27,6 +27,7 @@ public class Control3FItness : MonoBehaviour
     public Camera playerCamera;
     public Transform posTrack;
     public Transform playerBody;
+    public Gyroscope gyro;
 
     [HideInInspector]
     // Variables
@@ -68,29 +69,45 @@ public class Control3FItness : MonoBehaviour
         float curSpeedY = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Horizontal") : 0;
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX)  + (right * curSpeedY);
-
-        if (Input.GetKey(KeyCode.Space) && canMove && characterController.isGrounded)
+        if (SystemInfo.supportsGyroscope)
         {
-            moveDirection.y = jumpSpeed;
+            
         }
         else
         {
-            moveDirection.y = movementDirectionY;
-        }
+            if (Input.GetKey(KeyCode.Space) && canMove && characterController.isGrounded)
+            {
+                moveDirection.y = jumpSpeed;
+            }
+            else
+            {
+                moveDirection.y = movementDirectionY;
+            }
 
-        if (!characterController.isGrounded)
-        {
-            moveDirection.y -= gravity * Time.deltaTime;
-        }
+            if (!characterController.isGrounded)
+            {
+                moveDirection.y -= gravity * Time.deltaTime;
+            }
 
-        characterController.Move(moveDirection * Time.deltaTime);
+            characterController.Move(moveDirection * Time.deltaTime);
+        }
 
         if (canMove)
         {
-            rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
-            rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
-            playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
-            transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
+            if (SystemInfo.supportsGyroscope)
+            {
+                rotationX += gyro.attitude.x * lookSpeed;
+                rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
+                playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
+                transform.rotation *= Quaternion.Euler(0, gyro.attitude.y * lookSpeed, 0);
+            }
+            else
+            {
+                rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
+                rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
+                playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
+                transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
+            }
         }
 
         // Distance Tracking

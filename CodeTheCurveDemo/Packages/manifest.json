@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.google.xr.cardboard": "file:C:/Users/richa/Downloads/cardboard-xr-plugin-master/cardboard-xr-plugin-master",
+    "com.google.xr.cardboard": "file:C:/Users/richa/Downloads/cardboard-xr-plugin-master",
     "com.unity.collab-proxy": "1.3.9",
     "com.unity.formats.fbx": "4.0.1",
     "com.unity.ide.rider": "2.0.7",

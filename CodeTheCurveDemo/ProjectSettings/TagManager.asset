@@ -10,6 +10,7 @@ TagManager:
   - firetruck
   - firetruck2
   - firetruck3
+  - manhole
   layers:
   - Default
   - TransparentFX
