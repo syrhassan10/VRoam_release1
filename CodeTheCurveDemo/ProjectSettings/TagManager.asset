@@ -11,6 +11,7 @@ TagManager:
   - firetruck2
   - firetruck3
   - manhole
+  - notredame
   layers:
   - Default
   - TransparentFX

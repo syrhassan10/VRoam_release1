@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 494
     height: 431
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -71,10 +71,10 @@ MonoBehaviour:
     y: 516
     width: 1500
     height: 431
-  m_MinSize: {x: 432, y: 271}
-  m_MaxSize: {x: 14002, y: 10021}
+  m_MinSize: {x: 433, y: 271}
+  m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 12596
+  controlID: 68
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,10 +96,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 708, y: 492}
-  m_MaxSize: {x: 18003, y: 14042}
+  m_MinSize: {x: 709, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 121
+  controlID: 17
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -119,8 +119,8 @@ MonoBehaviour:
     y: 0
     width: 420
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -250,10 +250,10 @@ MonoBehaviour:
     y: 0
     width: 1500
     height: 947
-  m_MinSize: {x: 432, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 433, y: 492}
+  m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 72
+  controlID: 124
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -421,22 +421,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/#NVJOB Simple Water Shaders
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\richa\Documents\GitHub\VRoam_release1\CodeTheCurveDemo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: b0e30300
-    m_LastClickedID: 254896
-    m_ExpandedIDs: 00000000ca58000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 1e570000
+    m_LastClickedID: 22302
+    m_ExpandedIDs: 000000001e5700002657000052570000046f0000106f00001e6f0000227f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -464,7 +464,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ca580000
+    m_ExpandedIDs: 000000001e570000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -585,9 +585,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 38a60500
-      m_LastClickedID: 370232
-      m_ExpandedIDs: 0020fcffa225fcfff82bfcffb881feff22a2feffd8a2feffe2a8feff1cfbffffb0430000b44400000a49000044490000d84d0000ae4f0000605f04005a600400b8600400f6600400026104000e6104004c6104008861040098610400206204005e620400c2620400
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6210ffff2a74ffff4277ffff7e7dffff22fbffff96430000a84400004e450000f84500003646000056460000fe480000364d0000d24e000060500100f050010038530100665a0100045c0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -647,9 +647,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 623.0099, y: 500.44385, z: -476.3757}
+    m_Target: {x: 212.89034, y: 121.507866, z: 348.7352}
     speed: 2
-    m_Value: {x: 623.0099, y: 500.44385, z: -476.3757}
+    m_Value: {x: 212.89034, y: 121.507866, z: 348.7352}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -696,20 +696,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.01660938, y: -0.11630506, z: -0.007174109, w: 0.99313056}
+    m_Target: {x: 0.020115599, y: -0.964128, z: 0.054276228, w: 0.25939322}
     speed: 2
-    m_Value: {x: -0.013618573, y: -0.11780613, z: -0.0068449304, w: 0.9929197}
+    m_Value: {x: 0.020113807, y: -0.9640422, z: 0.054271396, w: 0.25937012}
   m_Size:
-    m_Target: 10.023772
+    m_Target: 7.604163
     speed: 2
-    m_Value: 10.023772
+    m_Value: 7.604163
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 2
-    m_SpeedNormalized: 1
+    m_Speed: 1.4602705
+    m_SpeedNormalized: 0.73000026
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1

@@ -1,8 +1,7 @@
 ﻿using System;
 using UnityEngine;
-using System.Threading;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 [RequireComponent(typeof(CharacterController))]
 
 public class Control3FItness : MonoBehaviour
@@ -14,8 +13,7 @@ public class Control3FItness : MonoBehaviour
     public float gravity = 20.0f;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
-    public float FOV = 60.0f;
-    
+
     //UI text
     public Text uiDISTANCE;
     public Text uiSPEED;
@@ -49,6 +47,20 @@ public class Control3FItness : MonoBehaviour
         Cursor.visible = false;
         posTrack.position = playerBody.position;
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        switch (other.tag)
+        {
+            case "notredame":
+                SceneManager.LoadScene("NotreDame");
+                break;
+            case "manhole":
+                SceneManager.LoadScene(null);
+                break;
+        }
+    }
+
 
     void Update()
     {
