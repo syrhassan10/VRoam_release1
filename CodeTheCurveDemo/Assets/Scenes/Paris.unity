@@ -22221,7 +22221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkingSpeed: 5
-  runningSpeed: 110.55
+  runningSpeed: 10
   jumpSpeed: 8
   gravity: 20
   lookSpeed: 2
