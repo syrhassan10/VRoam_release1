@@ -54,9 +54,12 @@ public class Control3FItness : MonoBehaviour
         {
             case "notredame":
                 SceneManager.LoadScene("NotreDame");
-                break;
+                break;  
             case "manhole":
-                SceneManager.LoadScene(null);
+                SceneManager.LoadScene("Paris Catacomb");
+                break;
+            case "Start":
+                SceneManager.LoadScene("Paris");
                 break;
         }
     }

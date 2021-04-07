@@ -3,6 +3,7 @@
 using System;
 using UnityEngine;
 using System.Threading;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(CharacterController))]
@@ -23,6 +24,7 @@ public class Control3Fixed : MonoBehaviour
     public Text enableTruckPrompt;
     private GameObject collied;
     private GameObject water;
+    public GameObject fireTracker;
     
     //UI text
     public Text uiDISTANCE;
@@ -103,6 +105,11 @@ public class Control3Fixed : MonoBehaviour
     }
     void Update()
     {
+        if (fireTracker.transform.childCount == 0)
+        {
+            SceneManager.LoadScene("Paris");
+        }
+
         if (Input.GetKey(KeyCode.E))
         {
             if (isEnabled1 || isEnabled2 || isEnabled3)
