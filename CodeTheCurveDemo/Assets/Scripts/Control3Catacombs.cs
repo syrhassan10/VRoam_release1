@@ -1,5 +1,6 @@
 ﻿
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(CharacterController))]
 
@@ -19,6 +20,8 @@ public class Control3Catacombs: MonoBehaviour
 
     [HideInInspector]
     public bool canMove = true;
+    public Text artifact1_t;
+
 
     void Start()
     {
@@ -57,7 +60,7 @@ public class Control3Catacombs: MonoBehaviour
         {
             moveDirection.y -= gravity * Time.deltaTime;
         }
-
+ 
         characterController.Move(moveDirection * Time.deltaTime);
 
         if (canMove)
@@ -71,9 +74,19 @@ public class Control3Catacombs: MonoBehaviour
 
      void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Start")
+        if (other.tag == "artifact1")
         {
-            other.gameObject.SetActive(false);
+            artifact1_t.gameObject.SetActive(true);
+
+        }
+    }
+
+    
+     void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "artifact1")
+        {
+            artifact1_t.gameObject.SetActive(false);
 
         }
     }

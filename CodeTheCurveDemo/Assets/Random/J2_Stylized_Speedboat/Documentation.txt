@@ -1,0 +1,11 @@
+Thank you for purchasing the Low-Poly Speedboats asset!
+
+Please use the Prefabbed objects included in the package.
+
+This speedboat is designed to act as a simple boat for use in low poly or mobile games. It does not feature realistic / movable speedometers or navigation -- The flat-faced low poly look, and the smooth-faced low poly look.
+I plan on updating this package every two weeks with more skins and aircraft. Please feel free to suggest ones you may like!
+The stick, tiller, propellor, motor, and wheel are all individial on each of these boats and can be manipulated for animation or kept as-is.
+Colliders have been attached to appropriate objects. 
+
+
+If you have any comments or suggestions, feel free to contact me at kevinjongeneel@j2gamestudios.com
