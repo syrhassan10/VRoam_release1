@@ -15,11 +15,11 @@ C:/Users/richa/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51607
+53677
 Successfully changed project path to: C:/Users/richa/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
 C:/Users/richa/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 97.64 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 99.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -38,31 +38,31 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001578 seconds.
+Registered in 0.001579 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.10 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 87.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.511 seconds
+- Completed reload, in  1.440 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002498 seconds.
+Registered in 0.002485 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 117.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 97.27 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.119 seconds
+- Completed reload, in  1.001 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -70,762 +70,412 @@ Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not 
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.6 MB.
-System memory in use after: 187.8 MB.
+System memory in use before: 187.8 MB.
+System memory in use after: 188.0 MB.
 
 Unloading 111 unused Assets to reduce memory usage. Loaded Objects now: 4000.
-Total: 2.912100 ms (FindLiveObjects: 0.300400 ms CreateObjectMapping: 0.184500 ms MarkObjects: 2.187800 ms  DeleteObjects: 0.238300 ms)
+Total: 9.055100 ms (FindLiveObjects: 0.699600 ms CreateObjectMapping: 0.542300 ms MarkObjects: 7.200100 ms  DeleteObjects: 0.610700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/PolygonNature/Prefabs/Trees/SM_Tree_Generic_Giant_01.prefab
-  artifactKey: Guid(5301afbcc2367b5469f618258a227b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature/Prefabs/Trees/SM_Tree_Generic_Giant_01.prefab using Guid(5301afbcc2367b5469f618258a227b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c8fc7aee173ff94d727860c4a25297') in 0.100003 seconds
-  Import took 0.105747 seconds .
+  path: Assets/Final Form Studio/Cars/_common-textures/tire-brakes.mat
+  artifactKey: Guid(b40303d08e22be84692b66af1fb48510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cars/_common-textures/tire-brakes.mat using Guid(b40303d08e22be84692b66af1fb48510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5289a13bcabffb9f5a3c151e305834') in 0.105683 seconds
+  Import took 0.118269 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/PolygonNature/Prefabs/Trees/SM_Tree_Generic_Dead_01.prefab
-  artifactKey: Guid(7df36f4afc1dd884e81156cd2cb6545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature/Prefabs/Trees/SM_Tree_Generic_Dead_01.prefab using Guid(7df36f4afc1dd884e81156cd2cb6545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd18c1197473f915d10dc8dc299ecdb') in 0.012415 seconds
-  Import took 0.017104 seconds .
+  Time since last request: 0.000263 seconds.
+  path: Assets/Final Form Studio/Cars/_common-textures/tire_diffuse.png
+  artifactKey: Guid(3214a9cd8ff207446951e63707ca0d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cars/_common-textures/tire_diffuse.png using Guid(3214a9cd8ff207446951e63707ca0d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c474bb6dc91f7bd2730be48be6032ec') in 0.020849 seconds
+  Import took 0.025102 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/PolygonNature/Prefabs/Trees/SM_Tree_Generic_01.prefab
-  artifactKey: Guid(e377b882a13405d4b9d5c3e8e747595e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature/Prefabs/Trees/SM_Tree_Generic_01.prefab using Guid(e377b882a13405d4b9d5c3e8e747595e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0195c71202563e5685a2149d7b711692') in 0.011971 seconds
-  Import took 0.016745 seconds .
+  Time since last request: 0.000188 seconds.
+  path: Assets/Final Form Studio/Cars/_common-textures/orange-lights.mat
+  artifactKey: Guid(d3e03ede2aad4b8459875c68d65929c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cars/_common-textures/orange-lights.mat using Guid(d3e03ede2aad4b8459875c68d65929c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2aeb3f07232a6ca80ba244e3c5effd') in 0.013855 seconds
+  Import took 0.018413 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/PolygonNature/Prefabs/Trees/SM_Tree_Birch_02.prefab
-  artifactKey: Guid(1000cad1907db004b8d52ddf62c1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature/Prefabs/Trees/SM_Tree_Birch_02.prefab using Guid(1000cad1907db004b8d52ddf62c1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975034ddef01997957b6cae67569fad5') in 0.012680 seconds
-  Import took 0.017304 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/Final Form Studio/Cars/_common-textures/leds-rear.mat
+  artifactKey: Guid(54ec127daf14ab945936a7282f19effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cars/_common-textures/leds-rear.mat using Guid(54ec127daf14ab945936a7282f19effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd0c49b3927d5ecc5b4410d7a60d430') in 0.011510 seconds
+  Import took 0.016246 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/PolygonNature/Prefabs/Trees/SM_Tree_Birch_01.prefab
-  artifactKey: Guid(1ea71f643417d124d91e53eae7c666a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature/Prefabs/Trees/SM_Tree_Birch_01.prefab using Guid(1ea71f643417d124d91e53eae7c666a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8f0d71da605d7892f2124dec1a1c31') in 0.012443 seconds
-  Import took 0.017226 seconds .
+  Time since last request: 0.000166 seconds.
+  path: Assets/Final Form Studio/Cars/_common-textures/xeon-lights.mat
+  artifactKey: Guid(7b9f2987cbfbb5342bcdb652ac8e169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cars/_common-textures/xeon-lights.mat using Guid(7b9f2987cbfbb5342bcdb652ac8e169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ba4b4176282f3cecaa50895ee8bdfa') in 0.010305 seconds
+  Import took 0.014818 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/PolygonNature/Prefabs/Trees/SM_Tree_Pine_02.prefab
-  artifactKey: Guid(0734397d1a4fd924f98424ecb4ca43b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature/Prefabs/Trees/SM_Tree_Pine_02.prefab using Guid(0734397d1a4fd924f98424ecb4ca43b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ec4c70bda159258d7a7b0f844879b0') in 0.011967 seconds
-  Import took 0.017237 seconds .
+  Time since last request: 0.000213 seconds.
+  path: Assets/Final Form Studio/Cars/_common-textures/brake-lights.mat
+  artifactKey: Guid(e3d9e31be84590941929a82dae109279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cars/_common-textures/brake-lights.mat using Guid(e3d9e31be84590941929a82dae109279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd3b3d8a9570a6bbca22d7b4cb56cd0') in 0.009364 seconds
+  Import took 0.013445 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000225 seconds.
-  path: Assets/PolygonNature/Prefabs/Trees/SM_Tree_Birch_01.prefab
-  artifactKey: Guid(1ea71f643417d124d91e53eae7c666a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature/Prefabs/Trees/SM_Tree_Birch_01.prefab using Guid(1ea71f643417d124d91e53eae7c666a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8f0d71da605d7892f2124dec1a1c31') in 0.010169 seconds
-  Import took 0.015302 seconds .
+  path: Assets/Final Form Studio/Cars/_common-textures/glass.mat
+  artifactKey: Guid(ae620c4242c52604592822d3e95e7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cars/_common-textures/glass.mat using Guid(ae620c4242c52604592822d3e95e7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68566e607b208c0f034587db33a1ecc0') in 0.011571 seconds
+  Import took 0.016256 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/PolygonNature/Prefabs/Trees/SM_Tree_Pine_02.prefab
-  artifactKey: Guid(0734397d1a4fd924f98424ecb4ca43b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature/Prefabs/Trees/SM_Tree_Pine_02.prefab using Guid(0734397d1a4fd924f98424ecb4ca43b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ec4c70bda159258d7a7b0f844879b0') in 0.013476 seconds
-  Import took 0.020544 seconds .
+  Time since last request: 0.000151 seconds.
+  path: Assets/Final Form Studio/Cars/_common-textures/white-lights.mat
+  artifactKey: Guid(2293ba2c3f385a046b10ac966bf8c75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cars/_common-textures/white-lights.mat using Guid(2293ba2c3f385a046b10ac966bf8c75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506a3a0510d2ebf46836b730e0368473') in 0.010939 seconds
+  Import took 0.015946 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/PolygonNature/Prefabs/Trees/SM_Tree_Willow_Large_01.prefab
-  artifactKey: Guid(898874364bf16b6478fe589c550d3e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature/Prefabs/Trees/SM_Tree_Willow_Large_01.prefab using Guid(898874364bf16b6478fe589c550d3e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e6a2a708909b83dd34b6097e5fac49') in 0.012534 seconds
-  Import took 0.017631 seconds .
+  Time since last request: 0.000186 seconds.
+  path: Assets/Final Form Studio/Cars/_common-textures/glass.mat
+  artifactKey: Guid(ae620c4242c52604592822d3e95e7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cars/_common-textures/glass.mat using Guid(ae620c4242c52604592822d3e95e7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68566e607b208c0f034587db33a1ecc0') in 0.006768 seconds
+  Import took 0.011091 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004053 seconds.
-  path: Assets/PolygonNature/Prefabs/Trees/SM_Tree_Willow_Large_01.prefab
-  artifactKey: Guid(898874364bf16b6478fe589c550d3e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature/Prefabs/Trees/SM_Tree_Willow_Large_01.prefab using Guid(898874364bf16b6478fe589c550d3e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e6a2a708909b83dd34b6097e5fac49') in 0.007811 seconds
-  Import took 0.012743 seconds .
+  Time since last request: 0.000179 seconds.
+  path: Assets/Final Form Studio/Cars/_common-textures/mirrors.mat
+  artifactKey: Guid(7930fb2e9e9f0d045a6996d3a9e8bc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cars/_common-textures/mirrors.mat using Guid(7930fb2e9e9f0d045a6996d3a9e8bc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf2396bcdd4d25e98b62987ac589947') in 0.009406 seconds
+  Import took 0.013585 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.208563 seconds.
-  path: Assets/PolygonNature/Prefabs/Trees/SM_Tree_Birch_03.prefab
-  artifactKey: Guid(47ac04e5b24338c44ba15b946641236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature/Prefabs/Trees/SM_Tree_Birch_03.prefab using Guid(47ac04e5b24338c44ba15b946641236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf83a6511cfadb1ce7d59926b66e5e20') in 0.011052 seconds
-  Import took 0.016318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/PolygonNature/Prefabs/Trees/SM_Tree_Birch_04.prefab
-  artifactKey: Guid(bce0c9523691df448b83c8c972060b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature/Prefabs/Trees/SM_Tree_Birch_04.prefab using Guid(bce0c9523691df448b83c8c972060b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26683dd9a3c4f3e20020021d44964b81') in 0.013270 seconds
-  Import took 0.018381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/PolygonNature/Prefabs/Trees/SM_Tree_Birch_Small_01.prefab
-  artifactKey: Guid(e64e0b484ac273644af92dc0e00601a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature/Prefabs/Trees/SM_Tree_Birch_Small_01.prefab using Guid(e64e0b484ac273644af92dc0e00601a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b34fc6b6c7cb583ad4d207e742152d') in 0.013800 seconds
-  Import took 0.019042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010014 seconds.
-  path: Assets/PolygonNature/Prefabs/Trees/SM_Tree_Birch_Small_01.prefab
-  artifactKey: Guid(e64e0b484ac273644af92dc0e00601a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature/Prefabs/Trees/SM_Tree_Birch_Small_01.prefab using Guid(e64e0b484ac273644af92dc0e00601a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b34fc6b6c7cb583ad4d207e742152d') in 0.010043 seconds
-  Import took 0.016114 seconds .
+  Time since last request: 0.020370 seconds.
+  path: Assets/Final Form Studio/Cars/_common-textures/mirrors.mat
+  artifactKey: Guid(7930fb2e9e9f0d045a6996d3a9e8bc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cars/_common-textures/mirrors.mat using Guid(7930fb2e9e9f0d045a6996d3a9e8bc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf2396bcdd4d25e98b62987ac589947') in 0.009266 seconds
+  Import took 0.013809 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002571 seconds.
+Registered in 0.002867 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.886 seconds
+- Completed reload, in  0.942 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3256 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.0 MB.
+System memory in use after: 179.1 MB.
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 4045.
+Total: 2.468400 ms (FindLiveObjects: 0.277900 ms CreateObjectMapping: 0.157900 ms MarkObjects: 1.832800 ms  DeleteObjects: 0.198700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3256 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.0 MB.
+System memory in use after: 179.2 MB.
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 4049.
+Total: 4.343200 ms (FindLiveObjects: 0.537000 ms CreateObjectMapping: 0.348500 ms MarkObjects: 3.199900 ms  DeleteObjects: 0.254000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002837 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.1 MB.
+System memory in use after: 179.3 MB.
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 4054.
+Total: 3.428900 ms (FindLiveObjects: 0.348300 ms CreateObjectMapping: 0.248700 ms MarkObjects: 2.641300 ms  DeleteObjects: 0.189300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002668 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.1 MB.
+System memory in use after: 179.3 MB.
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 4058.
+Total: 2.743800 ms (FindLiveObjects: 0.292700 ms CreateObjectMapping: 0.158700 ms MarkObjects: 2.094800 ms  DeleteObjects: 0.196600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004302 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.434 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.1 MB.
+System memory in use after: 179.3 MB.
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 4062.
+Total: 3.771100 ms (FindLiveObjects: 0.508800 ms CreateObjectMapping: 0.316300 ms MarkObjects: 2.671600 ms  DeleteObjects: 0.272600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.2 MB.
+System memory in use after: 179.3 MB.
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 4066.
+Total: 3.358100 ms (FindLiveObjects: 0.425800 ms CreateObjectMapping: 0.192300 ms MarkObjects: 2.462800 ms  DeleteObjects: 0.275700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002581 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.2 MB.
+System memory in use after: 179.4 MB.
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 4070.
+Total: 2.390100 ms (FindLiveObjects: 0.282000 ms CreateObjectMapping: 0.144300 ms MarkObjects: 1.780900 ms  DeleteObjects: 0.181700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3256 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.7 MB.
-System memory in use after: 178.9 MB.
+Unloading 3257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.2 MB.
+System memory in use after: 179.4 MB.
 
-Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 4011.
-Total: 2.822400 ms (FindLiveObjects: 0.276900 ms CreateObjectMapping: 0.156300 ms MarkObjects: 2.166500 ms  DeleteObjects: 0.221900 ms)
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 4074.
+Total: 3.263000 ms (FindLiveObjects: 0.280700 ms CreateObjectMapping: 0.188700 ms MarkObjects: 2.595100 ms  DeleteObjects: 0.197500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002659 seconds.
+Registered in 0.002763 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.872 seconds
+- Completed reload, in  0.996 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.2 MB.
+System memory in use after: 179.4 MB.
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 4078.
+Total: 3.195400 ms (FindLiveObjects: 0.483000 ms CreateObjectMapping: 0.347900 ms MarkObjects: 2.132200 ms  DeleteObjects: 0.231100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002512 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.865 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.2 MB.
+System memory in use after: 179.4 MB.
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 4082.
+Total: 2.984300 ms (FindLiveObjects: 0.306800 ms CreateObjectMapping: 0.142800 ms MarkObjects: 2.324100 ms  DeleteObjects: 0.209600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003163 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3256 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.8 MB.
-System memory in use after: 179.0 MB.
-
-Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 4015.
-Total: 3.295200 ms (FindLiveObjects: 0.546800 ms CreateObjectMapping: 0.278300 ms MarkObjects: 2.266700 ms  DeleteObjects: 0.201000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 166.261764 seconds.
-  path: Assets/Final Form Studio/Cars/Sedan-car-01/prefab/sedan-car-01.prefab
-  artifactKey: Guid(5e1f1e4eda7b3f84a95afae22bd7c87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/Sedan-car-01/prefab/sedan-car-01.prefab using Guid(5e1f1e4eda7b3f84a95afae22bd7c87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a86999da0bf30ab926078275c5b09a4') in 0.055810 seconds
-  Import took 0.061302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.325199 seconds.
-  path: Assets/New Game Object.prefab
-  artifactKey: Guid(57da4e5be4764c841bf3aa1c9d3e97d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Game Object.prefab using Guid(57da4e5be4764c841bf3aa1c9d3e97d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998a2aa64e45eaacb0578601dab40056') in 0.011439 seconds
-  Import took 0.015977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Roundabout.prefab
-  artifactKey: Guid(a1e24ea7e0010424faeeae0c8e6ec43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roundabout.prefab using Guid(a1e24ea7e0010424faeeae0c8e6ec43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b6d1796281e00ebe5e6bd6befa25da') in 0.009709 seconds
-  Import took 0.013876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.867317 seconds.
-  path: Assets/Stone Fountain
-  artifactKey: Guid(901bb3da338a42947bf2c32fc26939ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stone Fountain using Guid(901bb3da338a42947bf2c32fc26939ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e3c5f8a1a4312b876260d0366d1711') in 0.004228 seconds
-  Import took 0.008788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093507 seconds.
-  path: Assets/Stone Fountain/fountain_LOD0.prefab
-  artifactKey: Guid(8142860b8f89a564faf152e3c8b743e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stone Fountain/fountain_LOD0.prefab using Guid(8142860b8f89a564faf152e3c8b743e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe91b7d38e8059b0ef1d40b758bfaa6') in 0.012435 seconds
-  Import took 0.017105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 405.833794 seconds.
-  path: Assets/Stone Fountain/PresentationScene.unity
-  artifactKey: Guid(5741ae7743bdbf84ebc42e73daca9467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stone Fountain/PresentationScene.unity using Guid(5741ae7743bdbf84ebc42e73daca9467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376f8fa37ac5b62f8cdb03eb09f9faa1') in 0.005704 seconds
-  Import took 0.011955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.656916 seconds.
-  path: Assets/Stone Fountain/Models
-  artifactKey: Guid(019df95d613432742bdc724ebf1ffdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stone Fountain/Models using Guid(019df95d613432742bdc724ebf1ffdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f700bdc0fbdcee929f13201ce751d97b') in 0.004206 seconds
-  Import took 0.008621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.964875 seconds.
-  path: Assets/Stone Fountain/PresentationSceneSettings.lighting
-  artifactKey: Guid(758ab60e6f1f1024b96d7a0cea271942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stone Fountain/PresentationSceneSettings.lighting using Guid(758ab60e6f1f1024b96d7a0cea271942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: 'e9fdece1fff5b6270a3e7d14351378f7') in 0.005922 seconds
-  Import took 0.010536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002269 seconds.
-  path: Assets/Stone Fountain/PresentationSceneSettings.lighting
-  artifactKey: Guid(758ab60e6f1f1024b96d7a0cea271942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stone Fountain/PresentationSceneSettings.lighting using Guid(758ab60e6f1f1024b96d7a0cea271942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: 'e9fdece1fff5b6270a3e7d14351378f7') in 0.001919 seconds
-  Import took 0.006208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.189493 seconds.
-  path: Assets/EasyRoads3D
-  artifactKey: Guid(768f4764567fe6d4184f98f19375250a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRoads3D using Guid(768f4764567fe6d4184f98f19375250a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab8f0ef2782524b5b922b4da7f1bc75') in 0.004249 seconds
-  Import took 0.008798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.265995 seconds.
-  path: Assets/_TerrainAutoUpgrade
-  artifactKey: Guid(f3a14b089f60948478005ba95c62e0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade using Guid(f3a14b089f60948478005ba95c62e0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942843c9a720cb1134a82055b2d3f9a4') in 0.004372 seconds
-  Import took 0.009314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.059840 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_FlowersFlowers_normals793646612c42751.terrainlayer
-  artifactKey: Guid(f61934961ab61ee4b95672184a29b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_FlowersFlowers_normals793646612c42751.terrainlayer using Guid(f61934961ab61ee4b95672184a29b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6106b4c7c2cfe3de4512c87f5a8a4f07') in 0.020003 seconds
-  Import took 0.024830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Leaves_03Leaves_normals_01b3407d0e55802f81.terrainlayer
-  artifactKey: Guid(5ea1c0dc31fe4304eafef99bff39f617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Leaves_03Leaves_normals_01b3407d0e55802f81.terrainlayer using Guid(5ea1c0dc31fe4304eafef99bff39f617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26c45d16dd34bce846f6d8d1d788162') in 0.011822 seconds
-  Import took 0.016349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_SandBaseGrass_normals2023054508611406.terrainlayer
-  artifactKey: Guid(6efd01e2afa0c7242a62ef78632c4199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_SandBaseGrass_normals2023054508611406.terrainlayer using Guid(6efd01e2afa0c7242a62ef78632c4199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356a090b5ca462c0397ee6194acff526') in 0.013254 seconds
-  Import took 0.017802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_RockwallRockwall_Normal2023054508611406.terrainlayer
-  artifactKey: Guid(aa44492ad09e96649af0e1debc4adea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_RockwallRockwall_Normal2023054508611406.terrainlayer using Guid(aa44492ad09e96649af0e1debc4adea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eea427fd9b0cc042b8aaa964a780d84') in 0.010676 seconds
-  Import took 0.015406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Leaves_02Leaves_normals_01b3407d0e55802f81.terrainlayer
-  artifactKey: Guid(f5014e6e91152104ebdfed8bcee129df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Leaves_02Leaves_normals_01b3407d0e55802f81.terrainlayer using Guid(f5014e6e91152104ebdfed8bcee129df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b42e5a2b9ae4e0c9b229fad703876a') in 0.015865 seconds
-  Import took 0.020464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_MudMud_Normal2e716cd1dfbd9e5a.terrainlayer
-  artifactKey: Guid(b7587332842021b41bae8c026bf6e9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_MudMud_Normal2e716cd1dfbd9e5a.terrainlayer using Guid(b7587332842021b41bae8c026bf6e9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035171d386302763805d9edebf8ee991') in 0.015114 seconds
-  Import took 0.019719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_GrassBaseGrass_normals2023054508611406.terrainlayer
-  artifactKey: Guid(7d756b16dbd66414f9a74b2d2b93ca97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_GrassBaseGrass_normals2023054508611406.terrainlayer using Guid(7d756b16dbd66414f9a74b2d2b93ca97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5c10a2b32ece1f09f632865b211492') in 0.013406 seconds
-  Import took 0.017864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Grass_02BaseGrass_normals2023054508611406.terrainlayer
-  artifactKey: Guid(9dd6416fe023f0f4786cc0bd8d4f2b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Grass_02BaseGrass_normals2023054508611406.terrainlayer using Guid(9dd6416fe023f0f4786cc0bd8d4f2b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6e138e84f79a74a8072c5aacbc115d') in 0.012310 seconds
-  Import took 0.016845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Sand_DarkerBaseGrass_normals2023054508611406.terrainlayer
-  artifactKey: Guid(ba1ec4a7d43cdc6469bbbc3dc0719ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Sand_DarkerBaseGrass_normals2023054508611406.terrainlayer using Guid(ba1ec4a7d43cdc6469bbbc3dc0719ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1086552aa15706e812c833550b68be') in 0.011302 seconds
-  Import took 0.015783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normals36c77d22be2d3f9a.terrainlayer
-  artifactKey: Guid(c9423e0a2a6393543b17e30f20843167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normals36c77d22be2d3f9a.terrainlayer using Guid(c9423e0a2a6393543b17e30f20843167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2ad895429ec52ea1bc1268d015c8f5') in 0.016789 seconds
-  Import took 0.021274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Sand_DesertBaseGrass_normals2023054508611406.terrainlayer
-  artifactKey: Guid(d26d08c299479ef45891cf9066f3f9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Sand_DesertBaseGrass_normals2023054508611406.terrainlayer using Guid(d26d08c299479ef45891cf9066f3f9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6306b0187922cf8b283c3eb869e0adc0') in 0.010133 seconds
-  Import took 0.014823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normals2023054508611406.terrainlayer
-  artifactKey: Guid(70c99fe7f3bc8c148943b145f08970fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normals2023054508611406.terrainlayer using Guid(70c99fe7f3bc8c148943b145f08970fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bf32dead9ed4d9d7f3a8ade2b48d22') in 0.017795 seconds
-  Import took 0.023080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_SnowGrassHigherDetail_normalsb8875f45e9c15431.terrainlayer
-  artifactKey: Guid(86799f9d176eccf4e9b85ad4458e35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_SnowGrassHigherDetail_normalsb8875f45e9c15431.terrainlayer using Guid(86799f9d176eccf4e9b85ad4458e35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e9995ee0789a9440df871f24d305c9') in 0.009785 seconds
-  Import took 0.014566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_RockwallRockwall_Normalb3407d0e55802f81.terrainlayer
-  artifactKey: Guid(f43e9b955c93df5458126a759432e0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_RockwallRockwall_Normalb3407d0e55802f81.terrainlayer using Guid(f43e9b955c93df5458126a759432e0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c43a7c411d90d53c6aed23d4b58cc9') in 0.016977 seconds
-  Import took 0.021525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_LeavesLeaves_normals_01b3407d0e55802f81.terrainlayer
-  artifactKey: Guid(cf2958959d351d3419cd68ae45d2f39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_LeavesLeaves_normals_01b3407d0e55802f81.terrainlayer using Guid(cf2958959d351d3419cd68ae45d2f39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c36a5a3288e60de7fb99a945c87727') in 0.012033 seconds
-  Import took 0.016438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normalsb8875f45e9c15431.terrainlayer
-  artifactKey: Guid(6a5d7e79dbc4f5743b1b3b208322022c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normalsb8875f45e9c15431.terrainlayer using Guid(6a5d7e79dbc4f5743b1b3b208322022c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4921703f9e5d3ff903c861fae832b3e5') in 0.014614 seconds
-  Import took 0.019241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Leaves_04Leaves_normals_01b3407d0e55802f81.terrainlayer
-  artifactKey: Guid(82e93e2eb7241514faf1e9b17617b2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Leaves_04Leaves_normals_01b3407d0e55802f81.terrainlayer using Guid(82e93e2eb7241514faf1e9b17617b2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6720dc264a899b6fedc9b375990e84') in 0.012824 seconds
-  Import took 0.017289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_PebblesPebbles_normals2023054508611406.terrainlayer
-  artifactKey: Guid(c028cd955e2e2424990defd20fbb130a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_PebblesPebbles_normals2023054508611406.terrainlayer using Guid(c028cd955e2e2424990defd20fbb130a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b5d093c756c328bf733d87c3503f25') in 0.014403 seconds
-  Import took 0.019013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_SandGrassHigherDetail_normals2023054508611406.terrainlayer
-  artifactKey: Guid(8b27149a778abc64c83f3ae7271761cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_SandGrassHigherDetail_normals2023054508611406.terrainlayer using Guid(8b27149a778abc64c83f3ae7271761cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd35411a7e385f8ccc7ef601c7edff77') in 0.009007 seconds
-  Import took 0.013449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 148.493954 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Textures/GridBox_Default.png
-  artifactKey: Guid(6344bf96fbda94141a525046d088fb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Textures/GridBox_Default.png using Guid(6344bf96fbda94141a525046d088fb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4756e748d742a6ac8b71d45aae192d5') in 0.016090 seconds
-  Import took 0.021361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.499910 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42baae205c97e3337697759514652acd') in 0.004094 seconds
-  Import took 0.009073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.134278 seconds.
-  path: Assets/Stylize Water Texture
-  artifactKey: Guid(61ec558d50a6fe2448c8a47c394d11dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylize Water Texture using Guid(61ec558d50a6fe2448c8a47c394d11dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c8d85747649dc835b110c3cc3de3d0') in 0.004211 seconds
-  Import took 0.009392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.798745 seconds.
-  path: Assets/PolygonNature
-  artifactKey: Guid(104aa75bfc1a4534cb69be8417bdf7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature using Guid(104aa75bfc1a4534cb69be8417bdf7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e515a55d250671eabd0cfad32e75f72b') in 0.004324 seconds
-  Import took 0.008942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022155 seconds.
-  path: Assets/PolygonNature
-  artifactKey: Guid(104aa75bfc1a4534cb69be8417bdf7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNature using Guid(104aa75bfc1a4534cb69be8417bdf7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e515a55d250671eabd0cfad32e75f72b') in 0.001735 seconds
-  Import took 0.006256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.414720 seconds.
-  path: Assets/PolygonCity
-  artifactKey: Guid(af8fbd00591fcad4cad16fb99b57a572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity using Guid(af8fbd00591fcad4cad16fb99b57a572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a211e333f67df89905ab0535d7a05f8f') in 0.004207 seconds
-  Import took 0.008676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.969790 seconds.
-  path: Assets/Random/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop.tga
-  artifactKey: Guid(ea60173ceac07334c91568c48cc765cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop.tga using Guid(ea60173ceac07334c91568c48cc765cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61aec4589ccc75de67a5e9192b47dad4') in 0.010120 seconds
-  Import took 0.014556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Random/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky Equirect.png
-  artifactKey: Guid(7659947706e294d97a22faa1d4011724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky Equirect.png using Guid(7659947706e294d97a22faa1d4011724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b963452c4801bf084437eae194412b30') in 0.116339 seconds
-  Import took 0.120575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Random/BrokenVector/LowPolyRoadPack/Textures/Car Colorscheme 2.png
-  artifactKey: Guid(1eaa27659b24fe447ace162f9058044a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/BrokenVector/LowPolyRoadPack/Textures/Car Colorscheme 2.png using Guid(1eaa27659b24fe447ace162f9058044a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2e835269281c990adbff485aeeb9ed') in 0.006673 seconds
-  Import took 0.011225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Random/BrokenVector/LowPolyRoadPack/Models/Car 2.dae
-  artifactKey: Guid(77034832b22fef34387efcaeb7127eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/BrokenVector/LowPolyRoadPack/Models/Car 2.dae using Guid(77034832b22fef34387efcaeb7127eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5176b4f770a790533f8891eb52374a5') in 0.062319 seconds
-  Import took 0.066843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Random/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Spec.tga
-  artifactKey: Guid(6308da3d0ff986b42be3b0a6ea5b6fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Spec.tga using Guid(6308da3d0ff986b42be3b0a6ea5b6fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e2f8a8166ac302957fd5afeb45362e') in 0.007623 seconds
-  Import took 0.012303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Random/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 1.mat
-  artifactKey: Guid(3889c423b8feed645aeba90d0e940408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 1.mat using Guid(3889c423b8feed645aeba90d0e940408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bdea523e48226171818e7bd2f66577') in 0.021434 seconds
-  Import took 0.026565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Random/BrokenVector/LowPolyRoadPack/Prefabs/Car 1.prefab
-  artifactKey: Guid(9c91ecea7f7dce04facaeb11c977e102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/BrokenVector/LowPolyRoadPack/Prefabs/Car 1.prefab using Guid(9c91ecea7f7dce04facaeb11c977e102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a9d0bb5c1d3a5d8202d8438f13768e') in 0.008910 seconds
-  Import took 0.014125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Random/BrokenVector/LowPolyRoadPack/Textures/Car Colorscheme 1.png
-  artifactKey: Guid(c345e8b354c41dd4287a1f319bb8bb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/BrokenVector/LowPolyRoadPack/Textures/Car Colorscheme 1.png using Guid(c345e8b354c41dd4287a1f319bb8bb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9126a1ec55a61993e55bc2b6d9b39a61') in 0.005803 seconds
-  Import took 0.010389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Buildings/Build4/Build4/Carpet_Diamond_Red.jpg
-  artifactKey: Guid(5d9002df2fc2c21439c088abf1a4ee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings/Build4/Build4/Carpet_Diamond_Red.jpg using Guid(5d9002df2fc2c21439c088abf1a4ee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6d41d4ec6f262ec2a9c1a01497072e') in 0.022255 seconds
-  Import took 0.027630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Random/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Normal.tga
-  artifactKey: Guid(f0d8945c7972e4747aa776e16494fa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Normal.tga using Guid(f0d8945c7972e4747aa776e16494fa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1843a41a857dd17bf3b9a50935b9d8e') in 0.007601 seconds
-  Import took 0.012131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Random/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky.mat
-  artifactKey: Guid(aa78c8d403a8547fe86d1f74239e6b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky.mat using Guid(aa78c8d403a8547fe86d1f74239e6b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489980a1870f38a05c2f83f1caab68eb') in 0.038584 seconds
-  Import took 0.042838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Random/BrokenVector/LowPolyRoadPack/Prefabs/Car 2.prefab
-  artifactKey: Guid(8a6f09027b5c26b4b8d2f6d00dbce6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/BrokenVector/LowPolyRoadPack/Prefabs/Car 2.prefab using Guid(8a6f09027b5c26b4b8d2f6d00dbce6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802e2d0e5580cc2947c5826670821a4c') in 0.008512 seconds
-  Import took 0.012947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Random/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 2.mat
-  artifactKey: Guid(1968bf9d74d362c408b28c15132baaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 2.mat using Guid(1968bf9d74d362c408b28c15132baaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8edfbb90d33f244ea74685608b07005') in 0.010048 seconds
-  Import took 0.014599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Random/AllSkyFree/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky.mat
-  artifactKey: Guid(3801e244ec7cd9c4ea6e869bfed02318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/AllSkyFree/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky.mat using Guid(3801e244ec7cd9c4ea6e869bfed02318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d471ca45847ec7bd1da76609dc59c83') in 0.026822 seconds
-  Import took 0.031256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Random/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky Equirect.mat
-  artifactKey: Guid(3a6db933fef1d4c759bf21220420505f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky Equirect.mat using Guid(3a6db933fef1d4c759bf21220420505f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac2eefea3f179d291969a37a220bbef') in 0.019068 seconds
-  Import took 0.023571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Buildings/Build4/Build4.fbx
-  artifactKey: Guid(998ed65e69692854092b1ffb092916c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings/Build4/Build4.fbx using Guid(998ed65e69692854092b1ffb092916c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf19bd71914b4b7d5751e2d5de054870') in 0.497263 seconds
-  Import took 0.502904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Random/BrokenVector/LowPolyRoadPack/Models/Car 1.dae
-  artifactKey: Guid(26e8d194fbf5bca409d8e2a931e7a028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Random/BrokenVector/LowPolyRoadPack/Models/Car 1.dae using Guid(26e8d194fbf5bca409d8e2a931e7a028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f66b36ad29563f2c4ccf66dc299e3ae') in 0.033302 seconds
-  Import took 0.037876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.429781 seconds.
-  path: Assets/Final Form Studio/Cars
-  artifactKey: Guid(4219668a45b230e41a4242fca145316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars using Guid(4219668a45b230e41a4242fca145316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b0dada4e4152785f7c92cc934283b8') in 0.004160 seconds
-  Import took 0.008922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.733682 seconds.
-  path: Assets/Final Form Studio/Cars/_common-textures
-  artifactKey: Guid(ecdbfc7ce091fd4448610f0c20bed3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/_common-textures using Guid(ecdbfc7ce091fd4448610f0c20bed3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bca811da0eb97a0db2ac227c65d3da') in 0.005662 seconds
-  Import took 0.010240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.165293 seconds.
-  path: Assets/Final Form Studio/Cars/_common-textures/brake-lights.mat
-  artifactKey: Guid(e3d9e31be84590941929a82dae109279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/_common-textures/brake-lights.mat using Guid(e3d9e31be84590941929a82dae109279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd3b3d8a9570a6bbca22d7b4cb56cd0') in 0.012733 seconds
-  Import took 0.019804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Final Form Studio/Cars/_common-textures/tire-brakes.mat
-  artifactKey: Guid(b40303d08e22be84692b66af1fb48510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/_common-textures/tire-brakes.mat using Guid(b40303d08e22be84692b66af1fb48510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5289a13bcabffb9f5a3c151e305834') in 0.012646 seconds
-  Import took 0.017465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Final Form Studio/Cars/_common-textures/tire_diffuse.png
-  artifactKey: Guid(3214a9cd8ff207446951e63707ca0d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/_common-textures/tire_diffuse.png using Guid(3214a9cd8ff207446951e63707ca0d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c474bb6dc91f7bd2730be48be6032ec') in 0.032464 seconds
-  Import took 0.037137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Final Form Studio/Cars/_common-textures/orange-lights.mat
-  artifactKey: Guid(d3e03ede2aad4b8459875c68d65929c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/_common-textures/orange-lights.mat using Guid(d3e03ede2aad4b8459875c68d65929c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2aeb3f07232a6ca80ba244e3c5effd') in 0.011377 seconds
-  Import took 0.015766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Final Form Studio/Cars/_common-textures/leds-rear.mat
-  artifactKey: Guid(54ec127daf14ab945936a7282f19effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/_common-textures/leds-rear.mat using Guid(54ec127daf14ab945936a7282f19effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd0c49b3927d5ecc5b4410d7a60d430') in 0.033795 seconds
-  Import took 0.038300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Final Form Studio/Cars/_common-textures/xeon-lights.mat
-  artifactKey: Guid(7b9f2987cbfbb5342bcdb652ac8e169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/_common-textures/xeon-lights.mat using Guid(7b9f2987cbfbb5342bcdb652ac8e169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ba4b4176282f3cecaa50895ee8bdfa') in 0.046774 seconds
-  Import took 0.051048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Final Form Studio/Cars/_common-textures/glass.mat
-  artifactKey: Guid(ae620c4242c52604592822d3e95e7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/_common-textures/glass.mat using Guid(ae620c4242c52604592822d3e95e7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68566e607b208c0f034587db33a1ecc0') in 0.010220 seconds
-  Import took 0.015020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Final Form Studio/Cars/_common-textures/white-lights.mat
-  artifactKey: Guid(2293ba2c3f385a046b10ac966bf8c75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/_common-textures/white-lights.mat using Guid(2293ba2c3f385a046b10ac966bf8c75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506a3a0510d2ebf46836b730e0368473') in 0.026676 seconds
-  Import took 0.031984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Final Form Studio/Cars/_common-textures/mirrors.mat
-  artifactKey: Guid(7930fb2e9e9f0d045a6996d3a9e8bc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/_common-textures/mirrors.mat using Guid(7930fb2e9e9f0d045a6996d3a9e8bc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf2396bcdd4d25e98b62987ac589947') in 0.009078 seconds
-  Import took 0.014174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.269950 seconds.
-  path: Assets/Final Form Studio/Cars/Sedan-car-01
-  artifactKey: Guid(7beed5789acb8034cb64de7fb9eb476b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/Sedan-car-01 using Guid(7beed5789acb8034cb64de7fb9eb476b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a2f53f240562a1b45079b00ba600e8') in 0.005823 seconds
-  Import took 0.010557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.083704 seconds.
-  path: Assets/Final Form Studio/Cars/Sedan-car-01/sedan-car-01.fbx
-  artifactKey: Guid(d1e985c0fb2658c4bb66c0dd53fe253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/Sedan-car-01/sedan-car-01.fbx using Guid(d1e985c0fb2658c4bb66c0dd53fe253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5706cf5df1d0ebb38b79cf393e45bc1') in 0.185035 seconds
-  Import took 0.190040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Final Form Studio/Cars/Sedan-car-01/wheel.fbx
-  artifactKey: Guid(7fc5e78f5bf33a04e9490bb5454fc968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/Sedan-car-01/wheel.fbx using Guid(7fc5e78f5bf33a04e9490bb5454fc968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c8ed3b19f09cbc3aeba3030ddb1b2f') in 0.101033 seconds
-  Import took 0.105399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.202620 seconds.
-  path: Assets/Final Form Studio/Cars/Sedan-car-01/materials_textures
-  artifactKey: Guid(fcd1abdfa369d3f448f8e52882c16960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/Sedan-car-01/materials_textures using Guid(fcd1abdfa369d3f448f8e52882c16960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfdd63217d12169093020c5282e5559') in 0.004102 seconds
-  Import took 0.008684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.085870 seconds.
-  path: Assets/Final Form Studio/Cars/Sedan-car-01/materials_textures/body-color.mat
-  artifactKey: Guid(40430770f4a9ba248b77f7117b72b256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/Sedan-car-01/materials_textures/body-color.mat using Guid(40430770f4a9ba248b77f7117b72b256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3772178114e5d6fbda1818628cfe1c41') in 0.016496 seconds
-  Import took 0.021231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Final Form Studio/Cars/Sedan-car-01/materials_textures/sedan-car-01.png
-  artifactKey: Guid(1bf763cfac8bff74d9dc6bf34a84313c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/Sedan-car-01/materials_textures/sedan-car-01.png using Guid(1bf763cfac8bff74d9dc6bf34a84313c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0244cca5d33405b96c2854e0be8bcf7f') in 0.008406 seconds
-  Import took 0.013000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Final Form Studio/Cars/Sedan-car-01/materials_textures/rim-albedo.png
-  artifactKey: Guid(23ca3f9ce212d644dabeb5684bd113ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/Sedan-car-01/materials_textures/rim-albedo.png using Guid(23ca3f9ce212d644dabeb5684bd113ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2920c87c43a2127edcb7688ff39c21') in 0.051456 seconds
-  Import took 0.056329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Final Form Studio/Cars/Sedan-car-01/materials_textures/body-matte-parts.mat
-  artifactKey: Guid(0600b60f2501f9f4680e105c3725b63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/Sedan-car-01/materials_textures/body-matte-parts.mat using Guid(0600b60f2501f9f4680e105c3725b63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4e7eddcd75fb53e33ee761c902eb98') in 0.009687 seconds
-  Import took 0.014753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Final Form Studio/Cars/Sedan-car-01/materials_textures/rim.mat
-  artifactKey: Guid(de0556ea9a737764795a1577ea8a960c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Final Form Studio/Cars/Sedan-car-01/materials_textures/rim.mat using Guid(de0556ea9a737764795a1577ea8a960c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f151463b1f11a39516de1aa256b8d922') in 0.010001 seconds
-  Import took 0.015625 seconds .
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.2 MB.
+System memory in use after: 179.4 MB.
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 4086.
+Total: 2.421600 ms (FindLiveObjects: 0.299600 ms CreateObjectMapping: 0.166300 ms MarkObjects: 1.773600 ms  DeleteObjects: 0.181100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.3 MB.
+System memory in use after: 179.4 MB.
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 4090.
+Total: 3.033200 ms (FindLiveObjects: 0.318200 ms CreateObjectMapping: 0.186300 ms MarkObjects: 2.264500 ms  DeleteObjects: 0.263000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
