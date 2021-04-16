@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -46,6 +47,8 @@ public class Control3FItness : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         posTrack.position = playerBody.position;
+
+        StartCoroutine(DelayRefresh(1));
     }
 
     public void OnTriggerEnter(Collider other)
@@ -64,7 +67,17 @@ public class Control3FItness : MonoBehaviour
         }
     }
 
+    IEnumerator DelayRefresh(int stoptime)
+    {
+        uiSPEED.text = "Speed: " + (Mathf.Round(playerSpeed)).ToString() + " m/s";
+        uiMET.text = "MET: " + (Mathf.Round(MET)).ToString();
 
+        yield return new WaitForSeconds(stoptime);
+
+        StartCoroutine(DelayRefresh(1));
+
+
+    }
     void Update()
     {
 
@@ -112,7 +125,6 @@ public class Control3FItness : MonoBehaviour
             }
             characterController.Move(moveDirection * Time.deltaTime);
         }
-        
 
         if (canMove)
         {
@@ -142,9 +154,9 @@ public class Control3FItness : MonoBehaviour
         caloriesBurned += (float)(MET * 3.5 * 60 / 200 / 60 * Time.deltaTime);
         posTrack.position = playerBody.position;
 
-        uiDISTANCE.text = "Distance Walked: "+((int)distanceWalked).ToString() + " m";
-        uiSPEED.text = "Speed: " + ((int)playerSpeed).ToString() + " m/s";
-        uiMET.text = "MET: " + ((int)MET).ToString();
-        uiCALORIES.text = "Calories Burned: " + ((int) caloriesBurned).ToString() + " Cal";
+        //refresh UI data   
+        uiDISTANCE.text = "Distance Walked: " + ((int)distanceWalked).ToString() + " m";
+        uiCALORIES.text = "Calories Burned: " + (Mathf.Round(caloriesBurned)).ToString() + " Cal";
     }
+
 }
