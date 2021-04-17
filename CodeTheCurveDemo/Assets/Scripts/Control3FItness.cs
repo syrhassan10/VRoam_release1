@@ -85,6 +85,11 @@ public class Control3FItness : MonoBehaviour
 
         if (SystemInfo.supportsGyroscope && isMobile)
         {
+            //orient player using gyroscope outputs
+            playerCamera.transform.localRotation = new Quaternion(gyro.attitude.x, 0f, 0f, 0f);
+            transform.rotation *= new Quaternion(0f, gyro.attitude.y, 0f, 0f);
+            
+            //move player based on accelerometer outputs
             float acceleration = 0f;
             acceleration = Input.acceleration.x;
             if ((int)(acceleration*10) > 5)
@@ -92,6 +97,8 @@ public class Control3FItness : MonoBehaviour
                 transform.Translate(Vector3.down*acceleration);
             }
         }
+
+
         else
         {
             Vector3 forward = transform.TransformDirection(Vector3.forward);
@@ -136,25 +143,20 @@ public class Control3FItness : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.O)) {
                 SceneManager.LoadScene("Paris");
             }
-        }
-
-        if (canMove)
-        {
-            if (SystemInfo.supportsGyroscope && isMobile)
-            {
-                playerCamera.transform.localRotation = new Quaternion(gyro.attitude.x, 0f, 0f,0f);
-                transform.rotation *= new Quaternion(0f, gyro.attitude.y, 0f,0f);
-            }
-            else
+            if (canMove)
             {
                 rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
                 rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
                 playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
                 transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
             }
+
         }
 
-        // Distance Tracking
+
+        
+
+
         timePassed += Time.deltaTime;
         float distanceTraveled = Vector3.Distance(posTrack.position, playerBody.position);
         distanceWalked += distanceTraveled;
@@ -166,8 +168,7 @@ public class Control3FItness : MonoBehaviour
         }
         caloriesBurned += (float)(MET * 3.5 * 60 / 200 / 60 * Time.deltaTime);
         posTrack.position = playerBody.position;
-
-        //refresh UI data   
+        
         uiDISTANCE.text = "Distance Walked: " + ((int)distanceWalked).ToString() + " m";
         uiCALORIES.text = "Calories Burned: " + (Mathf.Round(caloriesBurned)).ToString() + " Cal";
     }
