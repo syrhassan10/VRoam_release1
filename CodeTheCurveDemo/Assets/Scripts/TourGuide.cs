@@ -36,7 +36,8 @@ public class TourGuide : MonoBehaviour
     }
     void Update()
     {
-        if(agent.remainingDistance<1)
+        transform.rotation = Quaternion.Euler(0, transform.eulerAngles.y, 0);
+        if (agent.remainingDistance<1)
         {
             MoveToNextPatrolLocation();
 
@@ -44,7 +45,4 @@ public class TourGuide : MonoBehaviour
         tourguide.LookAt(locations[locationIndex-1].position);
 
     }
-    //public bool isMoving(){
-        //return rb.velocity.magnitude != 0.0f; // the tour guide is not moving
-    //}
 }

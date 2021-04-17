@@ -27,10 +27,12 @@ public class Control3FItness : MonoBehaviour
     public Transform posTrack;
     public Transform playerBody;
     public Gyroscope gyro;
+    public GameObject UI;
 
     public bool isMobile = false;
     [HideInInspector]
     // Variables
+    bool isUIactive = true;
     Vector3 moveDirection = Vector3.zero;
     public bool canMove = true;
     float rotationX = 0;
@@ -124,6 +126,16 @@ public class Control3FItness : MonoBehaviour
                 moveDirection.y -= gravity * Time.deltaTime;
             }
             characterController.Move(moveDirection * Time.deltaTime);
+
+            //enable and disable the UI using key "P"
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                isUIactive = !isUIactive;
+                UI.SetActive(isUIactive);
+            }
+            if (Input.GetKeyDown(KeyCode.O)) {
+                SceneManager.LoadScene("Paris");
+            }
         }
 
         if (canMove)
@@ -141,6 +153,7 @@ public class Control3FItness : MonoBehaviour
                 transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
             }
         }
+
         // Distance Tracking
         timePassed += Time.deltaTime;
         float distanceTraveled = Vector3.Distance(posTrack.position, playerBody.position);
