@@ -28,15 +28,7 @@ Goals: Complete input screen, design UI layout, review and optimize past scripts
 
 Accomplishments: Figured out MET from speed equation, and calories from MET and body weight (kilos) equation.
 
-Goals: Link equations into UI and feedback system, design UI layout
-
- 
-
-Mar 27th
-
-Accomplishments: Recreate distance tracking and speed in unity, tested and implemented previous equations into unity with given parameters.
-
-Goals: Design display UI.
+Goals: Link equations into UI and feedback system, design UI layout.
 
  
 
@@ -45,3 +37,11 @@ Apr 10th
 Accomplishments: Fix bugs with program, link global variables, plan initial UI layout, gather resources for UI.
 
 Goals: Finalize initial UI design.
+
+ 
+
+Apr 18th
+
+Accomplishments: Implement initial UI design, complete progress bar (markers), optimize display, 
+
+Goals: Improve aesthetics of UI, look into possible animation and transitions.
