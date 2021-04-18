@@ -7,6 +7,7 @@ public class TourGuide : MonoBehaviour
 {
     public Transform patrolRoute;
     public List<Transform> locations;
+    public GameObject player;
     private int locationIndex = 0;
     private NavMeshAgent agent;
     public Rigidbody rb;
@@ -18,7 +19,7 @@ public class TourGuide : MonoBehaviour
         InitializePatrolRoute();
         agent = GetComponent<NavMeshAgent>();
         MoveToNextPatrolLocation();
-
+        AudioListener playerSouund = player.GetComponent<AudioListener>();
 
     }
     void InitializePatrolRoute()

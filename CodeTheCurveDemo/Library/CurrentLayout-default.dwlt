@@ -44,10 +44,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 707, y: 492}
-  m_MaxSize: {x: 18002, y: 14042}
+  m_MinSize: {x: 577, y: 421}
+  m_MaxSize: {x: 12002, y: 8042}
   vertical: 1
-  controlID: 117
+  controlID: 170
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,10 +95,10 @@ MonoBehaviour:
     y: 555
     width: 1388
     height: 392
-  m_MinSize: {x: 432, y: 271}
-  m_MaxSize: {x: 14002, y: 10021}
+  m_MinSize: {x: 302, y: 200}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 60
+  controlID: 20
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,10 +120,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 707, y: 492}
-  m_MaxSize: {x: 18002, y: 14042}
+  m_MinSize: {x: 577, y: 421}
+  m_MaxSize: {x: 12002, y: 8042}
   vertical: 0
-  controlID: 118
+  controlID: 171
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -171,14 +171,14 @@ MonoBehaviour:
     y: 0
     width: 855
     height: 392
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 18}
   - {fileID: 23}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,10 +274,10 @@ MonoBehaviour:
     y: 0
     width: 1388
     height: 947
-  m_MinSize: {x: 432, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 302, y: 421}
+  m_MaxSize: {x: 8002, y: 8042}
   vertical: 1
-  controlID: 144
+  controlID: 93
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -520,9 +520,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 321}
-    m_SelectedIDs: febf0200
-    m_LastClickedID: 180222
-    m_ExpandedIDs: 00000000b4bf0200b6bf0200b8bf0200babf0200bcbf0200bebf0200c0bf020000ca9a3b
+    m_SelectedIDs: fcbf0200
+    m_LastClickedID: 180220
+    m_ExpandedIDs: 00000000b2bf0200b4bf0200b6bf0200b8bf0200babf0200bcbf0200bebf020000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -550,7 +550,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b4bf0200b6bf0200b8bf0200babf0200bcbf0200bebf0200c0bf0200
+    m_ExpandedIDs: 00000000b2bf0200b4bf0200b6bf0200b8bf0200babf0200bcbf0200bebf0200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -575,8 +575,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 70710200
+    m_LastClickedInstanceID: 160112
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300002495000054931800
     m_RenameOverlay:
@@ -638,7 +638,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 695
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -671,8 +671,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
+      m_SelectedIDs: 70710200
+      m_LastClickedID: 160112
       m_ExpandedIDs: 50dbfeff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -733,9 +733,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 416.10623, y: 113.79017, z: 435.55972}
+    m_Target: {x: 566.3272, y: 85.78389, z: 452.61804}
     speed: 2
-    m_Value: {x: 416.10623, y: 113.79017, z: 435.55972}
+    m_Value: {x: 566.3266, y: 85.7914, z: 452.61414}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -782,9 +782,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.09009952, y: -0.8891773, z: 0.19657156, w: -0.40370864}
+    m_Target: {x: -0.5157893, y: -0.06299772, z: 0.037652604, w: -0.8537921}
     speed: 2
-    m_Value: {x: -0.090694346, y: -0.88962287, z: 0.19947414, w: -0.40069392}
+    m_Value: {x: -0.5169124, y: -0.064208195, z: 0.038515262, w: -0.8527575}
   m_Size:
     m_Target: 10.128288
     speed: 2
