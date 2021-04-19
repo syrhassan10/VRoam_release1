@@ -15,11 +15,11 @@ C:/Users/richa/OneDrive/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63189
+59911
 Successfully changed project path to: C:/Users/richa/OneDrive/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
 C:/Users/richa/OneDrive/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 92.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 92.01 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -38,25 +38,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001486 seconds.
+Registered in 0.001514 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 82.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 84.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.470 seconds
+- Completed reload, in  1.420 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002381 seconds.
+Registered in 0.002347 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.27 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 92.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.860 seconds
+- Completed reload, in  0.871 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -64,145 +64,270 @@ Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not 
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3037 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 177.8 MB.
 System memory in use after: 178.0 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3630.
-Total: 7.469700 ms (FindLiveObjects: 0.740100 ms CreateObjectMapping: 0.474600 ms MarkObjects: 5.391100 ms  DeleteObjects: 0.861200 ms)
+Total: 5.207700 ms (FindLiveObjects: 0.451900 ms CreateObjectMapping: 0.349200 ms MarkObjects: 3.781700 ms  DeleteObjects: 0.623100 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/TourGuidePierre/Ch23_1002_Diffuse.png
   artifactKey: Guid(6703a2c3bcdfc9b459bf873f86998f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_1002_Diffuse.png using Guid(6703a2c3bcdfc9b459bf873f86998f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac02c340f1268c1cdef702a555af6c25') in 0.062372 seconds
-  Import took 0.069427 seconds .
+Start importing Assets/TourGuidePierre/Ch23_1002_Diffuse.png using Guid(6703a2c3bcdfc9b459bf873f86998f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac02c340f1268c1cdef702a555af6c25') in 0.065847 seconds
+  Import took 0.077062 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000246 seconds.
+  Time since last request: 0.000247 seconds.
   path: Assets/TourGuidePierre/Ch23_body.mat
   artifactKey: Guid(5b13f9072fc1dfa4c90ae44fdd5a4440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_body.mat using Guid(5b13f9072fc1dfa4c90ae44fdd5a4440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a047b20b2ae1585d56a21270c43c54') in 0.082756 seconds
-  Import took 0.086551 seconds .
+Start importing Assets/TourGuidePierre/Ch23_body.mat using Guid(5b13f9072fc1dfa4c90ae44fdd5a4440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a047b20b2ae1585d56a21270c43c54') in 0.081121 seconds
+  Import took 0.084847 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
+  Time since last request: 0.000235 seconds.
   path: Assets/TourGuidePierre/Ch23_1001_Normal.png
   artifactKey: Guid(489f3df5386e5834ea838c86dd8fff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_1001_Normal.png using Guid(489f3df5386e5834ea838c86dd8fff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9668bd6c059d4fc5ef0c55897d0c94') in 0.009627 seconds
-  Import took 0.013691 seconds .
+Start importing Assets/TourGuidePierre/Ch23_1001_Normal.png using Guid(489f3df5386e5834ea838c86dd8fff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9668bd6c059d4fc5ef0c55897d0c94') in 0.022781 seconds
+  Import took 0.026795 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
+  Time since last request: 0.000232 seconds.
+  path: Assets/e064f99136d5b5dda45c56bcacf7458b.jpg
+  artifactKey: Guid(9a1d6ce43d3a1744a99ff2a1134ec114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/e064f99136d5b5dda45c56bcacf7458b.jpg using Guid(9a1d6ce43d3a1744a99ff2a1134ec114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a62125aeb1223b1d71f1ef4f3300e3c') in 0.021096 seconds
+  Import took 0.025118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
   path: Assets/TourGuidePierre/Ch23_1001_Specular.png
   artifactKey: Guid(686e8b705291b1a41907e7c1c86ca896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_1001_Specular.png using Guid(686e8b705291b1a41907e7c1c86ca896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a16e168b9083793a8733428e9f696e') in 0.060308 seconds
-  Import took 0.064636 seconds .
+Start importing Assets/TourGuidePierre/Ch23_1001_Specular.png using Guid(686e8b705291b1a41907e7c1c86ca896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a16e168b9083793a8733428e9f696e') in 0.034958 seconds
+  Import took 0.038840 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000237 seconds.
+  path: Assets/final_logo_2.png
+  artifactKey: Guid(8cd5f9f0a68705d4182cd21faa1dae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/final_logo_2.png using Guid(8cd5f9f0a68705d4182cd21faa1dae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08551294e38557d1b3630e7997619189') in 0.034747 seconds
+  Import took 0.038666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(12941d1502d06894e8064a1d498deb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(12941d1502d06894e8064a1d498deb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Tree_Large_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '9475ac39bc180097ae06f05012c03db2') in 0.011995 seconds
+  Import took 0.016523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
   path: Assets/TourGuidePierre/Ch23_1001_Diffuse.png
   artifactKey: Guid(4842311ac2c106e42939c8bb0a1cda43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_1001_Diffuse.png using Guid(4842311ac2c106e42939c8bb0a1cda43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2124cc22eb163d99609b232ba15cc0') in 0.012588 seconds
-  Import took 0.017478 seconds .
+Start importing Assets/TourGuidePierre/Ch23_1001_Diffuse.png using Guid(4842311ac2c106e42939c8bb0a1cda43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2124cc22eb163d99609b232ba15cc0') in 0.045373 seconds
+  Import took 0.049101 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000251 seconds.
+  Time since last request: 0.000230 seconds.
   path: Assets/TourGuidePierre/Ch23_hair.mat
   artifactKey: Guid(c0d321da33a40ae419ce3c3192970bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_hair.mat using Guid(c0d321da33a40ae419ce3c3192970bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201ef9ee8eeb72f79da5ac63f5673a98') in 0.051331 seconds
-  Import took 0.055978 seconds .
+Start importing Assets/TourGuidePierre/Ch23_hair.mat using Guid(c0d321da33a40ae419ce3c3192970bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201ef9ee8eeb72f79da5ac63f5673a98') in 0.009441 seconds
+  Import took 0.013279 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
+  Time since last request: 0.000299 seconds.
   path: Assets/TourGuidePierre/Ch23_nonPBR@Walk.fbx
   artifactKey: Guid(624f1b16df02ed8458e8d3890f41cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_nonPBR@Walk.fbx using Guid(624f1b16df02ed8458e8d3890f41cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed71fd47f20a39b5c758e78a18b983d') in 0.151696 seconds
-  Import took 0.156365 seconds .
+Start importing Assets/TourGuidePierre/Ch23_nonPBR@Walk.fbx using Guid(624f1b16df02ed8458e8d3890f41cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed71fd47f20a39b5c758e78a18b983d') in 0.126147 seconds
+  Import took 0.130791 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000239 seconds.
   path: Assets/TourGuidePierre/Ch23_1001_Glossiness.png
   artifactKey: Guid(e411a37dc124c5743be5d0962c7a73ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_1001_Glossiness.png using Guid(e411a37dc124c5743be5d0962c7a73ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4ac81a23bb096f6405bbfc808426ca') in 0.008650 seconds
-  Import took 0.013287 seconds .
+Start importing Assets/TourGuidePierre/Ch23_1001_Glossiness.png using Guid(e411a37dc124c5743be5d0962c7a73ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4ac81a23bb096f6405bbfc808426ca') in 0.008062 seconds
+  Import took 0.011851 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002400 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.497 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2903 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.9 MB.
-System memory in use after: 182.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3679.
-Total: 2.923100 ms (FindLiveObjects: 0.394700 ms CreateObjectMapping: 0.167900 ms MarkObjects: 2.338800 ms  DeleteObjects: 0.020900 ms)
+Received Import Request.
+  Time since last request: 0.071145 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_FlowersFlowers_normals793646612c42751.terrainlayer
+  artifactKey: Guid(f61934961ab61ee4b95672184a29b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_FlowersFlowers_normals793646612c42751.terrainlayer using Guid(f61934961ab61ee4b95672184a29b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a9efbe6859d601e1a11a336557433f') in 0.019213 seconds
+  Import took 0.023488 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002431 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.775 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2903 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.9 MB.
-System memory in use after: 182.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3683.
-Total: 2.161200 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.156000 ms MarkObjects: 1.712800 ms  DeleteObjects: 0.015700 ms)
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Leaves_03Leaves_normals_01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(5ea1c0dc31fe4304eafef99bff39f617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Leaves_03Leaves_normals_01b3407d0e55802f81.terrainlayer using Guid(5ea1c0dc31fe4304eafef99bff39f617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6b78cee04cad6ad3d559ad77ad8567') in 0.013190 seconds
+  Import took 0.017344 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002429 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.892 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2903 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.0 MB.
-System memory in use after: 182.2 MB.
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_SandBaseGrass_normals2023054508611406.terrainlayer
+  artifactKey: Guid(6efd01e2afa0c7242a62ef78632c4199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_SandBaseGrass_normals2023054508611406.terrainlayer using Guid(6efd01e2afa0c7242a62ef78632c4199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8eca1ae5241bcf7b6dca64b06cadddb') in 0.020917 seconds
+  Import took 0.026576 seconds .
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3687.
-Total: 2.252600 ms (FindLiveObjects: 0.297600 ms CreateObjectMapping: 0.169900 ms MarkObjects: 1.762700 ms  DeleteObjects: 0.021300 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_RockwallRockwall_Normal2023054508611406.terrainlayer
+  artifactKey: Guid(aa44492ad09e96649af0e1debc4adea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_RockwallRockwall_Normal2023054508611406.terrainlayer using Guid(aa44492ad09e96649af0e1debc4adea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496eb5ab915c2b7b23017b49027e7c53') in 0.018969 seconds
+  Import took 0.024385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Leaves_02Leaves_normals_01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(f5014e6e91152104ebdfed8bcee129df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Leaves_02Leaves_normals_01b3407d0e55802f81.terrainlayer using Guid(f5014e6e91152104ebdfed8bcee129df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a740fa8d973fecb3629fb581db71e347') in 0.019141 seconds
+  Import took 0.023820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_MudMud_Normal2e716cd1dfbd9e5a.terrainlayer
+  artifactKey: Guid(b7587332842021b41bae8c026bf6e9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_MudMud_Normal2e716cd1dfbd9e5a.terrainlayer using Guid(b7587332842021b41bae8c026bf6e9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2b3170c3699dd19e19d7cb7e07eebe') in 0.017643 seconds
+  Import took 0.022831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GrassBaseGrass_normals2023054508611406.terrainlayer
+  artifactKey: Guid(7d756b16dbd66414f9a74b2d2b93ca97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GrassBaseGrass_normals2023054508611406.terrainlayer using Guid(7d756b16dbd66414f9a74b2d2b93ca97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f761069f962e4672743d71c2249d761e') in 0.018321 seconds
+  Import took 0.023265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass_02BaseGrass_normals2023054508611406.terrainlayer
+  artifactKey: Guid(9dd6416fe023f0f4786cc0bd8d4f2b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass_02BaseGrass_normals2023054508611406.terrainlayer using Guid(9dd6416fe023f0f4786cc0bd8d4f2b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1783457d1721bbc9e3dc78822337fe78') in 0.015426 seconds
+  Import took 0.020106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Sand_DarkerBaseGrass_normals2023054508611406.terrainlayer
+  artifactKey: Guid(ba1ec4a7d43cdc6469bbbc3dc0719ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Sand_DarkerBaseGrass_normals2023054508611406.terrainlayer using Guid(ba1ec4a7d43cdc6469bbbc3dc0719ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45aad3f30acff0dfaba772716a92cabb') in 0.018745 seconds
+  Import took 0.023143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normals36c77d22be2d3f9a.terrainlayer
+  artifactKey: Guid(c9423e0a2a6393543b17e30f20843167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normals36c77d22be2d3f9a.terrainlayer using Guid(c9423e0a2a6393543b17e30f20843167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47153ab373fcfdd205064fbb838ff718') in 0.019039 seconds
+  Import took 0.023855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Sand_DesertBaseGrass_normals2023054508611406.terrainlayer
+  artifactKey: Guid(d26d08c299479ef45891cf9066f3f9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Sand_DesertBaseGrass_normals2023054508611406.terrainlayer using Guid(d26d08c299479ef45891cf9066f3f9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8fe94eaecdb72eb48921e41408d783') in 0.015100 seconds
+  Import took 0.019633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normals2023054508611406.terrainlayer
+  artifactKey: Guid(70c99fe7f3bc8c148943b145f08970fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normals2023054508611406.terrainlayer using Guid(70c99fe7f3bc8c148943b145f08970fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a5eb0dc85bb3c7773b5d3d0f52cd04') in 0.021609 seconds
+  Import took 0.026229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_SnowGrassHigherDetail_normalsb8875f45e9c15431.terrainlayer
+  artifactKey: Guid(86799f9d176eccf4e9b85ad4458e35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_SnowGrassHigherDetail_normalsb8875f45e9c15431.terrainlayer using Guid(86799f9d176eccf4e9b85ad4458e35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6deaac10fabaa22bc7812ca17bca14') in 0.009222 seconds
+  Import took 0.013748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_RockwallRockwall_Normalb3407d0e55802f81.terrainlayer
+  artifactKey: Guid(f43e9b955c93df5458126a759432e0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_RockwallRockwall_Normalb3407d0e55802f81.terrainlayer using Guid(f43e9b955c93df5458126a759432e0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59eb5cc424077eb33d32bea10babdcee') in 0.012974 seconds
+  Import took 0.017617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_LeavesLeaves_normals_01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(cf2958959d351d3419cd68ae45d2f39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_LeavesLeaves_normals_01b3407d0e55802f81.terrainlayer using Guid(cf2958959d351d3419cd68ae45d2f39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda630c45d222d944e0aa80dda8205ef') in 0.017557 seconds
+  Import took 0.022168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normalsb8875f45e9c15431.terrainlayer
+  artifactKey: Guid(6a5d7e79dbc4f5743b1b3b208322022c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normalsb8875f45e9c15431.terrainlayer using Guid(6a5d7e79dbc4f5743b1b3b208322022c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fcedbde679d19b21f317b82bcba7df') in 0.017075 seconds
+  Import took 0.021961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Leaves_04Leaves_normals_01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(82e93e2eb7241514faf1e9b17617b2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Leaves_04Leaves_normals_01b3407d0e55802f81.terrainlayer using Guid(82e93e2eb7241514faf1e9b17617b2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdc69f5bd3fdea0f963f0dd3b73ff49') in 0.017766 seconds
+  Import took 0.022362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_PebblesPebbles_normals2023054508611406.terrainlayer
+  artifactKey: Guid(c028cd955e2e2424990defd20fbb130a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_PebblesPebbles_normals2023054508611406.terrainlayer using Guid(c028cd955e2e2424990defd20fbb130a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb52260a6552bc0b6f1865c9fdef732') in 0.014595 seconds
+  Import took 0.019245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_SandGrassHigherDetail_normals2023054508611406.terrainlayer
+  artifactKey: Guid(8b27149a778abc64c83f3ae7271761cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_SandGrassHigherDetail_normals2023054508611406.terrainlayer using Guid(8b27149a778abc64c83f3ae7271761cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596124fe2db58dead37a8ee195e716df') in 0.014356 seconds
+  Import took 0.018945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.342809 seconds.
+  path: Assets/EasyRoads3D scenes
+  artifactKey: Guid(93159bfa1cf9b694fbf9692eba689969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D scenes using Guid(93159bfa1cf9b694fbf9692eba689969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b4963e7031e8ad795dae04b686a948') in 0.004232 seconds
+  Import took 0.008263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006180 seconds.
+  path: Assets/EasyRoads3D scenes
+  artifactKey: Guid(93159bfa1cf9b694fbf9692eba689969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D scenes using Guid(93159bfa1cf9b694fbf9692eba689969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b4963e7031e8ad795dae04b686a948') in 0.001607 seconds
+  Import took 0.005662 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
