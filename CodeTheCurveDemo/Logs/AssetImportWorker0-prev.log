@@ -15,11 +15,11 @@ C:/Users/richa/OneDrive/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63189
+50517
 Successfully changed project path to: C:/Users/richa/OneDrive/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
 C:/Users/richa/OneDrive/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 92.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 160.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -38,171 +38,64 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001486 seconds.
+Registered in 0.003145 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 82.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 88.29 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.470 seconds
+- Completed reload, in  4.104 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002381 seconds.
+Registered in 0.074429 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.27 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 100.14 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.860 seconds
+- Completed reload, in  2.865 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3037 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.8 MB.
-System memory in use after: 178.0 MB.
+System memory in use before: 177.6 MB.
+System memory in use after: 177.8 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3630.
-Total: 7.469700 ms (FindLiveObjects: 0.740100 ms CreateObjectMapping: 0.474600 ms MarkObjects: 5.391100 ms  DeleteObjects: 0.861200 ms)
+Total: 2.215000 ms (FindLiveObjects: 0.259500 ms CreateObjectMapping: 0.135900 ms MarkObjects: 1.624600 ms  DeleteObjects: 0.193800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/TourGuidePierre/Ch23_1002_Diffuse.png
-  artifactKey: Guid(6703a2c3bcdfc9b459bf873f86998f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_1002_Diffuse.png using Guid(6703a2c3bcdfc9b459bf873f86998f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac02c340f1268c1cdef702a555af6c25') in 0.062372 seconds
-  Import took 0.069427 seconds .
+  path: Assets/e064f99136d5b5dda45c56bcacf7458b.jpg
+  artifactKey: Guid(9a1d6ce43d3a1744a99ff2a1134ec114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/e064f99136d5b5dda45c56bcacf7458b.jpg using Guid(9a1d6ce43d3a1744a99ff2a1134ec114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a62125aeb1223b1d71f1ef4f3300e3c') in 0.055831 seconds
+  Import took 0.060330 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/TourGuidePierre/Ch23_body.mat
-  artifactKey: Guid(5b13f9072fc1dfa4c90ae44fdd5a4440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_body.mat using Guid(5b13f9072fc1dfa4c90ae44fdd5a4440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a047b20b2ae1585d56a21270c43c54') in 0.082756 seconds
-  Import took 0.086551 seconds .
+  Time since last request: 0.000833 seconds.
+  path: Assets/final_logo_2.png
+  artifactKey: Guid(8cd5f9f0a68705d4182cd21faa1dae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/final_logo_2.png using Guid(8cd5f9f0a68705d4182cd21faa1dae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37da8ef658698300fde9a985fc341588') in 0.065404 seconds
+  Import took 0.069828 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/TourGuidePierre/Ch23_1001_Normal.png
-  artifactKey: Guid(489f3df5386e5834ea838c86dd8fff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_1001_Normal.png using Guid(489f3df5386e5834ea838c86dd8fff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9668bd6c059d4fc5ef0c55897d0c94') in 0.009627 seconds
-  Import took 0.013691 seconds .
+  Time since last request: 0.000166 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(12941d1502d06894e8064a1d498deb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(12941d1502d06894e8064a1d498deb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Tree_Large_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/TourGuidePierre/Ch23_1001_Specular.png
-  artifactKey: Guid(686e8b705291b1a41907e7c1c86ca896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_1001_Specular.png using Guid(686e8b705291b1a41907e7c1c86ca896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a16e168b9083793a8733428e9f696e') in 0.060308 seconds
-  Import took 0.064636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/TourGuidePierre/Ch23_1001_Diffuse.png
-  artifactKey: Guid(4842311ac2c106e42939c8bb0a1cda43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_1001_Diffuse.png using Guid(4842311ac2c106e42939c8bb0a1cda43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2124cc22eb163d99609b232ba15cc0') in 0.012588 seconds
-  Import took 0.017478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/TourGuidePierre/Ch23_hair.mat
-  artifactKey: Guid(c0d321da33a40ae419ce3c3192970bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_hair.mat using Guid(c0d321da33a40ae419ce3c3192970bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201ef9ee8eeb72f79da5ac63f5673a98') in 0.051331 seconds
-  Import took 0.055978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/TourGuidePierre/Ch23_nonPBR@Walk.fbx
-  artifactKey: Guid(624f1b16df02ed8458e8d3890f41cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_nonPBR@Walk.fbx using Guid(624f1b16df02ed8458e8d3890f41cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed71fd47f20a39b5c758e78a18b983d') in 0.151696 seconds
-  Import took 0.156365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/TourGuidePierre/Ch23_1001_Glossiness.png
-  artifactKey: Guid(e411a37dc124c5743be5d0962c7a73ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TourGuidePierre/Ch23_1001_Glossiness.png using Guid(e411a37dc124c5743be5d0962c7a73ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4ac81a23bb096f6405bbfc808426ca') in 0.008650 seconds
-  Import took 0.013287 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002400 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.497 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2903 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.9 MB.
-System memory in use after: 182.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3679.
-Total: 2.923100 ms (FindLiveObjects: 0.394700 ms CreateObjectMapping: 0.167900 ms MarkObjects: 2.338800 ms  DeleteObjects: 0.020900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002431 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.775 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2903 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.9 MB.
-System memory in use after: 182.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3683.
-Total: 2.161200 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.156000 ms MarkObjects: 1.712800 ms  DeleteObjects: 0.015700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002429 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.892 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2903 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.0 MB.
-System memory in use after: 182.2 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3687.
-Total: 2.252600 ms (FindLiveObjects: 0.297600 ms CreateObjectMapping: 0.169900 ms MarkObjects: 1.762700 ms  DeleteObjects: 0.021300 ms)
+ -> (artifact id: '9475ac39bc180097ae06f05012c03db2') in 0.017221 seconds
+  Import took 0.022630 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
