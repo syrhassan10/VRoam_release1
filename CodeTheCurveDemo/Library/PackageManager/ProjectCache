@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637560855841154569
-    m_Hash: 274548190
+      ticks: 637561739427068111
+    m_Hash: 3678062414
   m_LockFileStatus:
     m_FilePath: C:/Users/richa/OneDrive/Documents/GitHub/VRoam_release1/CodeTheCurveDemo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637560855841194466
-    m_Hash: 3606242011
+      ticks: 637561739427427153
+    m_Hash: 3833410305
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -756,12 +756,12 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: e6fe8892689398c0d9aba4587e0ba69edc3d82b8
         path: 
-    - packageId: com.unity.textmeshpro@3.0.1
+    - packageId: com.unity.textmeshpro@3.0.5
       testable: 0
       isDirectDependency: 1
-      version: 3.0.1
+      version: 3.0.5
       source: 1
-      resolvedPath: C:\Users\richa\OneDrive\Documents\GitHub\VRoam_release1\CodeTheCurveDemo\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: C:\Users\richa\OneDrive\Documents\GitHub\VRoam_release1\CodeTheCurveDemo\Library\PackageCache\com.unity.textmeshpro@3.0.5
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -907,13 +907,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637314376320000000
+      datePublishedTicks: 637541111970000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-        revision: 1604b62e543216408311bcd1355a7a9ca1e65765
+        revision: 27767feb0ebd7fad716ffa068a54a7c3b9dd631a
         path: 
     - packageId: com.unity.timeline@1.4.7
       testable: 0

@@ -36,7 +36,7 @@ public class Control3FItness : MonoBehaviour
     Vector3 moveDirection = Vector3.zero;
     public bool canMove = true;
     float rotationX = 0;
-    float distanceWalked = 0;
+    public float distanceWalked = 0;
     float timePassed = 0;
     public float playerSpeed = 0;
     public float MET = 0;
