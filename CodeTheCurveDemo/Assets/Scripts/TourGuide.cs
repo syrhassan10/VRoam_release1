@@ -43,7 +43,6 @@ public class TourGuide : MonoBehaviour
             MoveToNextPatrolLocation();
 
         }
-        tourguide.LookAt(locations[locationIndex-1].position);
 
     }
 }
