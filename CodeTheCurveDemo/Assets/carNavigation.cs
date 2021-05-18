@@ -38,7 +38,6 @@ public class carNavigation : MonoBehaviour
     {
         if (agent.remainingDistance < 1)
         {
-            Debug.Log(locationIndex);
             locationIndex++;
             MoveToNextPatrolLocation();
         }
