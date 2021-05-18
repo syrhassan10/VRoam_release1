@@ -67,13 +67,6 @@ public class Display : MonoBehaviour
         if (distance >= goal*3/4 && !markFlag[4]) { removeGoal(midHighMark); markFlag[4] = true; }
         if (distance >= goal && !markFlag[5]) { removeGoal(highMark); markFlag[5] = true; }
 
-        // Debug
-        Debug.Log(speed);
-        Debug.Log(distance);
-        Debug.Log(calories);
-        Debug.Log("distance:" + distance);
-        Debug.Log("goal: " + goal);
-        Debug.Log("d/g: " + distance/goal);
     }
 
     void removeGoal(Text t)

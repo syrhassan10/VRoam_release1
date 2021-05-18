@@ -18,7 +18,7 @@ public class Control3FItness : MonoBehaviour
     //UI text
     public Text uiDISTANCE;
     public Text uiSPEED;
-    public Text uiMET;
+    //public Text uiMET;
     public Text uiCALORIES;
 
     // References
@@ -71,8 +71,8 @@ public class Control3FItness : MonoBehaviour
 
     IEnumerator DelayRefresh(int stoptime)
     {
-        uiSPEED.text = "Speed: " + (Mathf.Round(playerSpeed)).ToString() + " m/s";
-        uiMET.text = "MET: " + (Mathf.Round(MET)).ToString();
+        //uiSPEED.text = "Speed: " + (Mathf.Round(playerSpeed)).ToString() + " m/s";
+        //uiMET.text = "MET: " + (Mathf.Round(MET)).ToString();
 
         yield return new WaitForSeconds(stoptime);
 
@@ -169,8 +169,8 @@ public class Control3FItness : MonoBehaviour
         caloriesBurned += (float)(MET * 3.5 * 60 / 200 / 60 * Time.deltaTime);
         posTrack.position = playerBody.position;
         
-        uiDISTANCE.text = "Distance Walked: " + ((int)distanceWalked).ToString() + " m";
-        uiCALORIES.text = "Calories Burned: " + (Mathf.Round(caloriesBurned)).ToString() + " Cal";
+        //uiDISTANCE.text = "Distance Walked: " + ((int)distanceWalked).ToString() + " m";
+        //uiCALORIES.text = "Calories Burned: " + (Mathf.Round(caloriesBurned)).ToString() + " Cal";
     }
 
 }
