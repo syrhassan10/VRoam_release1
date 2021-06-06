@@ -12,6 +12,7 @@ TagManager:
   - firetruck3
   - manhole
   - notredame
+  - vehicle
   layers:
   - Default
   - TransparentFX

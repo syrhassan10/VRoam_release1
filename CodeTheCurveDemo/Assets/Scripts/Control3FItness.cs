@@ -29,6 +29,8 @@ public class Control3FItness : MonoBehaviour
     public Gyroscope gyro;
     public GameObject UI;
 
+    public GameObject vehicle;
+
     public bool isMobile = false;
     [HideInInspector]
     // Variables
@@ -66,7 +68,19 @@ public class Control3FItness : MonoBehaviour
             case "Start":
                 SceneManager.LoadScene("Paris");
                 break;
+            case "vehicle":
+                playerBody.transform.SetParent(vehicle.transform);
+                break;
         }
+    }
+    public void OnTriggerExit(Collider other)
+    {
+        switch (other.tag) {
+            case "vehicle":
+                playerBody.transform.SetParent(null);
+                break;
+        }
+
     }
 
     IEnumerator DelayRefresh(int stoptime)

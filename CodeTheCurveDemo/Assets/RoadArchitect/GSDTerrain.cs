@@ -72,7 +72,6 @@ public class GSDTerrain : MonoBehaviour{
 		return -1;
 	}
 	#endif
-
 	void Start (){
 		#if UNITY_EDITOR
 		this.enabled = true;
