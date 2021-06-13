@@ -42,11 +42,13 @@ d)   Very Active – Hard sports/exercise 6-7 days/week = BMR * 1.725
 
 e)   Extra Active – Very hard/professional, physically demanding job, training twice or more per day = BMR * 1.9
 
-**Speed (km/h) to MET: f(x) = 1.7844e^0.1683x**
+**Walking Speed (km/h) to MET: f(x) = 2.5557e^0.1266x**
+
+**Biking Speed (km/h) to MET: f(x) = 1.3643\*1.0775^x**
 
 **Calories/minute = MET \* 3.5 \* (body weight kilos) / 200**
 
-**Km/h = m/s \* 3.6**
+![MET graph](https://user-images.githubusercontent.com/74110977/121820216-ae1c9400-cc5f-11eb-8f81-9675755f8fdb.png)
 
 Game Foundations:
 
@@ -58,11 +60,6 @@ Game Foundations:
 
 \-     Healthy weight loss is 0.5 - 1 kg per week.
 
-Notes:
-
-\-      
-
- 
 
 Health Tips & Suggestions:
 
