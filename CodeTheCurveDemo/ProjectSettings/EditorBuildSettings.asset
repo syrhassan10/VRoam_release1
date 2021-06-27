@@ -18,4 +18,4 @@ EditorBuildSettings:
     path: Assets/Scenes/NotreDame.unity
     guid: 97ef00e71f4570c419c318c1de84b41b
   m_configObjects:
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d7b7c743d0ecfb641819dd7b0f4388c0, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 72f00404eedad5542a26e10b303e7ffc, type: 2}

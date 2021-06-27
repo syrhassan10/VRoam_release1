@@ -15,11 +15,11 @@ C:/Users/richa/OneDrive/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59949
+58058
 Successfully changed project path to: C:/Users/richa/OneDrive/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
 C:/Users/richa/OneDrive/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 61.94 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 60.72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -36,22 +36,22 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001758 seconds.
+Registered in 0.001757 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 64.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.650 seconds
+- Completed reload, in  3.781 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002667 seconds.
+Registered in 0.002954 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.08 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 61.14 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Auto Package] : Checking if required packages are included
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -68,488 +68,628 @@ UnityEngine.Debug:LogError (object)
 PackageChecker:CheckPackage ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.914 seconds
+- Completed reload, in  0.915 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 164.5 MB.
-System memory in use after: 164.5 MB.
+Unloading 3115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.7 MB.
+System memory in use after: 163.5 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3698.
-Total: 2.208700 ms (FindLiveObjects: 0.271200 ms CreateObjectMapping: 0.147600 ms MarkObjects: 1.504900 ms  DeleteObjects: 0.283700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/EasyRods
-  artifactKey: Guid(83e8f824a1eea754a804e905f3ce99cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRods using Guid(83e8f824a1eea754a804e905f3ce99cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bda191196931f086cb76c7e607ed1b3') in 0.010682 seconds
-  Import took 0.015081 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003059 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Auto Package] : Checking if required packages are included
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PackageChecker:CheckPackage ()
-
-[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-PackageChecker:CheckPackage ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.922 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 158.7 MB.
-System memory in use after: 156.3 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3782.
-Total: 4.042000 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.121000 ms MarkObjects: 1.905900 ms  DeleteObjects: 1.745000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002899 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Auto Package] : Checking if required packages are included
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PackageChecker:CheckPackage ()
-
-[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-PackageChecker:CheckPackage ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.989 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 158.7 MB.
-System memory in use after: 156.3 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3786.
-Total: 3.679100 ms (FindLiveObjects: 0.332200 ms CreateObjectMapping: 0.156600 ms MarkObjects: 1.524700 ms  DeleteObjects: 1.664800 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3704.
+Total: 2.296200 ms (FindLiveObjects: 0.254600 ms CreateObjectMapping: 0.140100 ms MarkObjects: 1.473100 ms  DeleteObjects: 0.427700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6381.324020 seconds.
-  path: Assets/EasyRoads3D/html
-  artifactKey: Guid(65dce3874f305fa488d91e3456fcc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRoads3D/html using Guid(65dce3874f305fa488d91e3456fcc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43aeaa9583d911151fd7546d6a4b9d9e') in 0.011366 seconds
-  Import took 0.017760 seconds .
+  path: Assets/e064f99136d5b5dda45c56bcacf7458b.jpg
+  artifactKey: Guid(9a1d6ce43d3a1744a99ff2a1134ec114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/e064f99136d5b5dda45c56bcacf7458b.jpg using Guid(9a1d6ce43d3a1744a99ff2a1134ec114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e32c3a4694d3fb315300b4d681848d') in 0.086238 seconds
+  Import took 0.090200 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.127767 seconds.
-  path: Assets/EasyRoads3D/_Preset Editors
-  artifactKey: Guid(8b92b065390bdb94d8d1d4f323f46337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRoads3D/_Preset Editors using Guid(8b92b065390bdb94d8d1d4f323f46337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186f5f0ee1d539c129760fc9c7e5dff6') in 0.005872 seconds
-  Import took 0.012033 seconds .
+  Time since last request: 0.000208 seconds.
+  path: Assets/SM_Tree_Willow_Large_01_LOD_01.fbx
+  artifactKey: Guid(14747f97b06c4e441bb39954ba68d2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SM_Tree_Willow_Large_01_LOD_01.fbx using Guid(14747f97b06c4e441bb39954ba68d2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1c33a613447322ebc2eb1dfec0233c') in 0.115725 seconds
+  Import took 0.119327 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.586320 seconds.
-  path: Assets/EasyRoads3D/Editor
-  artifactKey: Guid(2f0428c5974611b46b3077583d310734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRoads3D/Editor using Guid(2f0428c5974611b46b3077583d310734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dde094678abf5b61e84b23cec1b94e') in 0.006504 seconds
-  Import took 0.011273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.723574 seconds.
-  path: Assets/EasyRoads3D/_Preset Editors/Road Types.prefab
-  artifactKey: Guid(dbcf3803d269bd44e89b29f1c0177ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRoads3D/_Preset Editors/Road Types.prefab using Guid(dbcf3803d269bd44e89b29f1c0177ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dc8ef0f806ca60685a50c4ad0c6dc8') in 0.110028 seconds
-  Import took 0.114566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.672581 seconds.
-  path: Assets/EasyRoads3D/prefab meshes/Default T Crossing_dynamic.asset
-  artifactKey: Guid(e9632c06beec86940af6c9a1b3a295fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRoads3D/prefab meshes/Default T Crossing_dynamic.asset using Guid(e9632c06beec86940af6c9a1b3a295fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee94accf861aa96ba5562d3fac73f49') in 0.029070 seconds
-  Import took 0.034171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/EasyRoads3D/prefab meshes/Default X Crossing_dynamic.asset
-  artifactKey: Guid(8816884d18867c742babeccb88a8a454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRoads3D/prefab meshes/Default X Crossing_dynamic.asset using Guid(8816884d18867c742babeccb88a8a454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04e172a2256356c0d13cd7376b0e090') in 0.010556 seconds
-  Import took 0.014501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/EasyRoads3D/prefab meshes/Roundabout 4 connections_dynamic.asset
-  artifactKey: Guid(8201016becff039428a4e3ee32a16ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRoads3D/prefab meshes/Roundabout 4 connections_dynamic.asset using Guid(8201016becff039428a4e3ee32a16ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692ff71f988da3c67a601eac929c6829') in 0.015838 seconds
-  Import took 0.020975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.157627 seconds.
-  path: Assets/EasyRoads3D/Resources/ER Road Network.prefab
-  artifactKey: Guid(efbc7fb2513d6744ab1bcfac40f0823d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRoads3D/Resources/ER Road Network.prefab using Guid(efbc7fb2513d6744ab1bcfac40f0823d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0028e412a97241454f85b949999e94') in 0.032330 seconds
-  Import took 0.038460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/EasyRoads3D/Resources/ERProRoad.prefab
-  artifactKey: Guid(1f87f95e79e2c104f808bba536652594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRoads3D/Resources/ERProRoad.prefab using Guid(1f87f95e79e2c104f808bba536652594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345b9b7e068eb30572463141ce7c6e04') in 0.031350 seconds
-  Import took 0.036011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/EasyRoads3D/Resources/ERSideObjectsLog.prefab
-  artifactKey: Guid(c7438f8b753d819438cc3df529c6ca9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRoads3D/Resources/ERSideObjectsLog.prefab using Guid(c7438f8b753d819438cc3df529c6ca9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b811deee2924f3c3310cbff0baccc82e') in 0.025960 seconds
-  Import took 0.031398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/EasyRoads3D/Resources/ERProjectLog.prefab
-  artifactKey: Guid(b2b629637819a1049a5cebc7e93cab52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRoads3D/Resources/ERProjectLog.prefab using Guid(b2b629637819a1049a5cebc7e93cab52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6c6bbbccce8f331c6367837b958199') in 0.008183 seconds
-  Import took 0.012895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/EasyRoads3D/Resources/ERRoadNetwork.prefab
-  artifactKey: Guid(7fa848ed12f7efe4089941b19368b346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRoads3D/Resources/ERRoadNetwork.prefab using Guid(7fa848ed12f7efe4089941b19368b346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44df6d4dfe071ac9ca00d93b5dba36ed') in 0.011440 seconds
-  Import took 0.016502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.497777 seconds.
-  path: Assets/animate.cs
-  artifactKey: Guid(ef7720927b5741b4882365786bf86f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animate.cs using Guid(ef7720927b5741b4882365786bf86f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c909cda36babec8e3888bc052ed31b9') in 0.016101 seconds
-  Import took 0.020864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001783 seconds.
-  path: Assets/animate.cs
-  artifactKey: Guid(ef7720927b5741b4882365786bf86f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animate.cs using Guid(ef7720927b5741b4882365786bf86f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c909cda36babec8e3888bc052ed31b9') in 0.001813 seconds
-  Import took 0.006507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.247734 seconds.
-  path: Assets/TutorialInfo
-  artifactKey: Guid(74b4f6a92c0666446b23e9053142bba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo using Guid(74b4f6a92c0666446b23e9053142bba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a646a1fca8bebe1f2e09b69069df8ec') in 0.005939 seconds
-  Import took 0.010462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.210645 seconds.
-  path: Assets/Arrow.cs
-  artifactKey: Guid(430efa2d3eac3df4d8f0e16ca3568884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arrow.cs using Guid(430efa2d3eac3df4d8f0e16ca3568884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d269ddb373b74de201ae6239fa4ce2') in 0.005627 seconds
-  Import took 0.010167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.000298 seconds.
-  path: Assets/FadingSounds.cs
-  artifactKey: Guid(4dc1ba53040e85449ba5162aaf292de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FadingSounds.cs using Guid(4dc1ba53040e85449ba5162aaf292de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260e77df0e243ac0fc997e0e6652d1f2') in 0.006082 seconds
-  Import took 0.010412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.592170 seconds.
-  path: Assets/Textures
-  artifactKey: Guid(ca4c74867cc948041baef7e32758ec41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures using Guid(ca4c74867cc948041baef7e32758ec41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd900c3a5ddf19cf41fddface7091a377') in 0.006609 seconds
-  Import took 0.010933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.291834 seconds.
-  path: Assets/Textures/eiffel-tower1_tint0x48597CFF.jpg
-  artifactKey: Guid(2e064dfe83e0d5e4fbc793123a5323d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/eiffel-tower1_tint0x48597CFF.jpg using Guid(2e064dfe83e0d5e4fbc793123a5323d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7520a561df6803537b940e9bbdc3c59a') in 0.021250 seconds
-  Import took 0.025660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Textures/texture3.jpg
-  artifactKey: Guid(62cb2009c4f785240a8533c78144981d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture3.jpg using Guid(62cb2009c4f785240a8533c78144981d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3eff93178db4f5a0bd858ce643496a7') in 0.007742 seconds
-  Import took 0.012138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Textures/texture8.jpg
-  artifactKey: Guid(ff512782bfb97644ab93092e10dd3e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture8.jpg using Guid(ff512782bfb97644ab93092e10dd3e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e38efbf5b1e8f735697966859964ee') in 0.010897 seconds
-  Import took 0.015304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Textures/texture10.jpg
-  artifactKey: Guid(61b33c3d1a61cf2489736bbd025b7e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture10.jpg using Guid(61b33c3d1a61cf2489736bbd025b7e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcb7c6c9241c729b4e8de9ae9996be4') in 0.007811 seconds
-  Import took 0.012809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Textures/Eiffel_Tower_(72_names) 2copy_tint0x332D25FF.jpg
-  artifactKey: Guid(868e78457a492924ab94059748d19b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eiffel_Tower_(72_names) 2copy_tint0x332D25FF.jpg using Guid(868e78457a492924ab94059748d19b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfac21c26b5f851b9c522de45bbc6381') in 0.008823 seconds
-  Import took 0.013364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Textures/texture7.jpg
-  artifactKey: Guid(af888366e1c67274a9ae0ba62bc2f283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture7.jpg using Guid(af888366e1c67274a9ae0ba62bc2f283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9c589ad07531246c3da8dd9a35a928') in 0.008070 seconds
-  Import took 0.012650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Textures/texture4.jpg
-  artifactKey: Guid(296da42ab71696746ab01c97f75d98b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture4.jpg using Guid(296da42ab71696746ab01c97f75d98b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b22ac5099e80aade1f6918a0c3c953') in 0.007463 seconds
-  Import took 0.012332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Textures/texture12.jpg
-  artifactKey: Guid(123dee174d11ca54fb97a3b50a18f846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture12.jpg using Guid(123dee174d11ca54fb97a3b50a18f846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67c76361040a3ded6c0e4a93cf53c13') in 0.008563 seconds
-  Import took 0.012256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Textures/Eiffel_Tower_(72_names) 2copy.jpg
-  artifactKey: Guid(c3ea8a7a4ce3b3140b57c1ca730656ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eiffel_Tower_(72_names) 2copy.jpg using Guid(c3ea8a7a4ce3b3140b57c1ca730656ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d52f1a368145223559c5f13fb42434') in 0.007116 seconds
-  Import took 0.011424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Textures/texture14.jpg
-  artifactKey: Guid(1a2290cfcdf5c3a4e9758d0b3a5f0902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture14.jpg using Guid(1a2290cfcdf5c3a4e9758d0b3a5f0902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e670c33e6013ff5c9e77455de78a25') in 0.010932 seconds
-  Import took 0.015543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Textures/eiffel-tower1_tint0x48597CFF.jpg
-  artifactKey: Guid(2e064dfe83e0d5e4fbc793123a5323d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/eiffel-tower1_tint0x48597CFF.jpg using Guid(2e064dfe83e0d5e4fbc793123a5323d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7520a561df6803537b940e9bbdc3c59a') in 0.003967 seconds
-  Import took 0.007914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Textures/texture1.jpg
-  artifactKey: Guid(7fba0b9fcb42f4b45a66fa313d456e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture1.jpg using Guid(7fba0b9fcb42f4b45a66fa313d456e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756ab26540d212c07c512bfc5a09c1b0') in 0.009630 seconds
-  Import took 0.013995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Textures/texture17.jpg
-  artifactKey: Guid(f6688fa4c89785447ae232b90163103e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture17.jpg using Guid(f6688fa4c89785447ae232b90163103e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b712a2109ae43b97c1643a4a3274ff') in 0.008920 seconds
-  Import took 0.012892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Textures/texture16.jpg
-  artifactKey: Guid(2ded1a2c07c0e5b4695e4863d3cd8a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture16.jpg using Guid(2ded1a2c07c0e5b4695e4863d3cd8a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a09f219f3476f722588e005c76ca6f') in 0.007397 seconds
-  Import took 0.012031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Textures/Eiffel_Tower_(72_names) copy.jpg
-  artifactKey: Guid(3b0de899158090744b1a5e2dcd6245f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eiffel_Tower_(72_names) copy.jpg using Guid(3b0de899158090744b1a5e2dcd6245f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d8744407c95c4155c8b4cde2c75ab3') in 0.009495 seconds
-  Import took 0.013630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Textures/texture9.jpg
-  artifactKey: Guid(7acdd95a0e35ca8419be071dd211ce9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture9.jpg using Guid(7acdd95a0e35ca8419be071dd211ce9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd85a89957b847c643c79fe1f22c59c3') in 0.007286 seconds
-  Import took 0.011349 seconds .
+  Time since last request: 0.000243 seconds.
+  path: Assets/VRoam start page 2 (2).jpg
+  artifactKey: Guid(90dde38356db9574fbdad1c2bb3c45ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRoam start page 2 (2).jpg using Guid(90dde38356db9574fbdad1c2bb3c45ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebae6d8871b95ad9f5b237f1933b772') in 0.031092 seconds
+  Import took 0.034645 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000246 seconds.
-  path: Assets/Textures/Metal_Aluminum_Anodized.jpg
-  artifactKey: Guid(859190b31ef9a374cab12ad2514f7575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Metal_Aluminum_Anodized.jpg using Guid(859190b31ef9a374cab12ad2514f7575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5fb6405d9b4b4e972f9a74bbe99fa9') in 0.013094 seconds
-  Import took 0.017539 seconds .
+  path: Assets/vroam-removebg-preview.png
+  artifactKey: Guid(2904435fe3aab044b86a5f6d33843b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vroam-removebg-preview.png using Guid(2904435fe3aab044b86a5f6d33843b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af488c9356d5825fbcfc90d8cb6bdab') in 0.010113 seconds
+  Import took 0.013627 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Textures/Eiffel_Tower_(72_names) 2copy_tint0x93836CFF.jpg
-  artifactKey: Guid(99f2bb56886f252419a4c66d424c9b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eiffel_Tower_(72_names) 2copy_tint0x93836CFF.jpg using Guid(99f2bb56886f252419a4c66d424c9b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee583ee1faa2e971c06bfabf0d2bb59') in 0.007117 seconds
-  Import took 0.011565 seconds .
+  Time since last request: 0.000241 seconds.
+  path: Assets/final_logo_2.png
+  artifactKey: Guid(8cd5f9f0a68705d4182cd21faa1dae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/final_logo_2.png using Guid(8cd5f9f0a68705d4182cd21faa1dae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79de0311b16ce356e3aee5309bd2f94') in 0.012396 seconds
+  Import took 0.015853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(12941d1502d06894e8064a1d498deb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(12941d1502d06894e8064a1d498deb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Tree_Large_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Oak_Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '090686840f750340cdc1bf1ee465c0c5') in 0.035398 seconds
+  Import took 0.039550 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003198 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(65536) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3031 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.8 MB.
+System memory in use after: 155.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3768.
+Total: 2.884400 ms (FindLiveObjects: 0.283300 ms CreateObjectMapping: 0.120400 ms MarkObjects: 2.124500 ms  DeleteObjects: 0.355300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 5998.042777 seconds.
+  path: Assets/Plugins/Android/mainTemplate.gradle
+  artifactKey: Guid(703eb99580d75214482406df45199ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/mainTemplate.gradle using Guid(703eb99580d75214482406df45199ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa49d53dd167a02fb9e49b4f7327dd9f') in 0.131613 seconds
+  Import took 0.215612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.869975 seconds.
+  path: Assets/Random/Plugins/Android/mainTemplate.gradle
+  artifactKey: Guid(97909533a47e42744ba25c3bcb3e14c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Random/Plugins/Android/mainTemplate.gradle using Guid(97909533a47e42744ba25c3bcb3e14c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1253bea894d91bdc2535645ff759244') in 0.003452 seconds
+  Import took 0.010075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007553 seconds.
+  path: Assets/Random/Plugins/Android/mainTemplate.gradle
+  artifactKey: Guid(97909533a47e42744ba25c3bcb3e14c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Random/Plugins/Android/mainTemplate.gradle using Guid(97909533a47e42744ba25c3bcb3e14c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1253bea894d91bdc2535645ff759244') in 0.002203 seconds
+  Import took 0.006335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.830019 seconds.
+  path: Assets/EasyRoads3D/images/alder.jpg
+  artifactKey: Guid(96df9d822546cab4ea18f23172572438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/alder.jpg using Guid(96df9d822546cab4ea18f23172572438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe32b852d0bafc8806ba3e7e1931dbcd') in 0.070171 seconds
+  Import took 0.074017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/EasyRoads3D/images/defaultMaterials.jpg
+  artifactKey: Guid(cb146099f07b7a246bcf040394219331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/defaultMaterials.jpg using Guid(cb146099f07b7a246bcf040394219331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a713588c1e542537a71fd8fe09ed7204') in 0.043607 seconds
+  Import took 0.048305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/EasyRoads3D/images/newRoad.jpg
+  artifactKey: Guid(de23f9cf1bf446a4782d9f371e7d8d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/newRoad.jpg using Guid(de23f9cf1bf446a4782d9f371e7d8d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2e834862dee1410a98d9c17b6261ce') in 0.040053 seconds
+  Import took 0.045335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/EasyRoads3D/images/hierarchy.jpg
+  artifactKey: Guid(00b9b41a39919d8439a3dae0f7d3ff9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/hierarchy.jpg using Guid(00b9b41a39919d8439a3dae0f7d3ff9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c88ba550d52694ed7a91b49ebc231e') in 0.017012 seconds
+  Import took 0.020974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/EasyRoads3D/images/nextBtm.jpg
+  artifactKey: Guid(2d8f2a2bcba149045bcd9d7ace269a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/nextBtm.jpg using Guid(2d8f2a2bcba149045bcd9d7ace269a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c08e871a19c98d6dd580cb8cae4e45') in 0.028006 seconds
+  Import took 0.032009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/EasyRoads3D/images/nextTop.jpg
+  artifactKey: Guid(d8a07c980769cde42a321f319e27aa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/nextTop.jpg using Guid(d8a07c980769cde42a321f319e27aa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6851876fe4f7032f1f5d27b85e1b0659') in 0.009350 seconds
+  Import took 0.013073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/EasyRoads3D/images/connectionSettings.jpg
+  artifactKey: Guid(8fc35addb3b1cd845be92c6bd5bf95da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/connectionSettings.jpg using Guid(8fc35addb3b1cd845be92c6bd5bf95da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883048a1b7ceb4e3f19ebe1af742726a') in 0.010639 seconds
+  Import took 0.014788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/EasyRoads3D/images/home.jpg
+  artifactKey: Guid(3b39af9cdf13d3143bb35d0fc023287b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/home.jpg using Guid(3b39af9cdf13d3143bb35d0fc023287b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f4dab40699acecd04a74afe0dbd807') in 0.027201 seconds
+  Import took 0.031632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/EasyRoads3D/images/shapeEditor.jpg
+  artifactKey: Guid(0021c2c8070b2ce4eb752b757fe4e309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/shapeEditor.jpg using Guid(0021c2c8070b2ce4eb752b757fe4e309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83adf7d9cd238eed82462da739692cb') in 0.042916 seconds
+  Import took 0.046897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/EasyRoads3D/images/general_settings.jpg
+  artifactKey: Guid(5a761b5bbd67897498f935fc0b217158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/general_settings.jpg using Guid(5a761b5bbd67897498f935fc0b217158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce24c14a0295816e6072a7e0ad4a7b3f') in 0.014857 seconds
+  Import took 0.018631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/EasyRoads3D/images/loaderGIFNEW.gif
+  artifactKey: Guid(fbd7a7583ce20a94f8d8fa1afcf513a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/loaderGIFNEW.gif using Guid(fbd7a7583ce20a94f8d8fa1afcf513a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937adb26273e3c483627ca259b057cff') in 0.010363 seconds
+  Import took 0.014243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/EasyRoads3D/images/mainSOsettings.jpg
+  artifactKey: Guid(894292ab438c5634b807837219608437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/mainSOsettings.jpg using Guid(894292ab438c5634b807837219608437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae7caf2430630bb8c80dc382ab83fc1') in 0.017824 seconds
+  Import took 0.021928 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000236 seconds.
-  path: Assets/Textures/Metal_Aluminum_Anodized_tint0xA58C00FF.jpg
-  artifactKey: Guid(499f52e2ef16e2e4d953481de264cd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Metal_Aluminum_Anodized_tint0xA58C00FF.jpg using Guid(499f52e2ef16e2e4d953481de264cd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372985244a7085d69574b673494cdce0') in 0.008698 seconds
-  Import took 0.012430 seconds .
+  path: Assets/EasyRoads3D/images/CrossingsInspector.jpg
+  artifactKey: Guid(338cb6b49f5fc8b469bbf8fef842e3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/CrossingsInspector.jpg using Guid(338cb6b49f5fc8b469bbf8fef842e3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4f2075e90b18e94f81817f99a62c31') in 0.010463 seconds
+  Import took 0.014196 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Textures/texture11.jpg
-  artifactKey: Guid(82503a39bf5380745b791ad4e907e153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture11.jpg using Guid(82503a39bf5380745b791ad4e907e153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966225a5443ee4003dea9ef9a9b5884c') in 0.008904 seconds
-  Import took 0.013453 seconds .
+  Time since last request: 0.000152 seconds.
+  path: Assets/EasyRoads3D/images/processTerrain.jpg
+  artifactKey: Guid(baf545bad34640f49b70ecf68262df50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/processTerrain.jpg using Guid(baf545bad34640f49b70ecf68262df50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5066541d3b9068f19e5f4281b381e338') in 0.007406 seconds
+  Import took 0.011432 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Textures/texture5.jpg
-  artifactKey: Guid(a60a16d6ec0ce804ea7c968dc530e7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture5.jpg using Guid(a60a16d6ec0ce804ea7c968dc530e7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621035cd81e08f6fd8b369b9489b587b') in 0.008420 seconds
-  Import took 0.013189 seconds .
+  Time since last request: 0.000247 seconds.
+  path: Assets/EasyRoads3D/images/mainToolbar.jpg
+  artifactKey: Guid(4454032a23bd83d4d805d6057135ec10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/mainToolbar.jpg using Guid(4454032a23bd83d4d805d6057135ec10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff12d0e89f633510c5215dae07a8baf3') in 0.008928 seconds
+  Import took 0.012824 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Textures/Eiffel_Tower_(72_names) 2copy_tint0x443C31FF.jpg
-  artifactKey: Guid(b87bcb30e1064374fbee61ccee8ee980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eiffel_Tower_(72_names) 2copy_tint0x443C31FF.jpg using Guid(b87bcb30e1064374fbee61ccee8ee980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10e568ec92eddb0d403a9849e659dfe') in 0.007398 seconds
-  Import took 0.011660 seconds .
+  Time since last request: 0.000231 seconds.
+  path: Assets/EasyRoads3D/images/conFavorites.jpg
+  artifactKey: Guid(be2b0a89c08207849bb60bfd07beb1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/conFavorites.jpg using Guid(be2b0a89c08207849bb60bfd07beb1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c35aac06d249d254679168d28e0265b') in 0.010394 seconds
+  Import took 0.014222 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Textures/texture6.jpg
-  artifactKey: Guid(03e18d860c5798943b235d25baef2d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture6.jpg using Guid(03e18d860c5798943b235d25baef2d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949168af49c04afb8dc6033109672b65') in 0.008570 seconds
-  Import took 0.012841 seconds .
+  Time since last request: 0.000249 seconds.
+  path: Assets/EasyRoads3D/images/greenRedHandles.jpg
+  artifactKey: Guid(994ae06ff98d5f245b11547d9ebdc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/greenRedHandles.jpg using Guid(994ae06ff98d5f245b11547d9ebdc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a72c258cbd4c4c3819e84c57b4a7236') in 0.009966 seconds
+  Import took 0.014418 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Textures/texture15.jpg
-  artifactKey: Guid(6a677975b2ab36741abcc10fce0ebcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture15.jpg using Guid(6a677975b2ab36741abcc10fce0ebcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b57f31f0dde16ba8ee75c02d41afca') in 0.007345 seconds
-  Import took 0.011727 seconds .
+  Time since last request: 0.000153 seconds.
+  path: Assets/EasyRoads3D/images/roadproperties.jpg
+  artifactKey: Guid(d3a3b3596f020c74a820299a0d737fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/roadproperties.jpg using Guid(d3a3b3596f020c74a820299a0d737fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c787c98b09f1072c85f0d82b829dfc') in 0.026350 seconds
+  Import took 0.030344 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Textures/Eiffel_Tower_(72_names) 2copy_tint0x5B5042FF.jpg
-  artifactKey: Guid(15ae5706937bad94d995eb3b5662197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eiffel_Tower_(72_names) 2copy_tint0x5B5042FF.jpg using Guid(15ae5706937bad94d995eb3b5662197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba1a759334cbcdcf9f75525ccc25db6') in 0.009342 seconds
-  Import took 0.013232 seconds .
+  Time since last request: 0.000210 seconds.
+  path: Assets/EasyRoads3D/images/generalSettings.jpg
+  artifactKey: Guid(bf00c568f049e5a4899127bcad9c3a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/generalSettings.jpg using Guid(bf00c568f049e5a4899127bcad9c3a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e472eec4598ca406eecbb9f179b2f6') in 0.007819 seconds
+  Import took 0.012190 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Textures/texture13.jpg
-  artifactKey: Guid(97cd73228104e6f4b8e8c448b49f553b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture13.jpg using Guid(97cd73228104e6f4b8e8c448b49f553b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85ad3771c4fcdbd8bdb1dfd2a2b9e2a') in 0.007976 seconds
-  Import took 0.012150 seconds .
+  Time since last request: 0.000168 seconds.
+  path: Assets/EasyRoads3D/images/roads_tab.jpg
+  artifactKey: Guid(1162329ec37b7f9498fb6dd5eb9593ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/roads_tab.jpg using Guid(1162329ec37b7f9498fb6dd5eb9593ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc4d863cd0862fb7306e7b403e940b4') in 0.008321 seconds
+  Import took 0.012447 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Textures/Groundcover_Gravel_1inch 1.jpg
-  artifactKey: Guid(43bae85471f96144a81b5866e5e22c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Groundcover_Gravel_1inch 1.jpg using Guid(43bae85471f96144a81b5866e5e22c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ea74b09f404cbd9530d869e2b6e28f') in 0.009547 seconds
-  Import took 0.013881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Textures/Stone_Masonry_Multi_tint0xE2DFD4FF.jpg
-  artifactKey: Guid(6459229e0ee28184297bcfd39dd8bf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Stone_Masonry_Multi_tint0xE2DFD4FF.jpg using Guid(6459229e0ee28184297bcfd39dd8bf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0023962a0f4ca3acdb0594b97c20db') in 0.009589 seconds
-  Import took 0.013585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Textures/texture0.jpg
-  artifactKey: Guid(bbe32c2e1c769394b98dff1c87d8634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture0.jpg using Guid(bbe32c2e1c769394b98dff1c87d8634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc0f0094496712de0ac1b25e5d55e47') in 0.009000 seconds
-  Import took 0.013381 seconds .
+  Time since last request: 0.000208 seconds.
+  path: Assets/EasyRoads3D/images/crossingPrefabs.jpg
+  artifactKey: Guid(6f3dc159dc032244294849410ca384f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/crossingPrefabs.jpg using Guid(6f3dc159dc032244294849410ca384f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd35bdae9ee3ea95bee85f340ed2108') in 0.011904 seconds
+  Import took 0.015691 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000213 seconds.
-  path: Assets/Textures/texture2.jpg
-  artifactKey: Guid(a786108dbadc5c64f8d2ffdbfb1e2225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/texture2.jpg using Guid(a786108dbadc5c64f8d2ffdbfb1e2225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a795cab68e043d2df211a6f3294cdad5') in 0.008373 seconds
-  Import took 0.012534 seconds .
+  path: Assets/EasyRoads3D/images/sideobjects_start.jpg
+  artifactKey: Guid(26ad25cc9fba44045a08f164818a5ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/sideobjects_start.jpg using Guid(26ad25cc9fba44045a08f164818a5ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea0551a1b7f27cf032e696569bfef29') in 0.010316 seconds
+  Import took 0.014274 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6306.069257 seconds.
-  path: Assets/EasyRoads3D/shaders/EasyRoads3D - Unity 2018 Standard.shader
-  artifactKey: Guid(4b6ecda8d5dd9514f8739bcfde806342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyRoads3D/shaders/EasyRoads3D - Unity 2018 Standard.shader using Guid(4b6ecda8d5dd9514f8739bcfde806342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821d8936d18e3fd8a0cb33c075871693') in 0.026690 seconds
-  Import took 0.060688 seconds .
+  Time since last request: 0.000151 seconds.
+  path: Assets/EasyRoads3D/images/scene_tab.jpg
+  artifactKey: Guid(516c3b5a5427d284e90f86f3f0bd28e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/scene_tab.jpg using Guid(516c3b5a5427d284e90f86f3f0bd28e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48a4a6411af27a9b139c799916944b5') in 0.007936 seconds
+  Import took 0.011747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/EasyRoads3D/images/generalCrossingSettings.jpg
+  artifactKey: Guid(84cadde5025afde4e9cfb352f013591f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/generalCrossingSettings.jpg using Guid(84cadde5025afde4e9cfb352f013591f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca77112fe544a7f9f04a3f5313726d7') in 0.009513 seconds
+  Import took 0.013420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/EasyRoads3D/images/scenecontrol.jpg
+  artifactKey: Guid(3067487d44eaec24c97eb8f60cd622c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/scenecontrol.jpg using Guid(3067487d44eaec24c97eb8f60cd622c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3dcb0d4c2485dc54be3966309292159') in 0.008612 seconds
+  Import took 0.012606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/EasyRoads3D/images/newObject.jpg
+  artifactKey: Guid(9032dc9291fa3454683b5e82898828ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/newObject.jpg using Guid(9032dc9291fa3454683b5e82898828ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702794146689059c1f409867c722f93c') in 0.009634 seconds
+  Import took 0.013879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/EasyRoads3D/images/scene_settings.jpg
+  artifactKey: Guid(24eba2c181f81634dbaecf7963db071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/scene_settings.jpg using Guid(24eba2c181f81634dbaecf7963db071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8b081fd3f5f89ef9dc4719602d48a4') in 0.012980 seconds
+  Import took 0.017091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/EasyRoads3D/images/menu.jpg
+  artifactKey: Guid(65a766fcc9130b24c81cd3806e1f8649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/menu.jpg using Guid(65a766fcc9130b24c81cd3806e1f8649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa77a8d547c5a01c62b2e5fdf45aa1a') in 0.012309 seconds
+  Import took 0.016339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/EasyRoads3D/images/info.jpg
+  artifactKey: Guid(14b8f04f55a4dc947a91eb9e109f3f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/info.jpg using Guid(14b8f04f55a4dc947a91eb9e109f3f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460ec0a5b67a5b75c68f9417a0fe657f') in 0.007286 seconds
+  Import took 0.011238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/EasyRoads3D/images/meshEditor.jpg
+  artifactKey: Guid(91f0d53d1ce576e40b2a493c2c93a003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/meshEditor.jpg using Guid(91f0d53d1ce576e40b2a493c2c93a003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2216fb79a382fb0d291dff993fb2ba') in 0.029576 seconds
+  Import took 0.033558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/EasyRoads3D/images/roadTypes.jpg
+  artifactKey: Guid(41bdd0260f990ac4a9906695b8542c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/roadTypes.jpg using Guid(41bdd0260f990ac4a9906695b8542c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a371fb59881a5ac5fc9b85fe7be03b5') in 0.018263 seconds
+  Import took 0.022088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/EasyRoads3D/images/crossing.jpg
+  artifactKey: Guid(98468fd426464e94c86436692777419e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/crossing.jpg using Guid(98468fd426464e94c86436692777419e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc01760f84868f2876880198d30d963') in 0.008726 seconds
+  Import took 0.012585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/EasyRoads3D/images/markerAdditional.jpg
+  artifactKey: Guid(69376968eadf3994da2e7b0c686b6bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/markerAdditional.jpg using Guid(69376968eadf3994da2e7b0c686b6bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9136a3fb6b1d99f4b0df27f72318d5d2') in 0.009384 seconds
+  Import took 0.012989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/EasyRoads3D/images/connectionProperties.jpg
+  artifactKey: Guid(1c86ebbddb759fd4d9484e19296c5cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/connectionProperties.jpg using Guid(1c86ebbddb759fd4d9484e19296c5cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09691415d85044075f9fcbd60c29ae45') in 0.010016 seconds
+  Import took 0.013709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/EasyRoads3D/images/crossingHandles.jpg
+  artifactKey: Guid(00031cd9febbe284e80b2fcee3c08cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/crossingHandles.jpg using Guid(00031cd9febbe284e80b2fcee3c08cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e861edb6fad3c35874ce88146ac2055') in 0.009715 seconds
+  Import took 0.013591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/EasyRoads3D/images/folders.jpg
+  artifactKey: Guid(bd6b0c8578de25e41a31daa3a7fd4dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/folders.jpg using Guid(bd6b0c8578de25e41a31daa3a7fd4dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87abbd30314aeb854b7eca3d63c2b264') in 0.010304 seconds
+  Import took 0.014060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/EasyRoads3D/images/licenseInfo.jpg
+  artifactKey: Guid(57b96c47a86e5374298ebb959583a494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/licenseInfo.jpg using Guid(57b96c47a86e5374298ebb959583a494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b8281e7efd00cf9bd4ea2022748653') in 0.009015 seconds
+  Import took 0.013570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/EasyRoads3D/images/render_tab.jpg
+  artifactKey: Guid(900db4dc4ba28de4783dd014f8af13fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/render_tab.jpg using Guid(900db4dc4ba28de4783dd014f8af13fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b0514468d8dc88a40a44b5ed940eb9') in 0.008996 seconds
+  Import took 0.012794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/EasyRoads3D/images/createnetwork.jpg
+  artifactKey: Guid(88eabd41650c6df44b5eb9ca7fe78417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/createnetwork.jpg using Guid(88eabd41650c6df44b5eb9ca7fe78417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbb164acb9ac07079512b84b736c3b5') in 0.013764 seconds
+  Import took 0.017468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/EasyRoads3D/images/IConnector.jpg
+  artifactKey: Guid(1503eaeec56059245baf21f43e48ea1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/IConnector.jpg using Guid(1503eaeec56059245baf21f43e48ea1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e052ce9b561e4709fa8e2f51b588ee86') in 0.011911 seconds
+  Import took 0.016034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/EasyRoads3D/images/so_tab.jpg
+  artifactKey: Guid(a8044c805cb553e4eba83c4950509e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/so_tab.jpg using Guid(a8044c805cb553e4eba83c4950509e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9b2177e2ebd05369405713c1ece982') in 0.008512 seconds
+  Import took 0.012444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/EasyRoads3D/images/prefabs_tab.jpg
+  artifactKey: Guid(f9f660e88a9ee804ab798202181e7ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/prefabs_tab.jpg using Guid(f9f660e88a9ee804ab798202181e7ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2ed57fd7b0cd96d9f26bdd66e11690') in 0.007603 seconds
+  Import took 0.011469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/EasyRoads3D/images/custom_editor_1.jpg
+  artifactKey: Guid(4867920e6b56c1740b7b4641827e58c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/custom_editor_1.jpg using Guid(4867920e6b56c1740b7b4641827e58c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426b57e5a7723c353aad3d84f57541eb') in 0.017630 seconds
+  Import took 0.021589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/EasyRoads3D/images/soMeshInspector.jpg
+  artifactKey: Guid(36de73fba09c2134990befdfd22600bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/soMeshInspector.jpg using Guid(36de73fba09c2134990befdfd22600bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1beb3270a988be6f4b3745f9c0e98309') in 0.011555 seconds
+  Import took 0.015567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/EasyRoads3D/images/crossingCornerSettings.jpg
+  artifactKey: Guid(97825c1f0d95f994d86f45f51e94cc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/crossingCornerSettings.jpg using Guid(97825c1f0d95f994d86f45f51e94cc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a9a483514f1b55907a6acb36df7315') in 0.010438 seconds
+  Import took 0.014245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/EasyRoads3D/images/meshBridge.jpg
+  artifactKey: Guid(4230ab3ca1485a74f905fa5b1bb3e179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/meshBridge.jpg using Guid(4230ab3ca1485a74f905fa5b1bb3e179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b247482e19d8504fdc8d2185519665ea') in 0.009089 seconds
+  Import took 0.013062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/EasyRoads3D/images/menugui.jpg
+  artifactKey: Guid(b9a79bb17849fdf4faa3dbaf42eaa65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/menugui.jpg using Guid(b9a79bb17849fdf4faa3dbaf42eaa65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589241745094ac32461b87e894d9a551') in 0.009186 seconds
+  Import took 0.013131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/EasyRoads3D/images/previousTop.jpg
+  artifactKey: Guid(85add87792d6f3b4abd6f67cd031a1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/previousTop.jpg using Guid(85add87792d6f3b4abd6f67cd031a1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db86d1790c99341fdbe27199324dc1f9') in 0.009151 seconds
+  Import took 0.013256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/EasyRoads3D/images/camMode.jpg
+  artifactKey: Guid(2a48376863796244baa68b4fefa47ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/camMode.jpg using Guid(2a48376863796244baa68b4fefa47ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b0ed15e5a7d8163541f87f13789743') in 0.009971 seconds
+  Import took 0.013696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/EasyRoads3D/images/lodgroups.jpg
+  artifactKey: Guid(e4f82d274f9dbf242b87ac388f7135fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/lodgroups.jpg using Guid(e4f82d274f9dbf242b87ac388f7135fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d879eb408efc6e897361d59ca364260') in 0.009336 seconds
+  Import took 0.013118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/EasyRoads3D/images/generalSettings_tab.jpg
+  artifactKey: Guid(c8ca27d102fcbce448a6fccdb0214c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/generalSettings_tab.jpg using Guid(c8ca27d102fcbce448a6fccdb0214c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7c8cbc596efb576569065719836345') in 0.008520 seconds
+  Import took 0.012221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/EasyRoads3D/images/previousBtm.jpg
+  artifactKey: Guid(eb5824c0562004640bd578e3ca9e46a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/previousBtm.jpg using Guid(eb5824c0562004640bd578e3ca9e46a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ed145ba7d2abff10dd6afa64739165') in 0.007883 seconds
+  Import took 0.011670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/EasyRoads3D/images/copyFromExisiting.jpg
+  artifactKey: Guid(784c8242dcbd53f4486629cd022392c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/copyFromExisiting.jpg using Guid(784c8242dcbd53f4486629cd022392c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd8369b56b1e16c5480b40a5e8a7ccb') in 0.009032 seconds
+  Import took 0.012706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/EasyRoads3D/images/import_data.jpg
+  artifactKey: Guid(fad9b161854551342bf1162b418b40c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/import_data.jpg using Guid(fad9b161854551342bf1162b418b40c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965a529f673f0dc86121a282091f5da6') in 0.011599 seconds
+  Import took 0.015973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/EasyRoads3D/images/info_tab.jpg
+  artifactKey: Guid(9b87ce182cf81e44985f438cf5fe1e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/info_tab.jpg using Guid(9b87ce182cf81e44985f438cf5fe1e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bbfa1efe76d757d4f58762e623963e') in 0.008691 seconds
+  Import took 0.012820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.366551 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(2edfb3213c6f9214dbcf93b48980714c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(2edfb3213c6f9214dbcf93b48980714c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7ca1a438660e390574bed1e3dfd366') in 0.005382 seconds
+  Import took 0.009380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.635042 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(bdb30ba45387747448fd8b204b547229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(bdb30ba45387747448fd8b204b547229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e3f6e1544157246d42fba5920b599b') in 0.005535 seconds
+  Import took 0.011754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.114711 seconds.
+  path: Assets/Plugins/Android/gradleTemplate.properties
+  artifactKey: Guid(fdc1930d359457f42af9d7e2b810d24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/gradleTemplate.properties using Guid(fdc1930d359457f42af9d7e2b810d24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47db996ce35ad5b573ce301a88bbe277') in 0.006453 seconds
+  Import took 0.010676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.109886 seconds.
+  path: Assets/Plugins/Android/mainTemplate.gradle
+  artifactKey: Guid(703eb99580d75214482406df45199ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/mainTemplate.gradle using Guid(703eb99580d75214482406df45199ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd52e3d35d5e3b92cc4d32865f243caa') in 0.001864 seconds
+  Import took 0.007299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.990995 seconds.
+  path: Assets/Plugins/Android/gradleTemplate.properties
+  artifactKey: Guid(fdc1930d359457f42af9d7e2b810d24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/gradleTemplate.properties using Guid(fdc1930d359457f42af9d7e2b810d24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8beed23c60790b8cc1ddc28c71cd9e08') in 0.001804 seconds
+  Import took 0.006429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.517833 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(8a6950bac76f1a4408df5fd755bf09c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(8a6950bac76f1a4408df5fd755bf09c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea257a3a4622c20f965fa78a87433d4') in 0.016686 seconds
+  Import took 0.020608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.447819 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(8a6950bac76f1a4408df5fd755bf09c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(8a6950bac76f1a4408df5fd755bf09c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb523e6b665560112017c9602797fb5') in 0.001937 seconds
+  Import took 0.006235 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

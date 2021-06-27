@@ -5,21 +5,92 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637573896033197960
-    m_Hash: 2745337679
+      ticks: 637603994628535668
+    m_Hash: 1586096944
   m_LockFileStatus:
     m_FilePath: C:/Users/richa/OneDrive/Documents/GitHub/VRoam_release1/CodeTheCurveDemo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637573896033197960
-    m_Hash: 1145136432
+      ticks: 637603994628655675
+    m_Hash: 1986944966
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.google.xr.cardboard@file:C:\Users\richa\OneDrive\Documents\GitHub\VRoam_release1\CodeTheCurveDemo\cardboard-xr-plugin-master
+      testable: 0
+      isDirectDependency: 1
+      version: 1.6.0
+      source: 4
+      resolvedPath: C:\Users\richa\OneDrive\Documents\GitHub\VRoam_release1\CodeTheCurveDemo\cardboard-xr-plugin-master
+      assetPath: Packages/com.google.xr.cardboard
+      name: com.google.xr.cardboard
+      displayName: Google Cardboard XR Plugin for Unity
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Provides rendering and input support for Google Cardboard.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.unity.xr.management
+        version: 3.2.9
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.4
+      resolvedDependencies:
+      - name: com.unity.xr.management
+        version: 3.2.17
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.7
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      keywords:
+      - google
+      - cardboard
+      - vr
+      - xr
+      - reality
+      - xreditorsubsystem
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
     - packageId: com.unity.collab-proxy@1.3.9
       testable: 0
       isDirectDependency: 1
@@ -59,6 +130,7 @@ m_PackageAssets:
         - 1.3.7
         - 1.3.8
         - 1.3.9
+        - 1.4.9
         - 1.5.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
@@ -72,6 +144,7 @@ m_PackageAssets:
         - 2.1.0-preview.6
         compatible:
         - 1.3.9
+        - 1.4.9
         - 1.5.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
@@ -363,6 +436,7 @@ m_PackageAssets:
         - 2.0.5
         - 2.0.7
         - 2.0.8
+        - 2.0.9
         compatible:
         - 1.0.2
         - 1.0.3
@@ -377,7 +451,8 @@ m_PackageAssets:
         - 2.0.5
         - 2.0.7
         - 2.0.8
-        verified: 2.0.8
+        - 2.0.9
+        verified: 2.0.9
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -534,12 +609,14 @@ m_PackageAssets:
         - 3.0.1
         - 3.0.3
         - 3.1.0
+        - 3.1.1
         compatible:
         - 2.3.0
         - 3.0.1
         - 3.0.3
         - 3.1.0
-        verified: 3.1.0
+        - 3.1.1
+        verified: 3.1.1
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -722,9 +799,13 @@ m_PackageAssets:
         - 1.1.20
         - 1.1.22
         - 1.1.24
+        - 1.1.26
+        - 1.1.27
         compatible:
         - 1.1.24
-        verified: 1.1.24
+        - 1.1.26
+        - 1.1.27
+        verified: 1.1.27
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -1195,6 +1276,7 @@ m_PackageAssets:
         - 4.0.1
         - 4.0.3
         - 4.0.5
+        - 4.0.6
         compatible:
         - 3.2.13
         - 3.2.15
@@ -1206,7 +1288,8 @@ m_PackageAssets:
         - 4.0.1
         - 4.0.3
         - 4.0.5
-        verified: 4.0.5
+        - 4.0.6
+        verified: 4.0.6
       dependencies:
       - name: com.unity.xr.legacyinputhelpers
         version: 2.1.2
@@ -3738,6 +3821,20 @@ m_PackageAssets:
         revision: 56c3321cb776740e60e242e6c72cb5b4e8245256
         path: 
   m_LocalPackages:
-    m_LocalFileStatus: []
+    m_LocalFileStatus:
+    - m_FilePath: C:\Users\richa\OneDrive\Documents\GitHub\VRoam_release1\CodeTheCurveDemo\cardboard-xr-plugin-master/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637582609430000000
+      m_Hash: 788684984
+    - m_FilePath: C:\Users\richa\OneDrive\Documents\GitHub\VRoam_release1\CodeTheCurveDemo\cardboard-xr-plugin-master
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
 m_ProjectPath: C:/Users/richa/OneDrive/Documents/GitHub/VRoam_release1/CodeTheCurveDemo/Packages
 m_EditorVersion: 2020.3.4f1 (0abb6314276a)
