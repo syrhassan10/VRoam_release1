@@ -37,7 +37,7 @@ public class Question : MonoBehaviour
     public void PicketOp1()
     {
         //The if the player choose the correct choice
-        if (CorrectChoice == 1 && canPick)
+        if (CorrectChoice == 1 && canPick == true)
         {
             Debug.Log("Correct op 1");
             StartCoroutine(PickedCorrect());
@@ -53,7 +53,7 @@ public class Question : MonoBehaviour
     public void PicketOp2()
     {
         //The if the player choose the correct choice
-        if (CorrectChoice == 2 && canPick)
+        if (CorrectChoice == 2 && canPick == true)
         {
             Debug.Log("Correct op 2");
             StartCoroutine(PickedCorrect());

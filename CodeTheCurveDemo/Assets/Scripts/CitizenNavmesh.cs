@@ -23,7 +23,7 @@ public class CitizenNavmesh : MonoBehaviour
         if (agent.remainingDistance < 0.5f && !agent.pathPending)
         {
             MoveToNextPatrolLocation();
-        }
+        }   
     }
 
     void InitializePatrolRoute()

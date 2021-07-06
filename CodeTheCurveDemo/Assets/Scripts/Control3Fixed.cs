@@ -106,7 +106,7 @@ public class Control3Fixed : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;
         resume.onClick.AddListener(Resume);
         options.onClick.AddListener(LoadMenu);
         quit.onClick.AddListener(quitGame);
