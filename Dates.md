@@ -53,3 +53,11 @@ June 13th
 Completed: Added biking equation + change script.
 
 Goals: Bug fixes (jump dist), finish objectives tracking, further look into biking.
+
+
+
+July 7th
+
+Completed: Fixed jumping distance bug, complete dynamic objectives bar, cleaned up general code.
+
+Goals: UI Display beautification, look into daily questing system?
