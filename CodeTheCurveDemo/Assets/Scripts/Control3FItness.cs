@@ -174,7 +174,7 @@ public class Control3FItness : MonoBehaviour
         timePassed += Time.deltaTime;
         float distanceTraveled = Vector3.Distance(posTrack.position, playerBody.position);
         distanceWalked += distanceTraveled;
-        playerSpeed = distanceTraveled / Time.deltaTime;
+        playerSpeed = distanceTraveled / Time.deltaTime;    
         MET = 1.7844f * Mathf.Pow(Mathf.Exp(1), (0.1683f * playerSpeed * 3.6f));
         if (playerSpeed == 0)
         {

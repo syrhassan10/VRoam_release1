@@ -8,7 +8,7 @@
       "url": "https://packages.unity.com"
     },
     "com.google.xr.cardboard": {
-      "version": "file:C:/Users/richa/OneDrive/Documents/GitHub/VRoam_release1/CodeTheCurveDemo/cardboard-xr-plugin-master",
+      "version": "file:C:/Users/richa/Downloads/cardboard-xr-plugin-master/cardboard-xr-plugin-master",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -73,10 +73,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.postprocessing": {
-      "version": "2.3.0",
+      "version": "3.1.1",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
