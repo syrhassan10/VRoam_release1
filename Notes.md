@@ -25,3 +25,7 @@ c.    Animations or transitions when progress reached?
 Draft 1:
 
 ![UI Draft 1](https://user-images.githubusercontent.com/74110977/115157626-4b8c8a80-a058-11eb-90f6-4df2b478321b.PNG)
+
+Draft 2:
+
+![image](https://user-images.githubusercontent.com/74110977/125095696-72c88600-e0a2-11eb-9538-3987878ee884.png)
