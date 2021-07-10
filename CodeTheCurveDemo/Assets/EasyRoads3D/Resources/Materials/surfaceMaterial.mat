@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: surfaceMaterial
-  m_Shader: {fileID: 4800000, guid: 113b47f65e2a5724cbbb8fc453d1e824, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: c64d59d8c0a593b488900eb2eec7504d, type: 3}
+  m_ShaderKeywords: _HIDE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -23,6 +23,11 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
+    m_Floats:
+    - _Hide: 1
+    - _OffsetFactor: -0.1
+    - _OffsetUnit: -0.1
+    - _Show: 0
+    - __dirty: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}

@@ -1,4 +1,4 @@
-v3.1.9f6 release date: 20-10-2020
+v3.2.0f4 release date: 21-06-2021
 
 
 IMPORTANT:

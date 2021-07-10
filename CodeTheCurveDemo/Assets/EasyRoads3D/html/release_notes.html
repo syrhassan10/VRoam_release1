@@ -1,7 +1,7 @@
 <html>
 <head>
 		<title>EasyRoads3D v3 Manual</title>
-<link rel="stylesheet" type="text/css" href="../style.css" />    
+<link rel="stylesheet" type="text/css" href="style.css" />    
 </head>
 
 	<body>
@@ -24,7 +24,7 @@
 	  <tr>
 	    <td colspan="2" class="style1"><p class="style1">&nbsp;</p>
 	      <p class="header1" style="color:#000">Release Notes 
-	      v3.1.9f6<hr>
+	      v3.2.0f4<hr>
 	      <p class="style21">&nbsp;</p>
 	      <p class="header2">Important</p>
 	      <p class="style21">&nbsp;</p>
@@ -49,28 +49,19 @@
 	      <p class="style1"><a name="releasenotes"></a></p>
           <p>&nbsp;</p>
           <p class="header1"><strong>Release Notes:</strong> </p>
-          <p class="style1">Please visit our <a href="http://unityterraintools.com/v3beta.php" class="link">website</a> for beta release notes </p>
+          <p class="style1">Please visit our <a href="http://easyroads3d.com/releaseNotes.php" class="link">website</a> for beta release notes </p>
           <p class="style1">&nbsp;</p>
 
-<p class="style1"><strong>New:</strong></p>
-<p class="style1">- Select a road in the hierachy, hit the F key, the  Scene View cam will zoom to the road, and auto select the road in the road network</p>
-<p class="style1">- Beta 3.2 Beta 8 package in /Assets//EasyRoads2D/Beta Release/<br>
-</p>
-<!--
-<p class="style1"><strong>Changed:</strong></p>
+<!--<p class="style1"><strong>New:</strong></p>
 <p class="style1">- </p>
-<p class="style1">&nbsp;</p>-->
+<p>&nbsp;</p>-->
 <p class="style1"><strong>Improved:</strong></p>
-<p class="style1">- Mesh type of side objects, &quot;Average by Road Length&quot; just below &quot;Distance between Objects&quot;. By default this is switched on. &quot;Distance between Objects&quot; will be recalculated so the  last instance is positioned at the end of the track. When switching &quot;Average by Road Length&quot; off the real &quot;Distance between Objects&quot; value will be used</p>
-<p class="style1">- Road Type updates for scene instances respecting custom road specific settings like road resolution / Angle Threshold settings and also side object specific settings</p>
-<p class="style1">- Added to marker alignment options &quot;Align XZ&quot;, the markers between the two selected markers will be aligned in a straight line between these two markers preserving the original heights</p>
+<p class="style1">- Auto generated tunnels and terrain holes at the start and end of the tunnel</p>
+<p class="style1">- Auto generated bridge sections and  updating terrain heights relative to the terrains heightmapscale regardless the road resolution</p>
+<p class="style1">- A Side Object Refresh button will be available in the right bottom of the Scene View window to quickly visualize the side object after changes in the Side Object Manager. This button will be active when a road is selected and when the selected side object in the Side Object Manager is active on this road.  Ctrl + U will do the same</p>
 <p class="style1">&nbsp;</p>
 <p class="style1"><strong>Fixed:</strong><br>
   <br>
-  - The terrain splatmap not being restored correctly through the API after swtiching back to Edit Mode when the road network object is created at runtime<br>
-  <br>
-  - Possible   side object related errors when roads based on a road type are created through the scripting API<br>
-<br>
   - Miscellaneous other small bugs and improvements</p>
 <p class="style1">&nbsp;</p>
           <p class="header2">To Do / Current limitations:          </p>

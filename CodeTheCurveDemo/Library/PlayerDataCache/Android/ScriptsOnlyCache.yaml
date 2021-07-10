@@ -23,6 +23,7 @@ ScriptsOnlyBuild:
     - EasyRoads3Dv3.ERConnectionParent
     - EasyRoads3Dv3.ERCrossingPrefabs
     - EasyRoads3Dv3.ERCrossings
+    - EasyRoads3Dv3.ERIConnector
     - EasyRoads3Dv3.ERMarkerExt
     - EasyRoads3Dv3.ERModularBase
     - EasyRoads3Dv3.ERModularRoad
@@ -86,8 +87,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -96,8 +95,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -155,115 +156,115 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 21296}
+      Script: {instanceID: 1792}
     - Class: 114
-      Script: {instanceID: 21332}
+      Script: {instanceID: 1794}
     - Class: 114
-      Script: {instanceID: 21444}
+      Script: {instanceID: 1796}
     - Class: 114
-      Script: {instanceID: 21848}
+      Script: {instanceID: 1798}
     - Class: 114
-      Script: {instanceID: 22002}
+      Script: {instanceID: 1802}
     - Class: 114
-      Script: {instanceID: 22094}
+      Script: {instanceID: 1804}
     - Class: 114
-      Script: {instanceID: 22302}
+      Script: {instanceID: 1806}
     - Class: 114
-      Script: {instanceID: 22486}
+      Script: {instanceID: 1812}
     - Class: 114
-      Script: {instanceID: 22902}
+      Script: {instanceID: 1816}
     - Class: 114
-      Script: {instanceID: 23038}
+      Script: {instanceID: 1962}
     - Class: 114
-      Script: {instanceID: 23062}
+      Script: {instanceID: 2368}
     - Class: 114
-      Script: {instanceID: 23118}
+      Script: {instanceID: 2524}
     - Class: 114
-      Script: {instanceID: 23138}
+      Script: {instanceID: 2620}
     - Class: 114
-      Script: {instanceID: 23226}
+      Script: {instanceID: 2832}
     - Class: 114
-      Script: {instanceID: 23230}
+      Script: {instanceID: 3436}
     - Class: 114
-      Script: {instanceID: 23232}
+      Script: {instanceID: 3572}
     - Class: 114
-      Script: {instanceID: 23248}
+      Script: {instanceID: 3596}
     - Class: 114
-      Script: {instanceID: 23250}
+      Script: {instanceID: 3652}
     - Class: 114
-      Script: {instanceID: 23256}
+      Script: {instanceID: 3672}
     - Class: 114
-      Script: {instanceID: 23258}
+      Script: {instanceID: 3764}
     - Class: 114
-      Script: {instanceID: 23264}
+      Script: {instanceID: 3768}
     - Class: 114
-      Script: {instanceID: 23276}
+      Script: {instanceID: 3784}
     - Class: 114
-      Script: {instanceID: 23358}
+      Script: {instanceID: 3790}
     - Class: 114
-      Script: {instanceID: 23478}
+      Script: {instanceID: 3806}
     - Class: 114
-      Script: {instanceID: 23772}
+      Script: {instanceID: 3888}
     - Class: 114
-      Script: {instanceID: 23858}
+      Script: {instanceID: 4010}
     - Class: 114
-      Script: {instanceID: 23980}
+      Script: {instanceID: 4304}
     - Class: 114
-      Script: {instanceID: 24138}
+      Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 24222}
+      Script: {instanceID: 4522}
     - Class: 114
-      Script: {instanceID: 24854}
+      Script: {instanceID: 4680}
     - Class: 114
-      Script: {instanceID: 24922}
+      Script: {instanceID: 4768}
     - Class: 114
-      Script: {instanceID: 24936}
+      Script: {instanceID: 5482}
     - Class: 114
-      Script: {instanceID: 24988}
+      Script: {instanceID: 5496}
     - Class: 114
-      Script: {instanceID: 24996}
+      Script: {instanceID: 5550}
     - Class: 114
-      Script: {instanceID: 25174}
+      Script: {instanceID: 5560}
     - Class: 114
-      Script: {instanceID: 25176}
+      Script: {instanceID: 5738}
     - Class: 114
-      Script: {instanceID: 25194}
+      Script: {instanceID: 5740}
     - Class: 114
-      Script: {instanceID: 25250}
+      Script: {instanceID: 5758}
     - Class: 114
-      Script: {instanceID: 25448}
+      Script: {instanceID: 6012}
     - Class: 114
-      Script: {instanceID: 25566}
+      Script: {instanceID: 6132}
     - Class: 114
-      Script: {instanceID: 25690}
+      Script: {instanceID: 6260}
     - Class: 114
-      Script: {instanceID: 25750}
+      Script: {instanceID: 6320}
     - Class: 114
-      Script: {instanceID: 25758}
+      Script: {instanceID: 6328}
     - Class: 114
-      Script: {instanceID: 25842}
+      Script: {instanceID: 6412}
     - Class: 114
-      Script: {instanceID: 25878}
+      Script: {instanceID: 6448}
     - Class: 114
-      Script: {instanceID: 25918}
+      Script: {instanceID: 6488}
     - Class: 114
-      Script: {instanceID: 25990}
+      Script: {instanceID: 6560}
     - Class: 114
-      Script: {instanceID: 26002}
+      Script: {instanceID: 6572}
     - Class: 114
-      Script: {instanceID: 26102}
+      Script: {instanceID: 6672}
     - Class: 114
-      Script: {instanceID: 26224}
+      Script: {instanceID: 6796}
     - Class: 114
-      Script: {instanceID: 26342}
+      Script: {instanceID: 6914}
     - Class: 114
-      Script: {instanceID: 26388}
+      Script: {instanceID: 6960}
     - Class: 114
-      Script: {instanceID: 26942}
+      Script: {instanceID: 7520}
     - Class: 114
-      Script: {instanceID: 27212}
+      Script: {instanceID: 7792}
     - Class: 114
-      Script: {instanceID: 27438}
+      Script: {instanceID: 8024}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -322,49 +323,49 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 21332}
+      Script: {instanceID: 1798}
     - Class: 114
-      Script: {instanceID: 21674}
+      Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 21990}
+      Script: {instanceID: 1804}
     - Class: 114
-      Script: {instanceID: 22066}
+      Script: {instanceID: 1806}
     - Class: 114
-      Script: {instanceID: 22486}
+      Script: {instanceID: 1812}
     - Class: 114
-      Script: {instanceID: 22504}
+      Script: {instanceID: 2194}
     - Class: 114
-      Script: {instanceID: 22732}
+      Script: {instanceID: 2588}
     - Class: 114
-      Script: {instanceID: 22902}
+      Script: {instanceID: 3034}
     - Class: 114
-      Script: {instanceID: 23226}
+      Script: {instanceID: 3266}
     - Class: 114
-      Script: {instanceID: 23240}
+      Script: {instanceID: 3436}
     - Class: 114
-      Script: {instanceID: 23248}
+      Script: {instanceID: 3764}
     - Class: 114
-      Script: {instanceID: 23250}
+      Script: {instanceID: 3776}
     - Class: 114
-      Script: {instanceID: 23256}
+      Script: {instanceID: 3784}
     - Class: 114
-      Script: {instanceID: 23276}
+      Script: {instanceID: 3790}
     - Class: 114
-      Script: {instanceID: 23792}
+      Script: {instanceID: 3806}
     - Class: 114
-      Script: {instanceID: 23902}
+      Script: {instanceID: 4324}
     - Class: 114
-      Script: {instanceID: 24642}
+      Script: {instanceID: 4444}
     - Class: 114
-      Script: {instanceID: 24760}
+      Script: {instanceID: 5198}
     - Class: 114
-      Script: {instanceID: 25250}
+      Script: {instanceID: 5318}
     - Class: 114
-      Script: {instanceID: 25566}
+      Script: {instanceID: 6132}
     - Class: 114
-      Script: {instanceID: 27660}
+      Script: {instanceID: 8248}
     - Class: 114
-      Script: {instanceID: 1710194}
+      Script: {instanceID: 168160}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -437,23 +438,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 21990}
+      Script: {instanceID: 1798}
     - Class: 114
-      Script: {instanceID: 22066}
+      Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 22486}
+      Script: {instanceID: 1804}
     - Class: 114
-      Script: {instanceID: 22732}
+      Script: {instanceID: 2588}
     - Class: 114
-      Script: {instanceID: 24642}
+      Script: {instanceID: 3266}
     - Class: 114
-      Script: {instanceID: 25170}
+      Script: {instanceID: 5198}
     - Class: 114
-      Script: {instanceID: 25250}
+      Script: {instanceID: 5734}
     - Class: 114
-      Script: {instanceID: 25566}
+      Script: {instanceID: 6132}
     - Class: 114
-      Script: {instanceID: 1710194}
+      Script: {instanceID: 168160}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -540,59 +541,65 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 21332}
+      Script: {instanceID: 1792}
     - Class: 114
-      Script: {instanceID: 21960}
+      Script: {instanceID: 1798}
     - Class: 114
-      Script: {instanceID: 21990}
+      Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 22066}
+      Script: {instanceID: 1804}
     - Class: 114
-      Script: {instanceID: 22280}
+      Script: {instanceID: 1806}
     - Class: 114
-      Script: {instanceID: 22302}
+      Script: {instanceID: 1812}
     - Class: 114
-      Script: {instanceID: 22486}
+      Script: {instanceID: 2484}
     - Class: 114
-      Script: {instanceID: 23160}
+      Script: {instanceID: 2588}
     - Class: 114
-      Script: {instanceID: 23226}
+      Script: {instanceID: 2810}
     - Class: 114
-      Script: {instanceID: 23240}
+      Script: {instanceID: 2832}
     - Class: 114
-      Script: {instanceID: 23248}
+      Script: {instanceID: 3694}
     - Class: 114
-      Script: {instanceID: 23250}
+      Script: {instanceID: 3764}
     - Class: 114
-      Script: {instanceID: 23256}
+      Script: {instanceID: 3768}
     - Class: 114
-      Script: {instanceID: 23276}
+      Script: {instanceID: 3772}
     - Class: 114
-      Script: {instanceID: 23278}
+      Script: {instanceID: 3776}
     - Class: 114
-      Script: {instanceID: 23334}
+      Script: {instanceID: 3784}
     - Class: 114
-      Script: {instanceID: 23358}
+      Script: {instanceID: 3790}
     - Class: 114
-      Script: {instanceID: 24106}
+      Script: {instanceID: 3806}
     - Class: 114
-      Script: {instanceID: 24246}
+      Script: {instanceID: 3808}
     - Class: 114
-      Script: {instanceID: 24642}
+      Script: {instanceID: 3864}
     - Class: 114
-      Script: {instanceID: 25170}
+      Script: {instanceID: 3888}
     - Class: 114
-      Script: {instanceID: 25250}
+      Script: {instanceID: 4648}
     - Class: 114
-      Script: {instanceID: 25566}
+      Script: {instanceID: 4794}
     - Class: 114
-      Script: {instanceID: 25990}
+      Script: {instanceID: 5198}
     - Class: 114
-      Script: {instanceID: 26294}
+      Script: {instanceID: 5734}
     - Class: 114
-      Script: {instanceID: 26380}
+      Script: {instanceID: 6132}
     - Class: 114
-      Script: {instanceID: 26780}
+      Script: {instanceID: 6560}
+    - Class: 114
+      Script: {instanceID: 6866}
+    - Class: 114
+      Script: {instanceID: 6952}
+    - Class: 114
+      Script: {instanceID: 7356}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -640,6 +647,60 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
+      Hash: 9743e11f2a4eeec515235f01ea159974
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERCrossings
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 62ca411f7d1997bdb251938654c2297d
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERSideObjectLog
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 68100cf1a6f2960a6fe81bad8c8f5389
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERRoundabouts
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 4da42298f547260e81be36a1673e970e
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERModularBase
+  - hash:
+      serializedVersion: 2
       Hash: f69dfc6409fbbd89d3689368e99688a8
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -650,12 +711,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Lean.Transition.Method
     className: LeanTransformRotation
-  - hash:
-      serializedVersion: 2
-      Hash: a6e561615949734e9f12f9b61661f43e
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
   - hash:
       serializedVersion: 2
       Hash: aab1df0ba869b892bc81ec97398ed9a2
@@ -886,12 +941,6 @@ ScriptsOnlyBuild:
     className: carNavigation
   - hash:
       serializedVersion: 2
-      Hash: c1d728126ff1918728036c59106d32b2
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: RawImage
-  - hash:
-      serializedVersion: 2
       Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -1106,12 +1155,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
-  - hash:
-      serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1366,7 +1409,7 @@ ScriptsOnlyBuild:
     className: EasyRoads3DTerrainIDv3
   - hash:
       serializedVersion: 2
-      Hash: 31e5a5f04428424237061d9d94f918b2
+      Hash: bf5b8e1a21acfb0731b688f292ce9138
     assemblyName: EasyRoads3Dv3.dll
     namespaceName: EasyRoads3Dv3
     className: ERBend
@@ -1396,12 +1439,6 @@ ScriptsOnlyBuild:
     className: ERCrossingPrefabs
   - hash:
       serializedVersion: 2
-      Hash: b54cd9b3b1bd38fd3316b8f9d2631e3a
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: ERCrossings
-  - hash:
-      serializedVersion: 2
       Hash: 2ba9b1f640e1abf5e968896ad9a34256
     assemblyName: EasyRoads3Dv3.dll
     namespaceName: EasyRoads3Dv3
@@ -1414,7 +1451,7 @@ ScriptsOnlyBuild:
     className: ERIConnector
   - hash:
       serializedVersion: 2
-      Hash: 7da7c07c4458457191ecfbafb7ed4e1e
+      Hash: 7d587a1154f98222e0161cc4452fe395
     assemblyName: EasyRoads3Dv3.dll
     namespaceName: EasyRoads3Dv3
     className: ERLocalGrid
@@ -1444,13 +1481,7 @@ ScriptsOnlyBuild:
     className: ERMeshUtility
   - hash:
       serializedVersion: 2
-      Hash: d3fe005c7e8fa98793ea056ec31542c9
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: ERModularBase
-  - hash:
-      serializedVersion: 2
-      Hash: eea0267d51781a9f52c3f647b7796ae2
+      Hash: 46c9e9175658e955e45ba41a20278c55
     assemblyName: EasyRoads3Dv3.dll
     namespaceName: EasyRoads3Dv3
     className: ERModularRoad
@@ -1474,28 +1505,16 @@ ScriptsOnlyBuild:
     className: ERRoadNetworkObject
   - hash:
       serializedVersion: 2
-      Hash: 2569a3b3a6bdf49a26c1243cc11d45bb
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: ERRoundabouts
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: EasyRoads3Dv3.dll
     namespaceName: EasyRoads3Dv3
     className: ERRoundaboutsFunctions
   - hash:
       serializedVersion: 2
-      Hash: a6fd4aa5f063da28387593a0ef829df1
+      Hash: 68dbf84661870f8f4019a4feb72693cd
     assemblyName: EasyRoads3Dv3.dll
     namespaceName: EasyRoads3Dv3
     className: ERSideObjectInstance
-  - hash:
-      serializedVersion: 2
-      Hash: abdc125761b2c7cdc5a8acfde773b444
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: ERSideObjectLog
   - hash:
       serializedVersion: 2
       Hash: 4310d54f4bc98e2b353783d2bc5c838a
@@ -1522,7 +1541,7 @@ ScriptsOnlyBuild:
     className: ERSOMarkerExt
   - hash:
       serializedVersion: 2
-      Hash: f7351186a06fe6a650810761797e3fb3
+      Hash: e860843dd6fd9c323bfa9957b672c4ee
     assemblyName: EasyRoads3Dv3.dll
     namespaceName: EasyRoads3Dv3
     className: ERSORoadExt
@@ -1549,145 +1568,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: EasyRoads3Dv3.dll
     namespaceName: EasyRoads3Dv3
-    className: OCCDCCQCCC
-  - hash:
-      serializedVersion: 2
-      Hash: e2766fdc0be7036b7a1e50981a291f7f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OCDOQDOQQD
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OCODDCCCDO
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OCODDCCCDOExt
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OCODOOQQDC
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OCQQQDOQDO
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: ODOCQCOQQO
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: ODODCCDOQD
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: ODQCCQOOOQ
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OOCCCDCOCO
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OOCCCQDCDO
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OOCDOCDCCO
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OOCOOQQQOO
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OOCQQOQOQD
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OODCCCDCOO
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OOODCOOODD
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OOODDODDDQ
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OOODQCQQQD
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OOQDDDDCDD
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OOQOODDDCC
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OQDCOCCCOO
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
     className: OQDQODQQCC
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OQOCCDDQCO
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: EasyRoads3Dv3.dll
-    namespaceName: EasyRoads3Dv3
-    className: OQQDCDDCOO
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1708,7 +1589,7 @@ ScriptsOnlyBuild:
     className: SelectedObject
   - hash:
       serializedVersion: 2
-      Hash: 35bbeef39ddf6468c28539e936df826a
+      Hash: 10e90fc5763ea8d7c0c0b19c81c2aa18
     assemblyName: EasyRoads3Dv3.dll
     namespaceName: EasyRoads3Dv3
     className: SideObject
@@ -2176,6 +2057,12 @@ ScriptsOnlyBuild:
     className: LeanTransformLocalPositionZ
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.XR.Cardboard.dll
+    namespaceName: Google.XR.Cardboard
+    className: XRSettings
+  - hash:
+      serializedVersion: 2
       Hash: f6fb3f847378e62079629329643ddc08
     assemblyName: Assembly-CSharp.dll
     namespaceName: Lean.Transition.Extras
@@ -2348,12 +2235,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: Tonemapping
-  - hash:
-      serializedVersion: 2
-      Hash: bcaee4c2a83047257b5f47d6ed264b75
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Toggle
   - hash:
       serializedVersion: 2
       Hash: 098b08e77f16fc740b87d79978b382b6
@@ -2542,12 +2423,6 @@ ScriptsOnlyBuild:
     className: ColorCurves
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
-  - hash:
-      serializedVersion: 2
       Hash: 82fa046aa9efa49c6a613713c447cc65
     assemblyName: Assembly-CSharp.dll
     namespaceName: Lean.Transition.Method
@@ -2618,6 +2493,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Lean.Gui
     className: LeanTooltipData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.XR.Cardboard.dll
+    namespaceName: Google.XR.Cardboard
+    className: XRLoader
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -3365,15 +3246,147 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Google.XR.Cardboard.dll
-    namespaceName: Google.XR.Cardboard
-    className: XRLoader
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OCCDDQODDD
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Google.XR.Cardboard.dll
-    namespaceName: Google.XR.Cardboard
-    className: XRSettings
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OCCDDQODDDExt
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OCDCCODDQQ
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OCDCQQQQQO
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OCOCQQODCD
+  - hash:
+      serializedVersion: 2
+      Hash: aebfdb8aa1c00899b651d86cea38d486
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ODCOOCQCQO
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ODDQOCOQDC
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ODQCCOCCOD
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ODQDOODCOQ
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OOCDQOQDCD
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OODOOQCCDQ
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OOODDQCCDD
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OOODQQOCOO
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OOQOODQCDD
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQCCCDQCOO
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQCOOQDQCQ
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQCQQOQDDQ
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQDDQQDDCC
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQDOCCCQOD
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQDOODQQOQ
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQODDQDDDC
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQQDDDDODD
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQQQCQDODD
+  - hash:
+      serializedVersion: 2
+      Hash: c6246959d67545acc10c1587d5d38ece
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: runtimeScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
