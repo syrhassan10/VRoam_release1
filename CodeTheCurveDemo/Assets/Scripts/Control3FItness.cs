@@ -30,6 +30,7 @@ public class Control3FItness : MonoBehaviour
     public GameObject UI;
 
     public GameObject vehicle;
+    Quaternion rot = new Quaternion(0, 0, 1, 0);
 
     public bool isMobile = false;
     [HideInInspector]
@@ -51,6 +52,7 @@ public class Control3FItness : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         posTrack.position = playerBody.position;
+        playerCamera.transform.rotation = Quaternion.Euler(90f, 90f, 0f);
 
         StartCoroutine(DelayRefresh(1));
     }
@@ -96,12 +98,13 @@ public class Control3FItness : MonoBehaviour
     }
     void Update()
     {
-
+        /*
         if (SystemInfo.supportsGyroscope && isMobile)
         {
+
             //orient player using gyroscope outputs
-            playerCamera.transform.localRotation = new Quaternion(gyro.attitude.x, 0f, 0f, 0f);
-            transform.rotation *= new Quaternion(0f, gyro.attitude.y, 0f, 0f);
+            playerCamera.transform.localRotation = gyro.attitude * rot;
+
             
             //move player based on accelerometer outputs
             float acceleration = 0f;
@@ -112,7 +115,10 @@ public class Control3FItness : MonoBehaviour
             }
         }
 
-
+        */
+        if (false) { 
+            
+        }
         else
         {
             Vector3 forward = transform.TransformDirection(Vector3.forward);
@@ -120,19 +126,18 @@ public class Control3FItness : MonoBehaviour
 
             bool isRunning = Input.GetKey(KeyCode.LeftShift);
             if (isRunning)
-            {   
+            {
                 Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, 90.0f, 0.1f);
 
             }
             else
             {
-                Camera.main.fieldOfView =  Mathf.Lerp(Camera.main.fieldOfView, 70.0f, 0.1f); 
-
+                Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, 70.0f, 0.1f);
             }
             float curSpeedX = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Vertical") : 0;
             float curSpeedY = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Horizontal") : 0;
             float movementDirectionY = moveDirection.y;
-            moveDirection = (forward * curSpeedX)  + (right * curSpeedY);
+            moveDirection = (forward * curSpeedX) + (right * curSpeedY);
             if (Input.GetKey(KeyCode.Space) && canMove && characterController.isGrounded)
             {
                 moveDirection.y = jumpSpeed;
@@ -154,7 +159,8 @@ public class Control3FItness : MonoBehaviour
                 isUIactive = !isUIactive;
                 UI.SetActive(isUIactive);
             }
-            if (Input.GetKeyDown(KeyCode.O)) {
+            if (Input.GetKeyDown(KeyCode.O))
+            {
                 SceneManager.LoadScene("Paris");
             }
             if (canMove)
