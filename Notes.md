@@ -29,3 +29,7 @@ Draft 1:
 Draft 2:
 
 ![image](https://user-images.githubusercontent.com/74110977/125095696-72c88600-e0a2-11eb-9538-3987878ee884.png)
+
+Draft 3:
+
+![draft4](https://user-images.githubusercontent.com/74110977/125484012-88cb5ff4-8655-4ae2-83e2-eddcc118669b.PNG)
