@@ -8,12 +8,12 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: New Unity Project (1)
+  companyName: DrXAcademy
+  productName: VRoam 1.0.5
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -53,7 +53,7 @@ PlayerSettings:
   numberOfMipsStripped: 0
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
-  androidShowActivityIndicatorOnLoading: -1
+  androidShowActivityIndicatorOnLoading: 2
   iosUseCustomAppBackgroundBehavior: 0
   iosAllowHTTPDownload: 1
   allowedAutorotateToPortrait: 1
@@ -146,12 +146,12 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.NewUnityProject1
+    Android: com.Fireboy.MyFirstGame
   buildNumber:
     Standalone: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 0
+  overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
@@ -233,9 +233,9 @@ PlayerSettings:
   useCustomMainGradleTemplate: 1
   useCustomLauncherGradleManifest: 0
   useCustomBaseGradleTemplate: 0
-  useCustomGradlePropertiesTemplate: 0
+  useCustomGradlePropertiesTemplate: 1
   useCustomProguardFile: 0
-  AndroidTargetArchitectures: 1
+  AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
@@ -257,7 +257,49 @@ PlayerSettings:
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: Standalone
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 2904435fe3aab044b86a5f6d33843b00, type: 3}
+      m_Width: 1024
+      m_Height: 1024
+      m_Kind: 0
+    - serializedVersion: 2
+      m_Icon: {fileID: 0}
+      m_Width: 512
+      m_Height: 512
+      m_Kind: 0
+    - serializedVersion: 2
+      m_Icon: {fileID: 0}
+      m_Width: 256
+      m_Height: 256
+      m_Kind: 0
+    - serializedVersion: 2
+      m_Icon: {fileID: 0}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
+    - serializedVersion: 2
+      m_Icon: {fileID: 0}
+      m_Width: 64
+      m_Height: 64
+      m_Kind: 0
+    - serializedVersion: 2
+      m_Icon: {fileID: 0}
+      m_Width: 48
+      m_Height: 48
+      m_Kind: 0
+    - serializedVersion: 2
+      m_Icon: {fileID: 0}
+      m_Width: 32
+      m_Height: 32
+      m_Kind: 0
+    - serializedVersion: 2
+      m_Icon: {fileID: 0}
+      m_Width: 16
+      m_Height: 16
+      m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: Android
     m_Icons:
@@ -498,7 +540,7 @@ PlayerSettings:
     m_GraphicsJobMode: 0
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
-    m_APIs: 150000000b000000
+    m_APIs: 0b00000008000000
     m_Automatic: 0
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
@@ -560,6 +602,7 @@ PlayerSettings:
   switchTitleNames_12: 
   switchTitleNames_13: 
   switchTitleNames_14: 
+  switchTitleNames_15: 
   switchPublisherNames_0: 
   switchPublisherNames_1: 
   switchPublisherNames_2: 
@@ -575,6 +618,7 @@ PlayerSettings:
   switchPublisherNames_12: 
   switchPublisherNames_13: 
   switchPublisherNames_14: 
+  switchPublisherNames_15: 
   switchIcons_0: {fileID: 0}
   switchIcons_1: {fileID: 0}
   switchIcons_2: {fileID: 0}
@@ -590,6 +634,7 @@ PlayerSettings:
   switchIcons_12: {fileID: 0}
   switchIcons_13: {fileID: 0}
   switchIcons_14: {fileID: 0}
+  switchIcons_15: {fileID: 0}
   switchSmallIcons_0: {fileID: 0}
   switchSmallIcons_1: {fileID: 0}
   switchSmallIcons_2: {fileID: 0}
@@ -605,6 +650,7 @@ PlayerSettings:
   switchSmallIcons_12: {fileID: 0}
   switchSmallIcons_13: {fileID: 0}
   switchSmallIcons_14: {fileID: 0}
+  switchSmallIcons_15: {fileID: 0}
   switchManualHTML: 
   switchAccessibleURLs: 
   switchLegalInformation: 
@@ -775,9 +821,13 @@ PlayerSettings:
     28: UNITY_POST_PROCESSING_STACK_V2
     29: UNITY_POST_PROCESSING_STACK_V2
     30: UNITY_POST_PROCESSING_STACK_V2
+    31: UNITY_POST_PROCESSING_STACK_V2
+    32: UNITY_POST_PROCESSING_STACK_V2
+    33: UNITY_POST_PROCESSING_STACK_V2
   additionalCompilerArguments: {}
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Android: 1
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
@@ -789,6 +839,7 @@ PlayerSettings:
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 0
+  assemblyVersionValidation: 1
   gcWBarrierValidation: 0
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
@@ -812,8 +863,7 @@ PlayerSettings:
   metroDefaultTileSize: 1
   metroTileForegroundText: 2
   metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
-  metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628,
-    a: 1}
+  metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628, a: 1}
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities: {}
   metroTargetDeviceFamilies: {}
@@ -838,6 +888,7 @@ PlayerSettings:
   XboxOneCapability: []
   XboxOneGameRating: {}
   XboxOneIsContentPackage: 0
+  XboxOneEnhancedXboxCompatibilityMode: 0
   XboxOneEnableGPUVariability: 1
   XboxOneSockets: {}
   XboxOneSplashScreen: {fileID: 0}

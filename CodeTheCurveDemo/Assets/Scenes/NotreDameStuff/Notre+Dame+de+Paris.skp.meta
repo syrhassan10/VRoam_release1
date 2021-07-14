@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 27fce50afec1c714097561c3c01527f7
+SketchUpImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot
+    second: {fileID: 2100000, guid: 7e683e536619c2a4f9579b4b93c13035, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Photo Texture
+    second: {fileID: 2100000, guid: 580ad041c09e6504d81744e70389d0df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Photo Texture1
+    second: {fileID: 2100000, guid: 9b8c0d76515080d40a3d4dcaef0e90b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Photo Texture2
+    second: {fileID: 2100000, guid: 87f9d5b479b16aa48beef297731b05f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Photo Texture3
+    second: {fileID: 2100000, guid: 978efccc2c7b8c940b14097b19121b36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Photo Texture4
+    second: {fileID: 2100000, guid: 8482ac554b6d4804e86bfb48327d1e51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Photo Texture6
+    second: {fileID: 2100000, guid: 0e08cf53f1f626848b638bbf56fc313e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Photo Texture7
+    second: {fileID: 2100000, guid: 3654278a3ac2857459d50a0e5d2ec25e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Photo Texture8
+    second: {fileID: 2100000, guid: 7be99005277606a409ca0461960cd38a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Photo Texture9
+    second: {fileID: 2100000, guid: a45272f2cad981c4f85f687166283773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Blinds_Vertical_Pattern]'
+    second: {fileID: 2100000, guid: e1c4708ae01a88f48b7ce13163b557e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_005]'
+    second: {fileID: 2100000, guid: 66961496ad23cb2489c484ed3a9c2d5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_007]'
+    second: {fileID: 2100000, guid: 1a69021e198e568489eb926001c3ba3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1
+    second: {fileID: 2100000, guid: 176e01b6c7d55004a844497813cf3ff9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2
+    second: {fileID: 2100000, guid: a356634990e29dc4ca9c73198186141d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _3
+    second: {fileID: 2100000, guid: 6757527618bc0c241b2bb46d8ad41a9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _4
+    second: {fileID: 2100000, guid: 70d37541071659c44bb537ea249929a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _5
+    second: {fileID: 2100000, guid: 398390b511941cf419577e1be711d5a2, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Facade-notre-dame-paris-ciel-bleu copy_tint0x232220FF
+    second: {fileID: 2800000, guid: 635018f3b8b43fc41bca0fc8dc4b8330, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Facade-notre-dame-paris-ciel-bleu copy_tint0x3A3A3AFF
+    second: {fileID: 2800000, guid: 6da352f0c41a8f240811016e37d53937, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Facade-notre-dame-paris-ciel-bleu copy_tint0x4C4A46FF
+    second: {fileID: 2800000, guid: 16bca89a64bd7764e958b6a918e98ea7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Facade-notre-dame-paris-ciel-bleu copy_tint0x6D6A64FF
+    second: {fileID: 2800000, guid: e8f1890a9de2da348ad8fbdc714d390e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Facade-notre-dame-paris-ciel-bleu copy_tint0x939494FF
+    second: {fileID: 2800000, guid: e704482f5f0b1b34f86016364cb1fea7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Facade-notre-dame-paris-ciel-bleu copy_tint0xAAA59DFF
+    second: {fileID: 2800000, guid: 73cd8479055791b4e99bbfba7f471540, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Facade-notre-dame-paris-ciel-bleu copy_tint0xD3CDC2FF
+    second: {fileID: 2800000, guid: 9ca4bb38488b91c46a206f8da58483ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot
+    second: {fileID: 2800000, guid: e73466fd5a0f96d4086eebc1338193de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: copper-statues_4061_tint0x777264FF
+    second: {fileID: 2800000, guid: a1ddb8e7bd365984e8c7e6178df788d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: temp
+    second: {fileID: 2800000, guid: 63d6ad0d5cba5dd4db8a19cc06284806, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: temp_tint0x545856FF
+    second: {fileID: 2800000, guid: 93eb6b0a523d490429f216ec423eb3d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: temp_tint0x656E72FF
+    second: {fileID: 2800000, guid: d39c974c32e5e854d875eeda0c12220d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: temp_tint0x74797AFF
+    second: {fileID: 2800000, guid: 7ac13bfbaa22f774480cb8e15fe2ea05, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: temp_tint0x747A75FF
+    second: {fileID: 2800000, guid: f6810a8b419749a4e9464e696eeb8aaa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: temp_tint0x757A75FF
+    second: {fileID: 2800000, guid: fcd200a6aba8e6d4f80e649a93417bfe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: temp_tint0x848280FF
+    second: {fileID: 2800000, guid: 96193ed4fbfa15143bad5676060904be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: temp_tint0x848481FF
+    second: {fileID: 2800000, guid: 89f322c8310b9154e9c9088a1861309f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: temp_tint0x87837CFF
+    second: {fileID: 2800000, guid: 2288f5f3e9d89774ab640b1ec6342ae0, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 1
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.0254
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  generateBackFace: 1
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f0000009000000091000000920000009300000094000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 232a2d24c677c43ea410862680e692bf
+  fileUnit: 0

@@ -1,99 +1,1929 @@
 Using pre-set license
-Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16297 MB
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 32509 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+C:\Users\richa\Documents\2020.3.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Richard Tan/Documents/CodeTheCurveDemo
+C:/Users/richa/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53049
-Successfully changed project path to: C:/Users/Richard Tan/Documents/CodeTheCurveDemo
-C:/Users/Richard Tan/Documents/CodeTheCurveDemo
+61052
+Successfully changed project path to: C:/Users/richa/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
+C:/Users/richa/Documents/GitHub/VRoam_release1/CodeTheCurveDemo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 25.14 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 73.95 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Richard Tan/Documents/CodeTheCurveDemo/Assets
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Users/richa/Documents/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/richa/Documents/GitHub/VRoam_release1/CodeTheCurveDemo/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   27.21.14.5751
+    VRAM:     3964 MB
+    Driver:   27.21.14.6231
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Mono path[0] = 'C:/Users/richa/Documents/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/richa/Documents/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/richa/Documents/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001399 seconds.
+Register platform support module: C:/Users/richa/Documents/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001455 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 24.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 62.37 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.393 seconds
+- Completed reload, in  1.394 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000629 seconds.
+Registered in 0.002442 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 94.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
 Mono: successfully reloaded assembly
-- Completed reload, in  0.678 seconds
+- Completed reload, in  0.978 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.8 MB.
+Unloading 3218 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.8 MB.
+System memory in use after: 172.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1859.
-Total: 1.417100 ms (FindLiveObjects: 0.126100 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.187600 ms  DeleteObjects: 0.059400 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/PlayerControllerScript.cs
-  artifactKey: Guid(bb3f92b662089ef4fa9137c00a181115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerControllerScript.cs using Guid(bb3f92b662089ef4fa9137c00a181115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b4ad05685de70650688215a90870c1') in 0.021069 seconds
-  Import took 0.022844 seconds .
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3815.
+Total: 2.799100 ms (FindLiveObjects: 0.414800 ms CreateObjectMapping: 0.235800 ms MarkObjects: 1.631400 ms  DeleteObjects: 0.516200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.059477 seconds.
+  path: Assets/e064f99136d5b5dda45c56bcacf7458b.jpg
+  artifactKey: Guid(9a1d6ce43d3a1744a99ff2a1134ec114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/e064f99136d5b5dda45c56bcacf7458b.jpg using Guid(9a1d6ce43d3a1744a99ff2a1134ec114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e32c3a4694d3fb315300b4d681848d') in 0.061522 seconds
+  Import took 0.066515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Ch08_body.mat
+  artifactKey: Guid(c223c8a4abc43274d9153b0d82b3a797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch08_body.mat using Guid(c223c8a4abc43274d9153b0d82b3a797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b52f65c71d15498d83f33b0253fec7') in 0.056578 seconds
+  Import took 0.061163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/SM_Tree_Willow_Large_01_LOD_01.fbx
+  artifactKey: Guid(14747f97b06c4e441bb39954ba68d2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SM_Tree_Willow_Large_01_LOD_01.fbx using Guid(14747f97b06c4e441bb39954ba68d2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1c33a613447322ebc2eb1dfec0233c') in 0.069972 seconds
+  Import took 0.074241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(9b177f8b2a2fe0c4299d9dee7aceed12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(9b177f8b2a2fe0c4299d9dee7aceed12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bb9a6c696ffa07b2c8cfd130c0f3c4') in 0.014328 seconds
+  Import took 0.019030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/VRoam start page 2 (2).jpg
+  artifactKey: Guid(90dde38356db9574fbdad1c2bb3c45ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRoam start page 2 (2).jpg using Guid(90dde38356db9574fbdad1c2bb3c45ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebae6d8871b95ad9f5b237f1933b772') in 0.042127 seconds
+  Import took 0.047264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Ch08_hair.mat
+  artifactKey: Guid(48e373a9fe740e5468256e631894891b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch08_hair.mat using Guid(48e373a9fe740e5468256e631894891b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8d599afcf51c5dd870caf0c70d20d1') in 0.009886 seconds
+  Import took 0.014252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/vroam-removebg-preview.png
+  artifactKey: Guid(2904435fe3aab044b86a5f6d33843b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vroam-removebg-preview.png using Guid(2904435fe3aab044b86a5f6d33843b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45dfa2b1337ecae6c8db2b5537446bc0') in 0.009271 seconds
+  Import took 0.013681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/final_logo_2.png
+  artifactKey: Guid(8cd5f9f0a68705d4182cd21faa1dae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/final_logo_2.png using Guid(8cd5f9f0a68705d4182cd21faa1dae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af7aacd0918511196c6322f0827dbc6') in 0.012117 seconds
+  Import took 0.016575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Black.mat
+  artifactKey: Guid(8206168a1c6d6bb4abc8bbfe9764d007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Black.mat using Guid(8206168a1c6d6bb4abc8bbfe9764d007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd9444b75ef3aa81d9d92cb093ef040') in 0.009458 seconds
+  Import took 0.013812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(12941d1502d06894e8064a1d498deb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(12941d1502d06894e8064a1d498deb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Tree_Large_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Oak_Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '090686840f750340cdc1bf1ee465c0c5') in 0.027481 seconds
+  Import took 0.032306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Red.mat
+  artifactKey: Guid(36c1335d390131e40b3fcb0254e6a5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red.mat using Guid(36c1335d390131e40b3fcb0254e6a5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f4821861850f086dc941ddf77db4a3') in 0.009027 seconds
+  Import took 0.013233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Black handles.mat
+  artifactKey: Guid(394d7d0194d9a3243ae547c4dee81581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Black handles.mat using Guid(394d7d0194d9a3243ae547c4dee81581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734a51802bbd81ff1d1fca91bc183ecb') in 0.009046 seconds
+  Import took 0.013272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Ch08_body1.mat
+  artifactKey: Guid(9f5d4f7e197864b4eabd57e559616d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch08_body1.mat using Guid(9f5d4f7e197864b4eabd57e559616d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96adeb1a6c9cb5ba12aaeac087a3928') in 0.009324 seconds
+  Import took 0.013527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Silver.mat
+  artifactKey: Guid(5b844b85f085cda45bc3a2a1496cc371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Silver.mat using Guid(5b844b85f085cda45bc3a2a1496cc371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9f19a7c49100f7521987944afc6c76') in 0.008966 seconds
+  Import took 0.013232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Cycling_animation.fbx
+  artifactKey: Guid(f01d81b2b68c26747ad30d768541a023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cycling_animation.fbx using Guid(f01d81b2b68c26747ad30d768541a023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f52d9d8b0e7c14ebfa66960622da85a') in 0.491904 seconds
+  Import took 0.497622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.676722 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(2edfb3213c6f9214dbcf93b48980714c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(2edfb3213c6f9214dbcf93b48980714c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8c4d756d0ed0230248c1a8d14e678a') in 0.007812 seconds
+  Import took 0.012655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.950763 seconds.
+  path: Assets/Random/Plugins
+  artifactKey: Guid(a91deaf0a3c5e1349bca00a8631faa5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Random/Plugins using Guid(a91deaf0a3c5e1349bca00a8631faa5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fa562fb20fd57edf096fe39f5ae07d') in 0.001954 seconds
+  Import took 0.006992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.018595 seconds.
+  path: Assets/Random/Plugins/Android
+  artifactKey: Guid(596e6b20341785c468b34c070d3d8315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Random/Plugins/Android using Guid(596e6b20341785c468b34c070d3d8315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc54e3473bbadc6c3883044ae202df1') in 0.007223 seconds
+  Import took 0.011965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.700274 seconds.
+  path: Assets/Random/Concrete.jpg
+  artifactKey: Guid(641d417b4726eb2438b494db1ca0025f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Random/Concrete.jpg using Guid(641d417b4726eb2438b494db1ca0025f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fe47a907e7192acd1f1fe78488017b') in 0.015321 seconds
+  Import took 0.020076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Random/NewLayer.terrainlayer
+  artifactKey: Guid(9ff3368cdb0655249a752429d70d75fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Random/NewLayer.terrainlayer using Guid(9ff3368cdb0655249a752429d70d75fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801f796eeae7f0b7b5e503cf2fff37a1') in 0.019405 seconds
+  Import took 0.023849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Random/New Terrain.asset
+  artifactKey: Guid(4f73d946edb195f4b8d8514b3bff35f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Random/New Terrain.asset using Guid(4f73d946edb195f4b8d8514b3bff35f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909c9181ae03e28e40e05a63181d1971') in 0.011550 seconds
+  Import took 0.016206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Random/image.jpg
+  artifactKey: Guid(466815845cd149848a580045388665a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Random/image.jpg using Guid(466815845cd149848a580045388665a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52169706120e98602b135b5d79f8ed3') in 0.012223 seconds
+  Import took 0.016934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.531056 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(bdb30ba45387747448fd8b204b547229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(bdb30ba45387747448fd8b204b547229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c05c371f82b57cdad14347eef202d35') in 0.002348 seconds
+  Import took 0.010082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001043 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(bdb30ba45387747448fd8b204b547229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(bdb30ba45387747448fd8b204b547229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c05c371f82b57cdad14347eef202d35') in 0.001368 seconds
+  Import took 0.006024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.406392 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(8a6950bac76f1a4408df5fd755bf09c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(8a6950bac76f1a4408df5fd755bf09c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da23b94f3b5ee701a66d436e78e52c6') in 0.012125 seconds
+  Import took 0.016796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(8a6950bac76f1a4408df5fd755bf09c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(8a6950bac76f1a4408df5fd755bf09c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da23b94f3b5ee701a66d436e78e52c6') in 0.002237 seconds
+  Import took 0.007220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.099016 seconds.
+  path: Assets/Plugins/Android/gradleTemplate.properties
+  artifactKey: Guid(fdc1930d359457f42af9d7e2b810d24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/gradleTemplate.properties using Guid(fdc1930d359457f42af9d7e2b810d24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ce8fec6a7167131bbf257ced9ed9be') in 0.007915 seconds
+  Import took 0.013551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.427103 seconds.
+  path: Assets/Plugins/Android/gradleTemplate.properties
+  artifactKey: Guid(fdc1930d359457f42af9d7e2b810d24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/gradleTemplate.properties using Guid(fdc1930d359457f42af9d7e2b810d24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065c7c0e3b1d4ccb24fd52c4dd5d1b20') in 0.067696 seconds
+  Import took 0.187110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.320955 seconds.
+  path: Assets/Plugins/Android/mainTemplate.gradle
+  artifactKey: Guid(703eb99580d75214482406df45199ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/mainTemplate.gradle using Guid(703eb99580d75214482406df45199ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7984e73f42f594ddf9e0723eea7f9f11') in 0.007834 seconds
+  Import took 0.013704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.899184 seconds.
+  path: Assets/Plugins/Android/mainTemplate.gradle
+  artifactKey: Guid(703eb99580d75214482406df45199ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/mainTemplate.gradle using Guid(703eb99580d75214482406df45199ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb360bac0220ce0b703434d8d1368f6d') in 0.069653 seconds
+  Import took 0.355804 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.6 MB.
+System memory in use after: 119.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3868.
+Total: 3.533700 ms (FindLiveObjects: 0.574300 ms CreateObjectMapping: 0.302300 ms MarkObjects: 2.210300 ms  DeleteObjects: 0.445000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002704 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.148 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(65536) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3119 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.7 MB.
+System memory in use after: 208.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3877.
+Total: 3.509000 ms (FindLiveObjects: 0.621000 ms CreateObjectMapping: 0.303600 ms MarkObjects: 2.123400 ms  DeleteObjects: 0.460100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Switching build target platform(13) subTarget(65536) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.5 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3877.
+Total: 3.358900 ms (FindLiveObjects: 0.378000 ms CreateObjectMapping: 0.166000 ms MarkObjects: 2.315700 ms  DeleteObjects: 0.498400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 13, subtarget 589824, extendedPlatform 0 -> platform 13, subtarget 65536, extendedPlatform 0
+  graphicsApiMask: 2304 -> 256
+========================================================================
+Received Prepare
+Switching build target platform(13) subTarget(65536) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.5 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3877.
+Total: 2.882800 ms (FindLiveObjects: 0.379500 ms CreateObjectMapping: 0.157100 ms MarkObjects: 1.812600 ms  DeleteObjects: 0.532900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 13, subtarget 589824, extendedPlatform 0 -> platform 13, subtarget 65536, extendedPlatform 0
+  graphicsApiMask: 2304 -> 256
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003095 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.8 MB.
+System memory in use after: 208.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3885.
+Total: 2.738800 ms (FindLiveObjects: 0.345400 ms CreateObjectMapping: 0.192000 ms MarkObjects: 1.756400 ms  DeleteObjects: 0.444100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 13, subtarget 589824, extendedPlatform 0 -> platform 13, subtarget 65536, extendedPlatform 0
+  graphicsApiMask: 2304 -> 256
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 596.267256 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1/Hello Cardboard/Scenes/HelloCardboard.unity
+  artifactKey: Guid(145a2a45d7bc746b19cb68410368bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1/Hello Cardboard/Scenes/HelloCardboard.unity using Guid(145a2a45d7bc746b19cb68410368bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a3d985665690bad3c958a97df9f861') in 0.015868 seconds
+  Import took 0.022783 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3885.
+Total: 4.933800 ms (FindLiveObjects: 0.507400 ms CreateObjectMapping: 0.256200 ms MarkObjects: 3.448800 ms  DeleteObjects: 0.719900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.142 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.9 MB.
+System memory in use after: 208.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3889.
+Total: 3.523100 ms (FindLiveObjects: 0.511200 ms CreateObjectMapping: 0.274800 ms MarkObjects: 2.276200 ms  DeleteObjects: 0.459900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3889.
+Total: 3.206800 ms (FindLiveObjects: 0.516500 ms CreateObjectMapping: 0.248500 ms MarkObjects: 1.881800 ms  DeleteObjects: 0.559300 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3889.
+Total: 4.280700 ms (FindLiveObjects: 0.558800 ms CreateObjectMapping: 0.394300 ms MarkObjects: 2.779200 ms  DeleteObjects: 0.546500 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 50.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3889.
+Total: 3.297600 ms (FindLiveObjects: 0.408200 ms CreateObjectMapping: 0.150300 ms MarkObjects: 2.186700 ms  DeleteObjects: 0.550500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1321.743592 seconds.
+  path: Assets/Random/Concrete.jpg
+  artifactKey: Guid(641d417b4726eb2438b494db1ca0025f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Random/Concrete.jpg using Guid(641d417b4726eb2438b494db1ca0025f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b70c3ada7cc7b9c1410952be89f60f') in 0.069072 seconds
+  Import took 0.075397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Random/Roundabout.prefab
+  artifactKey: Guid(a1e24ea7e0010424faeeae0c8e6ec43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Random/Roundabout.prefab using Guid(a1e24ea7e0010424faeeae0c8e6ec43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec10071d0d7d6f8e885e86d282ca309d') in 0.596421 seconds
+  Import took 0.606577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Random/image.jpg
+  artifactKey: Guid(466815845cd149848a580045388665a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Random/image.jpg using Guid(466815845cd149848a580045388665a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676b1749b57f8ebcfab89221168e0699') in 0.151342 seconds
+  Import took 0.211498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.902846 seconds.
+  path: Assets/Random/Wall of Bones.jpg
+  artifactKey: Guid(4220f28894a00f946a73e758861acc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Random/Wall of Bones.jpg using Guid(4220f28894a00f946a73e758861acc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b0cbf83c6646202a5d79cf953cd0f0') in 0.017378 seconds
+  Import took 0.024352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003461 seconds.
+  path: Assets/Random/Wall of Bones.jpg
+  artifactKey: Guid(4220f28894a00f946a73e758861acc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Random/Wall of Bones.jpg using Guid(4220f28894a00f946a73e758861acc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b0cbf83c6646202a5d79cf953cd0f0') in 0.014361 seconds
+  Import took 0.019528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.313511 seconds.
+  path: Assets/Scenes/NotreDameStuff/Notredame textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x3A3A3AFF.jpg
+  artifactKey: Guid(6da352f0c41a8f240811016e37d53937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Notredame textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x3A3A3AFF.jpg using Guid(6da352f0c41a8f240811016e37d53937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f98d38a2fd5925435535d60f92f575a') in 0.035487 seconds
+  Import took 0.040945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Buildings/Building2/Build2/Paris_Building_4_door.jpg
+  artifactKey: Guid(ec235576f9489a343a62de8e5178b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Building2/Build2/Paris_Building_4_door.jpg using Guid(ec235576f9489a343a62de8e5178b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ff9056c9ebf540e1cba60253cbf730') in 0.013564 seconds
+  Import took 0.019203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Scenes/NotreDameStuff/Notredame textures/Facade-notre-dame-paris-ciel-bleu copy_tint0xD3CDC2FF.jpg
+  artifactKey: Guid(9ca4bb38488b91c46a206f8da58483ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Notredame textures/Facade-notre-dame-paris-ciel-bleu copy_tint0xD3CDC2FF.jpg using Guid(9ca4bb38488b91c46a206f8da58483ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb84a8c6c03c9da3484a6d7a6495617') in 0.018197 seconds
+  Import took 0.023558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Scenes/NotreDameStuff/Notre+Dame+de+Paris.skp
+  artifactKey: Guid(27fce50afec1c714097561c3c01527f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Notre+Dame+de+Paris.skp using Guid(27fce50afec1c714097561c3c01527f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90632b76671c5d28ce52bdfe56ed537e') in 0.419767 seconds
+  Import took 0.426235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Scenes/NotreDameStuff/Textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x4C4A46FF.jpg
+  artifactKey: Guid(7112df9a1ceb5b345b8596b11dd9e4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x4C4A46FF.jpg using Guid(7112df9a1ceb5b345b8596b11dd9e4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac762c6a373e59284231bbe410a164a') in 0.011606 seconds
+  Import took 0.016260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Scenes/NotreDameStuff/Notredame textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x232220FF.jpg
+  artifactKey: Guid(635018f3b8b43fc41bca0fc8dc4b8330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Notredame textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x232220FF.jpg using Guid(635018f3b8b43fc41bca0fc8dc4b8330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bed2d5e0c2fdd0d10b9f601a2fdf4dd') in 0.011712 seconds
+  Import took 0.016369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Buildings/Building2/Build2/Paris_Building_4_door2.jpg
+  artifactKey: Guid(82b4dff64f69c964ca2f965bf3f52dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Building2/Build2/Paris_Building_4_door2.jpg using Guid(82b4dff64f69c964ca2f965bf3f52dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae7e3b5e5e7dafb8ad3b62cbf5dfb56') in 0.011572 seconds
+  Import took 0.016794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Buildings/Building2/Build2/Paris_Building_4_door3.jpg
+  artifactKey: Guid(a99a780f7388e014290b2bde2941b065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Building2/Build2/Paris_Building_4_door3.jpg using Guid(a99a780f7388e014290b2bde2941b065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6758235ad528dfb3582a3a44cb6b7388') in 0.014003 seconds
+  Import took 0.019428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Scenes/NotreDameStuff/Textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x939494FF.jpg
+  artifactKey: Guid(6670b19c9b460364193c0da4ac2d363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x939494FF.jpg using Guid(6670b19c9b460364193c0da4ac2d363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059adf591f4c682a49061330d040ba32') in 0.023014 seconds
+  Import took 0.027640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Scenes/NotreDameStuff/Notredame textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x4C4A46FF.jpg
+  artifactKey: Guid(16bca89a64bd7764e958b6a918e98ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Notredame textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x4C4A46FF.jpg using Guid(16bca89a64bd7764e958b6a918e98ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d760f64328eaa8dae565c0c01728eb9') in 0.010500 seconds
+  Import took 0.015112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Scenes/NotreDameStuff/Textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x232220FF.jpg
+  artifactKey: Guid(294df502c5a7c9c45b48ca1717120b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x232220FF.jpg using Guid(294df502c5a7c9c45b48ca1717120b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4404effa78b7975432456c0ff582e7') in 0.010428 seconds
+  Import took 0.014954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Scenes/NotreDameStuff/Textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x6D6A64FF.jpg
+  artifactKey: Guid(48eb900a70c61e54f81f6b8a5dbc2c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x6D6A64FF.jpg using Guid(48eb900a70c61e54f81f6b8a5dbc2c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31eed69c3714e4537d9c5aa5cfedcab') in 0.011994 seconds
+  Import took 0.018249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Scenes/NotreDameStuff/Textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x3A3A3AFF.jpg
+  artifactKey: Guid(f205b384dd04e264f80d259678d3f39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x3A3A3AFF.jpg using Guid(f205b384dd04e264f80d259678d3f39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d98f4a71d28d6101bf0874e51ec6b6d') in 0.022199 seconds
+  Import took 0.027168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Buildings/Building2/Build2.fbx
+  artifactKey: Guid(f0548a064364d7b41840df416bdc5de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Building2/Build2.fbx using Guid(f0548a064364d7b41840df416bdc5de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06928a7c9e549abfa7d776f5725ffba2') in 3.329572 seconds
+  Import took 3.344731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Scenes/Paris/NavMesh.asset
+  artifactKey: Guid(98e8e904ad109a64db9221ff1420dda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Paris/NavMesh.asset using Guid(98e8e904ad109a64db9221ff1420dda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8fd66681dff19610df9f50eec52215') in 0.012115 seconds
+  Import took 0.017414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Scenes/Paris/OcclusionCullingData.asset
+  artifactKey: Guid(c9fc7a9b66218cb4ca5f801a45660813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Paris/OcclusionCullingData.asset using Guid(c9fc7a9b66218cb4ca5f801a45660813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a989874295eb36f40c1aab9eade1bca2') in 0.023887 seconds
+  Import took 0.029600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Scenes/Paris
+  artifactKey: Guid(cc5dfb31ecaba0d479fcf3f5cdf114f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Paris using Guid(cc5dfb31ecaba0d479fcf3f5cdf114f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7ee946ecb2c954f52b03c6b39fd823') in 0.006519 seconds
+  Import took 0.011715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Scenes/NotreDameStuff/Notredame textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x939494FF.jpg
+  artifactKey: Guid(e704482f5f0b1b34f86016364cb1fea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Notredame textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x939494FF.jpg using Guid(e704482f5f0b1b34f86016364cb1fea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acb2bd0f90e728f85d0238ef797ef36') in 0.033625 seconds
+  Import took 0.038703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Buildings/Building2/Build2/Paris_Building_4_door1.jpg
+  artifactKey: Guid(659aeb9ce751fdc4f906e7b5d2c4b884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Building2/Build2/Paris_Building_4_door1.jpg using Guid(659aeb9ce751fdc4f906e7b5d2c4b884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ccdd15760a8b6f5748678513b4a7ab') in 0.010948 seconds
+  Import took 0.016220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Buildings/building5/Build5/numero_rue_paris_AF_vierge.png
+  artifactKey: Guid(d7946065eb04ce643aad5c0816a677d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/building5/Build5/numero_rue_paris_AF_vierge.png using Guid(d7946065eb04ce643aad5c0816a677d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadfc7f54b91b384a36df8bc08f5e764') in 0.030136 seconds
+  Import took 0.035401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Buildings/building5/Build5.fbx
+  artifactKey: Guid(4f1a78f7ecca17c4b9b1c28362949275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/building5/Build5.fbx using Guid(4f1a78f7ecca17c4b9b1c28362949275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7b64323c432653e5145dd89efa30d6') in 0.259786 seconds
+  Import took 0.264815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
   path: Assets/Scenes/Paris.unity
   artifactKey: Guid(4d2e781c00b8f8742afb438db4c1127e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Paris.unity using Guid(4d2e781c00b8f8742afb438db4c1127e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc890d28138ca7f296e437c1cb3179e') in 0.006961 seconds
-  Import took 0.008781 seconds .
+Start importing Assets/Scenes/Paris.unity using Guid(4d2e781c00b8f8742afb438db4c1127e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e73f0659bb2f61cdd7086d36f9a5c32') in 0.006455 seconds
+  Import took 0.011165 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.156569 seconds.
-  path: Assets/Scripts/PlayerMovementWithStrafes.cs
-  artifactKey: Guid(f28541b7cef859e4b94233a3b10ea6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovementWithStrafes.cs using Guid(f28541b7cef859e4b94233a3b10ea6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ae14c2712f9f89f2965018eeffdcb3') in 0.001534 seconds
-  Import took 0.003367 seconds .
+  Time since last request: 0.000183 seconds.
+  path: Assets/Scenes/NotreDameStuff/Textures/Facade-notre-dame-paris-ciel-bleu copy_tint0xD3CDC2FF.jpg
+  artifactKey: Guid(eb17b455e9e574c42821e729ec9d5618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Textures/Facade-notre-dame-paris-ciel-bleu copy_tint0xD3CDC2FF.jpg using Guid(eb17b455e9e574c42821e729ec9d5618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f10197877e150afdefaea6be1427f3') in 0.010686 seconds
+  Import took 0.015406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Scenes/NotreDameStuff/Notredame textures/Facade-notre-dame-paris-ciel-bleu copy_tint0xAAA59DFF.jpg
+  artifactKey: Guid(73cd8479055791b4e99bbfba7f471540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Notredame textures/Facade-notre-dame-paris-ciel-bleu copy_tint0xAAA59DFF.jpg using Guid(73cd8479055791b4e99bbfba7f471540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a8549de6b028c6953059454c37721f') in 0.011448 seconds
+  Import took 0.016073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Scenes/NotreDameStuff/Textures/Facade-notre-dame-paris-ciel-bleu copy_tint0xAAA59DFF.jpg
+  artifactKey: Guid(a9f400eeb5ce1c549bc2a6faaf35dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Textures/Facade-notre-dame-paris-ciel-bleu copy_tint0xAAA59DFF.jpg using Guid(a9f400eeb5ce1c549bc2a6faaf35dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae7600bd13aa111851a8f81e3af988f') in 0.011120 seconds
+  Import took 0.015744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Scenes/NotreDameStuff/Notredame textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x6D6A64FF.jpg
+  artifactKey: Guid(e8f1890a9de2da348ad8fbdc714d390e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NotreDameStuff/Notredame textures/Facade-notre-dame-paris-ciel-bleu copy_tint0x6D6A64FF.jpg using Guid(e8f1890a9de2da348ad8fbdc714d390e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164e77e80500cf51e3bf51df1c2f468f') in 0.010092 seconds
+  Import took 0.014795 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003784 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.486 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.9 MB.
+System memory in use after: 210.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3895.
+Total: 2.881800 ms (FindLiveObjects: 0.476000 ms CreateObjectMapping: 0.227000 ms MarkObjects: 1.744700 ms  DeleteObjects: 0.433100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.6 MB.
+System memory in use after: 122.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3895.
+Total: 2.931600 ms (FindLiveObjects: 0.472600 ms CreateObjectMapping: 0.271900 ms MarkObjects: 1.695400 ms  DeleteObjects: 0.490500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002713 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.9 MB.
+System memory in use after: 210.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3899.
+Total: 2.813800 ms (FindLiveObjects: 0.394600 ms CreateObjectMapping: 0.198400 ms MarkObjects: 1.654100 ms  DeleteObjects: 0.565800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.6 MB.
+System memory in use after: 122.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3899.
+Total: 3.135600 ms (FindLiveObjects: 0.410800 ms CreateObjectMapping: 0.222400 ms MarkObjects: 1.971500 ms  DeleteObjects: 0.529700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002810 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.995 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 38.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.9 MB.
+System memory in use after: 210.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3903.
+Total: 15.958000 ms (FindLiveObjects: 2.008200 ms CreateObjectMapping: 4.659000 ms MarkObjects: 8.356800 ms  DeleteObjects: 0.932100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.7 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3903.
+Total: 3.614700 ms (FindLiveObjects: 0.541900 ms CreateObjectMapping: 0.273900 ms MarkObjects: 2.064500 ms  DeleteObjects: 0.733300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.9 MB.
+System memory in use after: 210.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3907.
+Total: 5.636400 ms (FindLiveObjects: 0.437000 ms CreateObjectMapping: 0.200200 ms MarkObjects: 4.533100 ms  DeleteObjects: 0.464600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002568 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.981 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.9 MB.
+System memory in use after: 210.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3911.
+Total: 3.161400 ms (FindLiveObjects: 0.497900 ms CreateObjectMapping: 0.238800 ms MarkObjects: 1.942200 ms  DeleteObjects: 0.481100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.7 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3911.
+Total: 3.073500 ms (FindLiveObjects: 0.507500 ms CreateObjectMapping: 0.150500 ms MarkObjects: 1.861500 ms  DeleteObjects: 0.553000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004496 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.134 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.9 MB.
+System memory in use after: 210.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3915.
+Total: 3.083900 ms (FindLiveObjects: 0.489100 ms CreateObjectMapping: 0.247100 ms MarkObjects: 1.841100 ms  DeleteObjects: 0.505600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002570 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.9 MB.
+System memory in use after: 210.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3919.
+Total: 2.630800 ms (FindLiveObjects: 0.362200 ms CreateObjectMapping: 0.159800 ms MarkObjects: 1.666700 ms  DeleteObjects: 0.441000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002670 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.041 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.9 MB.
+System memory in use after: 210.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3923.
+Total: 2.767400 ms (FindLiveObjects: 0.298700 ms CreateObjectMapping: 0.157100 ms MarkObjects: 1.858200 ms  DeleteObjects: 0.452800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.0 MB.
+System memory in use after: 210.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3927.
+Total: 3.214000 ms (FindLiveObjects: 0.410400 ms CreateObjectMapping: 0.204100 ms MarkObjects: 1.938600 ms  DeleteObjects: 0.659700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003964 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.0 MB.
+System memory in use after: 210.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3931.
+Total: 3.306700 ms (FindLiveObjects: 0.533900 ms CreateObjectMapping: 0.250100 ms MarkObjects: 1.967500 ms  DeleteObjects: 0.553900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.0 MB.
+System memory in use after: 210.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3935.
+Total: 3.753000 ms (FindLiveObjects: 1.025100 ms CreateObjectMapping: 0.323400 ms MarkObjects: 1.897300 ms  DeleteObjects: 0.506100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004092 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.059 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.0 MB.
+System memory in use after: 210.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3939.
+Total: 3.088100 ms (FindLiveObjects: 0.430600 ms CreateObjectMapping: 0.209300 ms MarkObjects: 1.888500 ms  DeleteObjects: 0.558700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002942 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.0 MB.
+System memory in use after: 210.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3943.
+Total: 2.833800 ms (FindLiveObjects: 0.322300 ms CreateObjectMapping: 0.174900 ms MarkObjects: 1.850100 ms  DeleteObjects: 0.485600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002843 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.074 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.0 MB.
+System memory in use after: 210.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3947.
+Total: 2.925400 ms (FindLiveObjects: 0.326000 ms CreateObjectMapping: 0.195700 ms MarkObjects: 1.894800 ms  DeleteObjects: 0.508100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.0 MB.
+System memory in use after: 210.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3951.
+Total: 3.064900 ms (FindLiveObjects: 0.414200 ms CreateObjectMapping: 0.218200 ms MarkObjects: 1.940300 ms  DeleteObjects: 0.491200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.105 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.0 MB.
+System memory in use after: 210.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3955.
+Total: 2.687400 ms (FindLiveObjects: 0.390000 ms CreateObjectMapping: 0.172500 ms MarkObjects: 1.682400 ms  DeleteObjects: 0.441600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002535 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.089 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.0 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3959.
+Total: 2.688800 ms (FindLiveObjects: 0.314500 ms CreateObjectMapping: 0.132900 ms MarkObjects: 1.776700 ms  DeleteObjects: 0.463400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002526 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.078 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.0 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3963.
+Total: 3.372400 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.190700 ms MarkObjects: 2.377700 ms  DeleteObjects: 0.448300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.955 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.1 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3967.
+Total: 3.073200 ms (FindLiveObjects: 0.461600 ms CreateObjectMapping: 0.344100 ms MarkObjects: 1.765500 ms  DeleteObjects: 0.501200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.105 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.1 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3971.
+Total: 3.115200 ms (FindLiveObjects: 0.414800 ms CreateObjectMapping: 0.189700 ms MarkObjects: 1.973200 ms  DeleteObjects: 0.536700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.093 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.1 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3975.
+Total: 2.783700 ms (FindLiveObjects: 0.368900 ms CreateObjectMapping: 0.199100 ms MarkObjects: 1.716800 ms  DeleteObjects: 0.497600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.1 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3979.
+Total: 2.971700 ms (FindLiveObjects: 0.375900 ms CreateObjectMapping: 0.204400 ms MarkObjects: 1.917400 ms  DeleteObjects: 0.472900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.094 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.1 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3983.
+Total: 3.019400 ms (FindLiveObjects: 0.487100 ms CreateObjectMapping: 0.235000 ms MarkObjects: 1.856600 ms  DeleteObjects: 0.439700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003465 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.1 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3987.
+Total: 3.373600 ms (FindLiveObjects: 0.528000 ms CreateObjectMapping: 0.244700 ms MarkObjects: 2.093300 ms  DeleteObjects: 0.506800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.140 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.1 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3991.
+Total: 3.705300 ms (FindLiveObjects: 0.563600 ms CreateObjectMapping: 0.348300 ms MarkObjects: 2.352700 ms  DeleteObjects: 0.439700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003056 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.1 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3995.
+Total: 2.839700 ms (FindLiveObjects: 0.376400 ms CreateObjectMapping: 0.172100 ms MarkObjects: 1.851200 ms  DeleteObjects: 0.439100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002647 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.1 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3999.
+Total: 2.948400 ms (FindLiveObjects: 0.381700 ms CreateObjectMapping: 0.200100 ms MarkObjects: 1.886500 ms  DeleteObjects: 0.479100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003783 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.190 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.1 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4003.
+Total: 2.904400 ms (FindLiveObjects: 0.389400 ms CreateObjectMapping: 0.202600 ms MarkObjects: 1.816500 ms  DeleteObjects: 0.494700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.9 MB.
+System memory in use after: 122.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4003.
+Total: 3.227400 ms (FindLiveObjects: 0.709600 ms CreateObjectMapping: 0.273100 ms MarkObjects: 1.710300 ms  DeleteObjects: 0.533200 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.9 MB.
+System memory in use after: 122.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4003.
+Total: 3.616300 ms (FindLiveObjects: 0.357700 ms CreateObjectMapping: 0.163400 ms MarkObjects: 2.527400 ms  DeleteObjects: 0.566700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

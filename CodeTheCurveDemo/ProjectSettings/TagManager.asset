@@ -6,6 +6,13 @@ TagManager:
   tags:
   - NewText
   - Guide
+  - FxTemporaire
+  - firetruck
+  - firetruck2
+  - firetruck3
+  - manhole
+  - notredame
+  - vehicle
   layers:
   - Default
   - TransparentFX
@@ -14,7 +21,7 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
+  - ViewModel
   - 
   - 
   - 

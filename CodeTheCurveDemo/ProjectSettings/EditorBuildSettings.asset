@@ -5,12 +5,20 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 77fb6fb1bfb9a9e418b8efc482a504fe
   - enabled: 1
     path: Assets/Scenes/Paris.unity
     guid: 4d2e781c00b8f8742afb438db4c1127e
+  - enabled: 0
+    path: Assets/Scenes/Paris Catacomb.unity
+    guid: 47313380ebb2125488981b56c4fe2242
+  - enabled: 0
+    path: Assets/Scenes/NotreDame.unity
+    guid: 97ef00e71f4570c419c318c1de84b41b
+  - enabled: 0
+    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1/Hello Cardboard/Scenes/HelloCardboard.unity
+    guid: 145a2a45d7bc746b19cb68410368bf96
   m_configObjects:
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d7b7c743d0ecfb641819dd7b0f4388c0,
-      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 72f00404eedad5542a26e10b303e7ffc, type: 2}
